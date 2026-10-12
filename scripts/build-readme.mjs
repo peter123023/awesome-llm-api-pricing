@@ -133,6 +133,13 @@ const I18N = {
       '- 价格过期或厂商调价，欢迎提 Issue 或 PR；',
       '- GitHub Actions 每日自动重建 README。',
     ].join('\n'),
+    verifyH: '## 真伪检测工具',
+    verifyBody: [
+      '- 中转渠道价格诱人，但存在「套壳 / 降智」风险——建议用下面三个免费工具核验 API 背后的模型真伪；',
+      '- [Artificial Analysis](https://artificialanalysis.ai)：第三方基准，对照智能指数、响应速度与延迟——表现明显偏离挂牌模型官方数据即可疑；',
+      '- [LMArena](https://lmarena.ai)：匿名盲测对战，与官方模型同题对比行为与风格差异；',
+      '- [LiveBench](https://livebench.ai)：无污染基准题库，拿中转 API 实跑对照官方公开成绩。',
+    ].join('\n'),
     contrib: '## 参与贡献',
     contribBody: '欢迎提交新渠道、新模型或更正价格，流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。',
     license: '## 许可证',
@@ -176,6 +183,13 @@ const I18N = {
       '- The "prices verified" badge month = the latest full verification round (same source as traffic_month, updated in the monthly manual check);',
       '- File an issue or open a PR for stale prices;',
       '- GitHub Actions rebuilds the README daily.',
+    ].join('\n'),
+    verifyH: '## Model Verification Tools',
+    verifyBody: [
+      '- Relays are tempting on price but carry "shell-model / degraded-quality" risk — use these three free tools to verify what is actually behind the API;',
+      '- [Artificial Analysis](https://artificialanalysis.ai): third-party benchmarks for intelligence index, speed and latency — big deviations from official data are suspicious;',
+      '- [LMArena](https://lmarena.ai): anonymous blind battles to compare behavior against official models;',
+      '- [LiveBench](https://livebench.ai): contamination-free benchmark sets you can run through a relay API and compare with official scores.',
     ].join('\n'),
     contrib: '## Contributing',
     contribBody: 'New channels, models and corrections welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).',
@@ -269,6 +283,7 @@ function tocLines(lang) {
     [lang === 'zh' ? '渠道明细' : 'Channels', anchor(t.channelsH)],
     [lang === 'zh' ? '关于本清单' : 'About', anchor(t.about)],
     [lang === 'zh' ? '数据与更新' : 'Data & Updates', anchor(t.dataH)],
+    [lang === 'zh' ? '真伪检测工具' : 'Model Verification', anchor(t.verifyH)],
     [lang === 'zh' ? '参与贡献' : 'Contributing', anchor(t.contrib)],
     [lang === 'zh' ? '许可证' : 'License', anchor(t.license)],
   ];
@@ -317,6 +332,7 @@ function build(lang) {
     '---', '',
     t.about, '', t.aboutBody, '',
     t.dataH, '', t.dataBody, '',
+    t.verifyH, '', t.verifyBody, '',
     t.contrib, '', t.contribBody, '',
     t.license, '', t.licenseBody, '',
   ].join('\n');

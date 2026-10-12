@@ -10,7 +10,7 @@
 
 ## Table of Contents
 
-[Scope & How to Read](#scope--how-to-read) · [Quick Links](#quick-links) · [Channels](#channels) · [About](#about) · [Data & Updates](#data--updates) · [Contributing](#contributing) · [License](#license)
+[Scope & How to Read](#scope--how-to-read) · [Quick Links](#quick-links) · [Channels](#channels) · [About](#about) · [Data & Updates](#data--updates) · [Model Verification](#model-verification-tools) · [Contributing](#contributing) · [License](#license)
 
 ---
 
@@ -296,6 +296,13 @@ Community-maintained LLM API price comparison. Data in `data/items.json`; README
 - The "prices verified" badge month = the latest full verification round (same source as traffic_month, updated in the monthly manual check);
 - File an issue or open a PR for stale prices;
 - GitHub Actions rebuilds the README daily.
+
+## Model Verification Tools
+
+- Relays are tempting on price but carry "shell-model / degraded-quality" risk — use these three free tools to verify what is actually behind the API;
+- [Artificial Analysis](https://artificialanalysis.ai): third-party benchmarks for intelligence index, speed and latency — big deviations from official data are suspicious;
+- [LMArena](https://lmarena.ai): anonymous blind battles to compare behavior against official models;
+- [LiveBench](https://livebench.ai): contamination-free benchmark sets you can run through a relay API and compare with official scores.
 
 ## Contributing
 
