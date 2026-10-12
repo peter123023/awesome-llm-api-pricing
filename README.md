@@ -169,7 +169,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** | 官方 | 待核实 | ¥12 | ¥36 | 1M | 旗舰，多模态；缓存命中 ¥1.5、Batch ¥6；阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。 |
+| **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** | 官方 | 34 万 | ¥12 | ¥36 | 1M | 旗舰，多模态；缓存命中 ¥1.5、Batch ¥6；阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。全站月访问含通义网页用户（tongyi.aliyun.com，2026-09 约 33.9 万）。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $1.71 | $5.14 | 1M | 0手续费直通；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 
 ## Kimi（月之暗面）
@@ -189,7 +189,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** | 官方 | 待核实 | $0.75 | $3.75 | 1M | 介绍价至 2026-12-31，2027 起 $1.5/$7.5；Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。 |
+| **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** | 官方 | 26.4 亿 | $0.75 | $3.75 | 1M | 介绍价至 2026-12-31，2027 起 $1.5/$7.5；Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。全站月访问含 Gemini 网页用户（gemini.google.com，2026-09 约 26.4 亿）。 |
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $0.75 | $3.75 | 1M | 与官方介绍价同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 
 ## xAI（Grok）
@@ -199,7 +199,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[xAI 官方](https://docs.x.ai/docs/models)** | 官方 | 待核实 | $2 | $6 | 500K | 旗舰；缓存命中 $0.50；Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。 |
+| **[xAI 官方](https://docs.x.ai/docs/models)** | 官方 | 2.1 亿 | $2 | $6 | 500K | 旗舰；缓存命中 $0.50；Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。全站月访问含 Grok 网页用户（grok.com，2026-09 约 2.05 亿）。 |
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $2 | $6 | 500K | 与官方同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $6 | 500K | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 
@@ -209,10 +209,10 @@
 - **[Anthropic 官方](https://www.anthropic.com/pricing)** [官方] — Claude 系列官方 API，长文本与代码能力强。 · 月访问 7.2 亿（2026-08） · [官网](https://www.anthropic.com)
 - **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** [官方] — 国产开源权重模型官方 API，性价比极高。 · 月访问 3.6 亿（2026-09） · [官网](https://api-docs.deepseek.com)
 - **[智谱 GLM 官方](https://open.bigmodel.cn/pricing)** [官方] — 智谱清言 GLM 系列官方 API。 · 月访问 687 万（2026-09） · [官网](https://open.bigmodel.cn)
-- **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** [官方] — 阿里云百炼 Qwen 系列官方 API，开源闭源双线齐全。 · 月访问 待核实 · [官网](https://help.aliyun.com)
+- **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** [官方] — 阿里云百炼 Qwen 系列官方 API，开源闭源双线齐全。 · 月访问 34 万（2026-09） · [官网](https://help.aliyun.com)
 - **[Kimi（月之暗面）官方](https://platform.kimi.com/docs/pricing/chat-k3)** [官方] — 月之暗面 Kimi 系列官方 API，主打长上下文与 Agentic 能力。 · 月访问 4050 万（2026-09） · [官网](https://platform.kimi.com)
-- **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** [官方] — Google Gemini 系列官方 API，多模态与长上下文见长。 · 月访问 待核实 · [官网](https://ai.google.dev)
-- **[xAI 官方](https://docs.x.ai/docs/models)** [官方] — xAI 的 Grok 系列官方 API。 · 月访问 待核实 · [官网](https://docs.x.ai)
+- **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** [官方] — Google Gemini 系列官方 API，多模态与长上下文见长。 · 月访问 26.4 亿（2026-09） · [官网](https://ai.google.dev)
+- **[xAI 官方](https://docs.x.ai/docs/models)** [官方] — xAI 的 Grok 系列官方 API。 · 月访问 2.1 亿（2026-09） · [官网](https://docs.x.ai)
 - **[OpenRouter](https://openrouter.ai/docs/limits)** [聚合] — 统一 API 接入数百模型，模型价与上游挂牌一致。 · 月访问 2127 万（2026-09） · [官网](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [中转] — Agent API 基础设施，一个 Key 调用全模型。 · 月访问 128 万（2026-09） · [官网](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [聚合] — 开源模型推理云，也托管 DeepSeek。 · 月访问 69 万（2026-08） · [官网](https://www.together.ai)

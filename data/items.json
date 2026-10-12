@@ -298,15 +298,15 @@
         "en": ""
       },
       "min_recharge": "",
-      "monthly_visits": null,
-      "traffic_month": "2026-10",
+      "monthly_visits": 339070,
+      "traffic_month": "2026-09",
       "tags": [
         "multimodal",
         "long-context"
       ],
       "notes": {
-        "zh": "阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。",
-        "en": "Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95."
+        "zh": "阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。全站月访问含通义网页用户（tongyi.aliyun.com，2026-09 约 33.9 万）。",
+        "en": "Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95. Monthly visits include Tongyi web users (tongyi.aliyun.com, ~339K in 2026-09)."
       }
     },
     {
@@ -383,15 +383,15 @@
         "en": "Free tier in AI Studio (data used to improve Google products)"
       },
       "min_recharge": "",
-      "monthly_visits": null,
-      "traffic_month": "2026-10",
+      "monthly_visits": 2640000000,
+      "traffic_month": "2026-09",
       "tags": [
         "multimodal",
         "long-context"
       ],
       "notes": {
-        "zh": "Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。",
-        "en": "Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000."
+        "zh": "Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。全站月访问含 Gemini 网页用户（gemini.google.com，2026-09 约 26.4 亿）。",
+        "en": "Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. Monthly visits include Gemini web users (gemini.google.com, ~2.64B in 2026-09)."
       }
     },
     {
@@ -425,15 +425,15 @@
         "en": ""
       },
       "min_recharge": "",
-      "monthly_visits": null,
-      "traffic_month": "2026-10",
+      "monthly_visits": 205460000,
+      "traffic_month": "2026-09",
       "tags": [
         "coding",
         "agents"
       ],
       "notes": {
-        "zh": "Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。",
-        "en": "Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price."
+        "zh": "Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。全站月访问含 Grok 网页用户（grok.com，2026-09 约 2.05 亿）。",
+        "en": "Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price. Monthly visits include Grok web users (grok.com, ~205M in 2026-09)."
       }
     },
     {

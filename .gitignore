@@ -8,3 +8,6 @@ node_modules/
 # 工作区记忆与个人配置（不对外公开）
 .workbuddy/
 .vmark/
+
+# 仓库规则书（仅本地，不合入 GitHub）
+AGENTS.md

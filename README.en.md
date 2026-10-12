@@ -169,7 +169,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[Alibaba Cloud Model Studio (Qwen)](https://help.aliyun.com/zh/model-studio/model-pricing)** | Official | — | ¥12 | ¥36 | 1M | flagship, multimodal; cache hit ¥1.5, batch ¥6; Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95. |
+| **[Alibaba Cloud Model Studio (Qwen)](https://help.aliyun.com/zh/model-studio/model-pricing)** | Official | 339K | ¥12 | ¥36 | 1M | flagship, multimodal; cache hit ¥1.5, batch ¥6; Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95. Monthly visits include Tongyi web users (tongyi.aliyun.com, ~339K in 2026-09). |
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $1.71 | $5.14 | 1M | 0 fee passthrough; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
 ## Kimi (Moonshot)
@@ -189,7 +189,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** | Official | — | $0.75 | $3.75 | 1M | intro price through 2026-12-31, then $1.5/$7.5; Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. |
+| **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** | Official | 2640.0M | $0.75 | $3.75 | 1M | intro price through 2026-12-31, then $1.5/$7.5; Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. Monthly visits include Gemini web users (gemini.google.com, ~2.64B in 2026-09). |
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.75 | $3.75 | 1M | same as official intro price; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
 
 ## xAI (Grok)
@@ -199,7 +199,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[xAI](https://docs.x.ai/docs/models)** | Official | — | $2 | $6 | 500K | flagship; cache hit $0.50; Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price. |
+| **[xAI](https://docs.x.ai/docs/models)** | Official | 205.5M | $2 | $6 | 500K | flagship; cache hit $0.50; Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price. Monthly visits include Grok web users (grok.com, ~205M in 2026-09). |
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2 | $6 | 500K | same as official; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $6 | 500K | same as official; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
@@ -209,10 +209,10 @@ Organized **by model**: each model is a section, and the table lists every chann
 - **[Anthropic](https://www.anthropic.com/pricing)** [Official] — Official Claude API; strong at long context and coding. · monthly visits 722.2M（2026-08） · [website](https://www.anthropic.com)
 - **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** [Official] — Official API for the open-weight DeepSeek models; extreme value. · monthly visits 357.6M（2026-09） · [website](https://api-docs.deepseek.com)
 - **[Zhipu GLM](https://open.bigmodel.cn/pricing)** [Official] — Official Zhipu GLM API. · monthly visits 6.9M（2026-09） · [website](https://open.bigmodel.cn)
-- **[Alibaba Cloud Model Studio (Qwen)](https://help.aliyun.com/zh/model-studio/model-pricing)** [Official] — Official Qwen API on Alibaba Cloud Model Studio, covering open and closed models. · monthly visits unverified · [website](https://help.aliyun.com)
+- **[Alibaba Cloud Model Studio (Qwen)](https://help.aliyun.com/zh/model-studio/model-pricing)** [Official] — Official Qwen API on Alibaba Cloud Model Studio, covering open and closed models. · monthly visits 339K（2026-09） · [website](https://help.aliyun.com)
 - **[Kimi (Moonshot) Official](https://platform.kimi.com/docs/pricing/chat-k3)** [Official] — Official Kimi API by Moonshot AI, focused on long context and agentic workflows. · monthly visits 40.5M（2026-09） · [website](https://platform.kimi.com)
-- **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** [Official] — Official Gemini API by Google, strong in multimodality and long context. · monthly visits unverified · [website](https://ai.google.dev)
-- **[xAI](https://docs.x.ai/docs/models)** [Official] — Official Grok API by xAI. · monthly visits unverified · [website](https://docs.x.ai)
+- **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** [Official] — Official Gemini API by Google, strong in multimodality and long context. · monthly visits 2640.0M（2026-09） · [website](https://ai.google.dev)
+- **[xAI](https://docs.x.ai/docs/models)** [Official] — Official Grok API by xAI. · monthly visits 205.5M（2026-09） · [website](https://docs.x.ai)
 - **[OpenRouter](https://openrouter.ai/docs/limits)** [Aggregator] — One API for hundreds of models at upstream list prices. · monthly visits 21.3M（2026-09） · [website](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [Relay] — Agent API infrastructure; one key for all models. · monthly visits 1.3M（2026-09） · [website](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [Aggregator] — Open-model inference cloud; hosts DeepSeek. · monthly visits 691K（2026-08） · [website](https://www.together.ai)
