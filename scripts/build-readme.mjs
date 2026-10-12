@@ -337,7 +337,6 @@ function build(lang) {
     '---', '',
     t.about, '', t.aboutBody, '',
     t.dataH, '', t.dataBody, '',
-    t.verifyH, '', t.verifyBody, '',
     t.contrib, '', t.contribBody, '',
     t.license, '', t.licenseBody, '',
   ].join('\n');

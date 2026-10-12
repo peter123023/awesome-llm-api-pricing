@@ -307,16 +307,6 @@
 - 价格过期或厂商调价，欢迎提 Issue 或 PR；
 - GitHub Actions 每日自动重建 README。
 
-## 真伪检测工具
-
-中转渠道价格诱人，但存在「套壳 / 降智」风险——用下面三个免费工具核验 API 背后的模型真伪。
-
-| 工具 | 检测方式 | 判断要点 |
-| --- | --- | --- |
-| **[Artificial Analysis](https://artificialanalysis.ai)** | 第三方基准数据对照 | 智能指数、响应速度、延迟明显偏离挂牌模型官方数据即可疑 |
-| **[LMArena](https://lmarena.ai)** | 匿名盲测对战 | 与官方模型同题对比行为与风格差异 |
-| **[LiveBench](https://livebench.ai)** | 无污染题库实跑 | 中转 API 跑分对照官方公开成绩，掉分明显即假 |
-
 ## 参与贡献
 
 欢迎提交新渠道、新模型或更正价格，流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
