@@ -12,9 +12,9 @@
 
 - [收录范围与读表须知]](#收录范围与读表须知)
 - [OpenAI]](#openai)
-- [Claude（Anthropic）]](#claude（anthropic）)
+- [Claude（Anthropic）]](#claudeanthropic)
 - [DeepSeek]](#deepseek)
-- [GLM（智谱）]](#glm（智谱）)
+- [GLM（智谱）]](#glm智谱)
 - [渠道明细]](#渠道明细)
 - **更多**
   - [关于本清单]](#关于本清单)
