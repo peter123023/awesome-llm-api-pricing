@@ -481,6 +481,70 @@
       }
     },
     {
+      "slug": "deepinfra",
+      "name": {"zh": "DeepInfra", "en": "DeepInfra"},
+      "vendor": {"zh": "美国", "en": "US"},
+      "desc": {"zh": "开源模型低价自托管推理平台，OpenRouter 主要上游之一。", "en": "Low-cost hosted inference for open-weight models; a major OpenRouter upstream."},
+      "category": "aggregator",
+      "type": "aggregator",
+      "url": "https://deepinfra.com/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 2.85,
+          "output": 14.25,
+          "context": "1M",
+          "note": {
+            "zh": "开源权重自托管；缓存命中 $0.285",
+            "en": "open-weight hosting; cache $0.285"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 1.65,
+          "output": 4.951,
+          "context": "250K",
+          "note": {
+            "zh": "与官方国际版同价；缓存命中 $0.206",
+            "en": "same as official intl; cache $0.206"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.3,
+          "output": 2.6,
+          "context": "1M",
+          "note": {
+            "zh": "开源权重自托管；缓存命中 $0.10",
+            "en": "open-weight hosting; cache $0.10"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存命中约为输入价 8%-12%",
+        "en": "Cache hits ~8-12% of input price"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": 502320,
+      "traffic_month": "2026-09",
+      "tags": [
+        "open-weight",
+        "cheap"
+      ],
+      "notes": {
+        "zh": "开源权重模型自托管推理平台，以低价与稳定吞吐著称，是 OpenRouter 的重要上游；纯 token 计价无手续费，缓存命中价极低；闭源款（Qwen3.8 Max）按官方国际版同价直通。全站月访问 50.2 万（traffic.cv，deepinfra.com，2026-09）。",
+        "en": "Hosted inference platform for open-weight models, known for low prices and steady throughput; a major OpenRouter upstream. Pure token billing with no surcharge and very cheap cache hits; closed models (Qwen3.8 Max) pass through at official international pricing. 502K monthly visits (traffic.cv, deepinfra.com, 2026-09)."
+      }
+    },
+    {
       "slug": "openrouter",
       "name": {
         "zh": "OpenRouter",

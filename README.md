@@ -128,6 +128,7 @@
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** | 官方 | 3.6 亿 | ¥9 | ¥27 | 1M | 高峰价，闲时半价；开源权重模型的官方 API，性价比标杆；工作日 9-12、14-18（北京时间）为高峰，其余时段半价，context caching 自动命中再降成本；完全兼容 OpenAI SDK，迁移零改动。 |
+| **[DeepInfra](https://deepinfra.com/pricing)** | 聚合 | 50 万 | $1.3 | $2.6 | 1M | 开源权重自托管；缓存命中 $0.10；开源权重模型自托管推理平台，以低价与稳定吞吐著称，是 OpenRouter 的重要上游；纯 token 计价无手续费，缓存命中价极低；闭源款（Qwen3.8 Max）按官方国际版同价直通。全站月访问 50.2 万（traffic.cv，deepinfra.com，2026-09）。 |
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $0.66 | $1.98 | 1M | 官方闲时价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 | **[B.AI](https://b.ai/)** | 中转 | 128 万 | $1.32 | $3.96 | 1M | 高峰价，闲时半价；波场创始人孙宇晨公开站台（36氪专题报道）：区块链登录、USDT 等加密货币纯匿名支付，宣称价格全网最低；定位 AI Agent 时代的金融基础设施，集成 x402 支付协议。第三方中转，勿充大额。 |
 | **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $1.32 | $3.96 | 1M | 高峰价参考；全球首个推出「AI 保险」的聚合网关：自动检测幻觉、输出质量差、高延迟等问题，次日自动赔付额度——第三方评测称「这是同行里没人敢公开承诺的」；双协议兼容 OpenAI 与 Anthropic 标准，无缝对接 Claude Code、Cursor 等工具；ZenMux Auto 智能路由按质量/成本选模型（客户实测约省 20%）；SOC2 合规推进中。第三方中转，勿充大额。 |
@@ -175,6 +176,7 @@
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** | 官方 | 34 万 | ¥12 | ¥36 | 1M | 旗舰，多模态；缓存命中 ¥1.5、Batch ¥6；阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。全站月访问含通义网页用户（tongyi.aliyun.com，2026-09 约 33.9 万）。 |
+| **[DeepInfra](https://deepinfra.com/pricing)** | 聚合 | 50 万 | $1.65 | $4.951 | 250K | 与官方国际版同价；缓存命中 $0.206；开源权重模型自托管推理平台，以低价与稳定吞吐著称，是 OpenRouter 的重要上游；纯 token 计价无手续费，缓存命中价极低；闭源款（Qwen3.8 Max）按官方国际版同价直通。全站月访问 50.2 万（traffic.cv，deepinfra.com，2026-09）。 |
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $2 | $6 | 1M | 国际版直供价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 | **[B.AI](https://b.ai/)** | 中转 | 128 万 | $2 | $6 | 1M | 与国际版同价；波场创始人孙宇晨公开站台（36氪专题报道）：区块链登录、USDT 等加密货币纯匿名支付，宣称价格全网最低；定位 AI Agent 时代的金融基础设施，集成 x402 支付协议。第三方中转，勿充大额。 |
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $6 | 1M | 与国际版同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
@@ -189,6 +191,7 @@
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[Kimi（月之暗面）官方](https://platform.kimi.com/docs/pricing/chat-k3)** | 官方 | 4050 万 | ¥20 | ¥100 | 1.05M | 旗舰，长程编码与 Agent 任务；缓存命中 ¥2；Kimi 系列官方 API：K3 主打 1M tokens 长上下文、长程编码与 Agent 任务；国内站人民币计价（¥20/¥100），国际站等值 $3/$15；上下文缓存命中仅 ¥2、写入 ¥40（1 小时有效），适合高频重复前缀场景。全站月访问含 Kimi 网页助手用户（kimi.com，2026-09 约 4050 万）。 |
+| **[DeepInfra](https://deepinfra.com/pricing)** | 聚合 | 50 万 | $2.85 | $14.25 | 1M | 开源权重自托管；缓存命中 $0.285；开源权重模型自托管推理平台，以低价与稳定吞吐著称，是 OpenRouter 的重要上游；纯 token 计价无手续费，缓存命中价极低；闭源款（Qwen3.8 Max）按官方国际版同价直通。全站月访问 50.2 万（traffic.cv，deepinfra.com，2026-09）。 |
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $3 | $15 | 1M | 与官方国际版同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 | **[B.AI](https://b.ai/)** | 中转 | 128 万 | $3 | $15 | 1M | 与官方国际版同价；波场创始人孙宇晨公开站台（36氪专题报道）：区块链登录、USDT 等加密货币纯匿名支付，宣称价格全网最低；定位 AI Agent 时代的金融基础设施，集成 x402 支付协议。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $3 | $15 | 1M | 与官方国际版同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
@@ -257,6 +260,7 @@
 - **[Kimi（月之暗面）官方](https://platform.kimi.com/docs/pricing/chat-k3)** [官方] — 月之暗面 Kimi 系列官方 API，主打长上下文与 Agentic 能力。 · 月访问 4050 万（2026-09） · [官网](https://platform.kimi.com)
 - **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** [官方] — Google Gemini 系列官方 API，多模态与长上下文见长。 · 月访问 26.4 亿（2026-09） · [官网](https://ai.google.dev)
 - **[xAI 官方](https://docs.x.ai/docs/models)** [官方] — xAI 的 Grok 系列官方 API。 · 月访问 2.1 亿（2026-09） · [官网](https://docs.x.ai)
+- **[DeepInfra](https://deepinfra.com/pricing)** [聚合] — 开源模型低价自托管推理平台，OpenRouter 主要上游之一。 · 月访问 50 万（2026-09） · [官网](https://deepinfra.com)
 - **[OpenRouter](https://openrouter.ai/docs/limits)** [聚合] — 统一 API 接入数百模型，模型价与上游挂牌一致。 · 月访问 2127 万（2026-09） · [官网](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [中转] — Agent API 基础设施，一个 Key 调用全模型。 · 月访问 128 万（2026-09） · [官网](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [聚合] — 开源模型推理云，也托管 DeepSeek。 · 月访问 69 万（2026-08） · [官网](https://www.together.ai)
