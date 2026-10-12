@@ -268,6 +268,48 @@
       }
     },
     {
+      "slug": "qwen",
+      "name": {"zh": "阿里云百炼 Qwen 官方", "en": "Alibaba Cloud Model Studio (Qwen)"},
+      "vendor": {"zh": "中国", "en": "China"},
+      "desc": {"zh": "阿里云百炼 Qwen 系列官方 API，开源闭源双线齐全。", "en": "Official Qwen API on Alibaba Cloud Model Studio, covering open and closed models."},
+      "category": "domestic",
+      "type": "official",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "currency": "CNY",
+      "pricing": [
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 12,
+          "output": 36,
+          "context": "1M",
+          "note": {
+            "zh": "旗舰，多模态；缓存命中 ¥1.5、Batch ¥6",
+            "en": "flagship, multimodal; cache hit ¥1.5, batch ¥6"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存命中 ¥1.5/M tokens（约 1.25 折）；Batch 输入 ¥6/M（半价）",
+        "en": "Cache hit ¥1.5/M tokens (~12.5% of list); batch input ¥6/M (half price)"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": null,
+      "traffic_month": "2026-10",
+      "tags": [
+        "multimodal",
+        "long-context"
+      ],
+      "notes": {
+        "zh": "阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。",
+        "en": "Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95."
+      }
+    },
+    {
       "slug": "kimi",
       "name": {"zh": "Kimi（月之暗面）官方", "en": "Kimi (Moonshot) Official"},
       "vendor": {"zh": "中国", "en": "China"},
@@ -1398,6 +1440,17 @@
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 1.71,
+          "output": 5.14,
+          "context": "1M",
+          "note": {
+            "zh": "0手续费直通",
+            "en": "0 fee passthrough"
           }
         }
       ],

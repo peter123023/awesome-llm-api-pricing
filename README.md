@@ -20,6 +20,7 @@
 - [Claude（Anthropic）](#claudeanthropic)：[Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
 - [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
 - [GLM（智谱）](#glm智谱)：[GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
+- [Qwen（阿里）](#qwen阿里)：[Qwen3.8 Max](#qwen38-max)
 - [Kimi（月之暗面）](#kimi月之暗面)：[Kimi K3](#kimi-k3)
 - [Google Gemini](#google-gemini)：[Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI（Grok）](#xaigrok)：[Grok 4.7](#grok-47)
@@ -157,6 +158,15 @@
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.065 | $0.22 | 1M | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $0.065 | $0.22 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 
+## Qwen（阿里）
+
+### Qwen3.8 Max
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** | 官方 | 待核实 | ¥12 | ¥36 | 1M | 旗舰，多模态；缓存命中 ¥1.5、Batch ¥6；阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。 |
+| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $1.71 | $5.14 | 1M | 0手续费直通；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+
 ## Kimi（月之暗面）
 
 ### Kimi K3
@@ -191,6 +201,7 @@
 - **[Anthropic 官方](https://www.anthropic.com/pricing)** [官方] — Claude 系列官方 API，长文本与代码能力强。 · 月访问 7.2 亿（2026-08） · [官网](https://www.anthropic.com)
 - **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** [官方] — 国产开源权重模型官方 API，性价比极高。 · 月访问 3.6 亿（2026-09） · [官网](https://api-docs.deepseek.com)
 - **[智谱 GLM 官方](https://open.bigmodel.cn/pricing)** [官方] — 智谱清言 GLM 系列官方 API。 · 月访问 687 万（2026-09） · [官网](https://open.bigmodel.cn)
+- **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** [官方] — 阿里云百炼 Qwen 系列官方 API，开源闭源双线齐全。 · 月访问 待核实 · [官网](https://help.aliyun.com)
 - **[Kimi（月之暗面）官方](https://platform.kimi.com/docs/pricing/chat-k3)** [官方] — 月之暗面 Kimi 系列官方 API，主打长上下文与 Agentic 能力。 · 月访问 4050 万（2026-09） · [官网](https://platform.kimi.com)
 - **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** [官方] — Google Gemini 系列官方 API，多模态与长上下文见长。 · 月访问 待核实 · [官网](https://ai.google.dev)
 - **[xAI 官方](https://docs.x.ai/docs/models)** [官方] — xAI 的 Grok 系列官方 API。 · 月访问 待核实 · [官网](https://docs.x.ai)

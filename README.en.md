@@ -20,6 +20,7 @@
 - [Claude (Anthropic)](#claude-anthropic): [Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
 - [DeepSeek](#deepseek): [DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
 - [GLM (Zhipu)](#glm-zhipu): [GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
+- [Qwen (Alibaba)](#qwen-alibaba): [Qwen3.8 Max](#qwen38-max)
 - [Kimi (Moonshot)](#kimi-moonshot): [Kimi K3](#kimi-k3)
 - [Google Gemini](#google-gemini): [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI (Grok)](#xai-grok): [Grok 4.7](#grok-47)
@@ -157,6 +158,15 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $0.065 | $0.22 | 1M | relay rate; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 | **[302.AI](https://302.ai/)** | Relay | 67K | $0.065 | $0.22 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 
+## Qwen (Alibaba)
+
+### Qwen3.8 Max
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Alibaba Cloud Model Studio (Qwen)](https://help.aliyun.com/zh/model-studio/model-pricing)** | Official | — | ¥12 | ¥36 | 1M | flagship, multimodal; cache hit ¥1.5, batch ¥6; Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95. |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $1.71 | $5.14 | 1M | 0 fee passthrough; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
+
 ## Kimi (Moonshot)
 
 ### Kimi K3
@@ -191,6 +201,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 - **[Anthropic](https://www.anthropic.com/pricing)** [Official] — Official Claude API; strong at long context and coding. · monthly visits 722.2M（2026-08） · [website](https://www.anthropic.com)
 - **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** [Official] — Official API for the open-weight DeepSeek models; extreme value. · monthly visits 357.6M（2026-09） · [website](https://api-docs.deepseek.com)
 - **[Zhipu GLM](https://open.bigmodel.cn/pricing)** [Official] — Official Zhipu GLM API. · monthly visits 6.9M（2026-09） · [website](https://open.bigmodel.cn)
+- **[Alibaba Cloud Model Studio (Qwen)](https://help.aliyun.com/zh/model-studio/model-pricing)** [Official] — Official Qwen API on Alibaba Cloud Model Studio, covering open and closed models. · monthly visits unverified · [website](https://help.aliyun.com)
 - **[Kimi (Moonshot) Official](https://platform.kimi.com/docs/pricing/chat-k3)** [Official] — Official Kimi API by Moonshot AI, focused on long context and agentic workflows. · monthly visits 40.5M（2026-09） · [website](https://platform.kimi.com)
 - **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** [Official] — Official Gemini API by Google, strong in multimodality and long context. · monthly visits unverified · [website](https://ai.google.dev)
 - **[xAI](https://docs.x.ai/docs/models)** [Official] — Official Grok API by xAI. · monthly visits unverified · [website](https://docs.x.ai)
