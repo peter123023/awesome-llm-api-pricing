@@ -210,7 +210,7 @@ function channelSection(lang) {
       tv = lang === 'zh' ? '待核实' : 'unverified';
     }
     out.push(
-      `- **[${it.name[L]}](${it.url})** [${TYPE_LABEL[it.type]?.[L] || ''}] — ${it.desc[L]}${tv ? ` · ${lang==='zh'?'月访问':'monthly visits'} ${tv}` : ''} · [${lang === 'zh' ? '官网' : 'website'}](${originOf(it.url)})`
+      `- **[${it.name[L]}](${it.url})** [${TYPE_LABEL[it.type]?.[L] || ''}] — ${it.desc[L]}${tv ? ` · ${lang==='zh'?'月访问':'monthly visits'} ${tv}` : ''}${it.notes?.[L] ? ` · ${it.notes[L]}` : ''} · [${lang === 'zh' ? '官网' : 'website'}](${originOf(it.url)})`
     );
   }
   return out.join('\n');
