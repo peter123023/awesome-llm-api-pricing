@@ -18,6 +18,13 @@
     "group": "providers",
     "order": 3,
     "icon": "🔀",
-    "name": { "zh": "聚合与网关", "en": "Aggregators & Gateways" }
+    "name": { "zh": "正规聚合平台", "en": "Aggregators" }
+  },
+  {
+    "id": "relay",
+    "group": "relays",
+    "order": 4,
+    "icon": "🔁",
+    "name": { "zh": "转售网关（第三方）", "en": "Relay Gateways" }
   }
 ]

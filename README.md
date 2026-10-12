@@ -2,102 +2,280 @@
 
 # Awesome LLM API Pricing
 
-> 大模型 API 价格对比清单：收录各家闭源/开源模型的 **输入 / 输出定价**、上下文与缓存折扣，帮你按成本选型。
+> 同一个模型，哪家渠道最便宜？按模型列出官方、聚合与中转渠道的输入 / 输出价格，帮你选最划算的调用方式。
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+
+![Awesome](https://awesome.re/badge.svg)
+
+
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
+
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+
+
 ![GitHub Stars](https://img.shields.io/github/stars/peter123023/awesome-llm-api-pricing.svg)
+
+
+
 ![Last Commit](https://img.shields.io/github/last-commit/peter123023/awesome-llm-api-pricing.svg)
 
----
+
+
+***
 
 ## 目录
 
-- [收录范围](#收录范围)
-- [价格对比总表](#价格对比总表)
-- [厂商明细](#厂商明细)
-  - [海外厂商](#海外厂商)
-  - [国内厂商](#国内厂商)
-  - [聚合与网关](#聚合与网关)
-- **更多**
-  - [关于本清单](#关于本清单)
-  - [数据与更新](#数据与更新)
-  - [参与贡献](#参与贡献)
-  - [许可证](#许可证)
 
----
 
-## 收录范围
+* \[收录范围与读表须知]]\(# 收录范围与读表须知)
 
-- 必须能拿到 API Key、通过 HTTP endpoint 调用（网页版对话不算）；
-- 同时收录海外闭源厂商、国内云厂商与聚合网关；
-- 以**每 1M tokens 输入/输出价**为主口径，缓存折扣、免费层在备注里说明。
+* \[OpenAI]]\(#openai)
 
-## 价格对比总表
+* \[Claude（Anthropic）]]\(#claude（anthropic）)
 
-> 单位：USD 或 CNY / 1M tokens；「上下文」为该模型官方标称窗口。
+* \[DeepSeek]]\(#deepseek)
 
-| 厂商 | 模型 | 输入 | 输出 | 上下文 | 定价页 |
-| --- | --- | --- | --- | --- | --- |
-| **[OpenAI](https://openai.com/api/pricing/)** | GPT-4o | $2.5 | $10 | 128K | [定价页](https://openai.com/api/pricing/) |
-| **[OpenAI](https://openai.com/api/pricing/)** | GPT-4o mini | $0.15 | $0.6 | 128K | [定价页](https://openai.com/api/pricing/) |
-| **[OpenAI](https://openai.com/api/pricing/)** | o1 | $15 | $60 | 200K | [定价页](https://openai.com/api/pricing/) |
-| **[Anthropic](https://www.anthropic.com/pricing)** | Claude Sonnet 4 | $3 | $15 | 200K | [定价页](https://www.anthropic.com/pricing) |
-| **[Anthropic](https://www.anthropic.com/pricing)** | Claude Haiku 4.5 | $1 | $5 | 200K | [定价页](https://www.anthropic.com/pricing) |
-| **[Google Gemini](https://ai.google.dev/pricing)** | Gemini 2.0 Flash | $0.1 | $0.4 | 1M | [定价页](https://ai.google.dev/pricing) |
-| **[Google Gemini](https://ai.google.dev/pricing)** | Gemini 2.5 Pro | $1.25 | $10 | 1M | [定价页](https://ai.google.dev/pricing) |
-| **[xAI Grok](https://x.ai/pricing)** | Grok 2 | $2 | $10 | 128K | [定价页](https://x.ai/pricing) |
-| **[深度求索 DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | DeepSeek V3 (cache miss) | ¥2 | ¥8 | 128K | [定价页](https://api-docs.deepseek.com/quick_start/pricing) |
-| **[深度求索 DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | DeepSeek V3 (cache hit) | ¥0.5 | ¥8 | 128K | [定价页](https://api-docs.deepseek.com/quick_start/pricing) |
-| **[阿里云百炼 Qwen](https://help.aliyun.com/zh/model-studio/models)** | qwen-plus | ¥0.8 | ¥2 | 128K | [定价页](https://help.aliyun.com/zh/model-studio/models) |
-| **[阿里云百炼 Qwen](https://help.aliyun.com/zh/model-studio/models)** | qwen-max | ¥20 | ¥60 | 32K | [定价页](https://help.aliyun.com/zh/model-studio/models) |
-| **[智谱 GLM](https://open.bigmodel.cn/pricing)** | GLM-4-Plus | ¥5 | ¥5 | 128K | [定价页](https://open.bigmodel.cn/pricing) |
-| **[智谱 GLM](https://open.bigmodel.cn/pricing)** | GLM-4-Flash | 免费 | 免费 | 128K | [定价页](https://open.bigmodel.cn/pricing) |
-| **[月之暗面 Kimi](https://platform.moonshot.cn/docs/pricing/chat)** | moonshot-v1-8k | ¥12 | ¥12 | 8K | [定价页](https://platform.moonshot.cn/docs/pricing/chat) |
-| **[月之暗面 Kimi](https://platform.moonshot.cn/docs/pricing/chat)** | moonshot-v1-128k | ¥60 | ¥60 | 128K | [定价页](https://platform.moonshot.cn/docs/pricing/chat) |
-| **[火山方舟豆包](https://www.volcengine.com/docs/82379/1099320)** | Doubao-pro-32k | ¥0.8 | ¥2 | 32K | [定价页](https://www.volcengine.com/docs/82379/1099320) |
-| **[火山方舟豆包](https://www.volcengine.com/docs/82379/1099320)** | Doubao-lite-32k | ¥0.3 | ¥0.6 | 32K | [定价页](https://www.volcengine.com/docs/82379/1099320) |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | All models (upstream +~5%) | — | — | varying | [定价页](https://openrouter.ai/docs/limits) |
-| **[硅基流动 SiliconFlow](https://siliconflow.cn/pricing)** | DeepSeek-V3 | ¥2 | ¥8 | 128K | [定价页](https://siliconflow.cn/pricing) |
+* \[GLM（智谱）]]\(#glm（智谱）)
 
-## 厂商明细
+* \[渠道明细]]\(# 渠道明细)
 
-### 海外厂商
+* **更多**
 
-- **[OpenAI](https://openai.com/api/pricing/)** — GPT 系列闭源模型，生态最成熟，支持函数调用、视觉与音频。 · [官网](https://openai.com)（缓存命中输入约五折；企业级有批量折扣。）
-- **[Anthropic](https://www.anthropic.com/pricing)** — Claude 系列，长文本与代码能力强，主打安全与企业合规。 · [官网](https://www.anthropic.com)（缓存写入/读取分价，prompt 缓存可显著降低重复输入成本。）
-- **[Google Gemini](https://ai.google.dev/pricing)** — Gemini 系列，Flash 档价格极低，上下文窗口大，多模态原生。 · [官网](https://ai.google.dev)（免费层有每分钟调用限制，适合个人试用。）
-- **[xAI Grok](https://x.ai/pricing)** — Grok 系列，实时数据接入，定价对标中端闭源模型。 · [官网](https://x.ai)（新模型发布初期常有促销价。）
 
-### 国内厂商
+  * \[关于本清单]]\(# 关于本清单)
 
-- **[深度求索 DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** — 国产开源权重模型代表，V3/R1 性价比极高，支持 MLA 缓存。 · [官网](https://api-docs.deepseek.com)（缓存命中输入约 2.5 折；夜间时段批量输入另有折扣。）
-- **[阿里云百炼 Qwen](https://help.aliyun.com/zh/model-studio/models)** — 通义千问 API，qwen-plus/max/turbo 分档齐全，新用户有额度。 · [官网](https://help.aliyun.com)（百炼平台对新用户赠送百万级 token 体验额度。）
-- **[智谱 GLM](https://open.bigmodel.cn/pricing)** — 智谱清言 GLM 系列，GLM-4-Plus 对标旗舰，长文本与 Agent 工具链完善。 · [官网](https://open.bigmodel.cn)（Flash 档长期免费；旗舰档输入输出同价。）
-- **[月之暗面 Kimi](https://platform.moonshot.cn/docs/pricing/chat)** — Kimi 长文本助手背后的 API，主打超长上下文与文档解析。 · [官网](https://platform.moonshot.cn)（上下文越长单价越高；缓存命中有折扣。）
-- **[火山方舟豆包](https://www.volcengine.com/docs/82379/1099320)** — 字节跳动豆包大模型，火山方舟托管，pro/lite 分档，价格亲民。 · [官网](https://www.volcengine.com)（新用户有免费额度；方舟平台同时托管第三方开源模型。）
+  * \[数据与更新]]\(# 数据与更新)
 
-### 聚合与网关
+  * \[参与贡献]]\(# 参与贡献)
 
-- **[OpenRouter](https://openrouter.ai/docs/limits)** — 统一 API 接入数百家模型，按上游原价加约 5%，支持按 token 混合路由。 · [官网](https://openrouter.ai)（价格即上游价 + 小额手续费；可按性能/价格自动选模型。）
-- **[硅基流动 SiliconFlow](https://siliconflow.cn/pricing)** — 国产开源模型聚合推理平台，Qwen/DeepSeek/GLM 权重模型一站调用。 · [官网](https://siliconflow.cn)（部分小模型限时免费；充赠活动常见。）
+  * \[许可证]]\(# 许可证)
 
----
+
+
+***
+
+## 收录范围与读表须知
+
+本清单按**模型**组织：每个模型一节，下面表格列出所有可调用它的渠道及价格。
+
+**读表须知：**
+
+
+
+* 价格单位 **每 1M tokens**，输入与输出分别计价；
+
+* 海外渠道 USD，国内渠道 CNY；
+
+* 「官方」= 模型厂商自己的 API；「聚合」= 正规推理平台（上游价 + 手续费）；「中转」= 第三方网关，⚠️ 自行评估风险、勿充大额；
+
+* 缓存命中价、免费层写在备注里；中文约 1 token ≈ 1.5 汉字。
+
+> ⚠️ 表中标「中转」的为第三方网关，价格不代表官方，稳定性与账号安全自行评估。中转收录门槛：月访问量 ≥ 1 万次（SimilarWeb /
+>
+> traffic.cv
+>
+>  估算），欢迎 PR 推荐。
+
+## OpenAI
+
+### GPT-6 Astra
+
+
+
+| 渠道                                           | 类型 | 月访问   | 输入   | 输出   | 上下文   | 备注 |
+| -------------------------------------------- | -- | ----- | ---- | ---- | ----- | -- |
+| [OpenAI 官方](https://openai.com/api/pricing/) | 官方 | 4.9 亿 | \$10 | \$50 | 1.05M | 旗舰 |
+
+### GPT-6.1 Sol
+
+
+
+| 渠道                                              | 类型 | 月访问    | 输入      | 输出     | 上下文   | 备注         |
+| ----------------------------------------------- | -- | ------ | ------- | ------ | ----- | ---------- |
+| [OpenAI 官方](https://openai.com/api/pricing/)    | 官方 | 4.9 亿  | \$2     | \$10   | 1.05M | 主力         |
+| [OpenRouter](https://openrouter.ai/docs/limits) | 聚合 | 2127 万 | \$2.1   | \$10.5 | 1.05M | 官方价 + 约 5% |
+| [B.AI](https://b.ai/)                           | 中转 | 128 万  | \$2     | \$10   | 1.05M | 与官方同价      |
+| [ZenMux](https://zenmux.ai/)                    | 中转 | 38 万   | \$2     | \$10   | 1.05M | 多供应商最低价    |
+| [AIHubMix](https://aihubmix.com/)               | 中转 | 28 万   | \$2     | \$10   | 1.05M | 与官方同价      |
+| [TeamoRouter](https://teamorouter.com/)         | 中转 | 23 万   | \$0.344 | \$1.72 | 1.05M | 1.7 折      |
+| [OfoxAI](https://ofox.ai/)                      | 中转 | 21 万   | \$1.6   | \$8    | 1.05M | 限时 8 折     |
+
+### GPT-6 Luna
+
+
+
+| 渠道                                              | 类型 | 月访问    | 输入     | 输出     | 上下文   | 备注         |
+| ----------------------------------------------- | -- | ------ | ------ | ------ | ----- | ---------- |
+| [OpenAI 官方](https://openai.com/api/pricing/)    | 官方 | 4.9 亿  | \$0.2  | \$1.2  | 1.05M | 轻量便宜       |
+| [OpenRouter](https://openrouter.ai/docs/limits) | 聚合 | 2127 万 | \$0.21 | \$1.26 | 1.05M | 官方价 + 约 5% |
+| [B.AI](https://b.ai/)                           | 中转 | 128 万  | \$0.1  | \$0.5  | 1.05M | 官方半价       |
+| [ZenMux](https://zenmux.ai/)                    | 中转 | 38 万   | \$0.1  | \$0.5  | 1.05M | 多供应商最低价    |
+| [AIHubMix](https://aihubmix.com/)               | 中转 | 28 万   | \$0.2  | \$1.2  | 1.05M | 与官方同价      |
+| [TeamoRouter](https://teamorouter.com/)         | 中转 | 23 万   | \$0.05 | \$0.25 | 1.05M | 5 折        |
+| [OfoxAI](https://ofox.ai/)                      | 中转 | 21 万   | \$0.16 | \$0.96 | 1.05M | 限时 8 折     |
+
+## Claude（Anthropic）
+
+### Claude Opus 5.5
+
+
+
+| 渠道                                                | 类型 | 月访问    | 输入     | 输出     | 上下文  | 备注         |
+| ------------------------------------------------- | -- | ------ | ------ | ------ | ---- | ---------- |
+| [Anthropic 官方](https://www.anthropic.com/pricing) | 官方 | 7.2 亿  | \$4    | \$20   | 200K | 旗舰         |
+| [OpenRouter](https://openrouter.ai/docs/limits)   | 聚合 | 2127 万 | \$4.2  | \$21   | 200K | 官方价 + 约 5% |
+| [B.AI](https://b.ai/)                             | 中转 | 128 万  | \$4    | \$20   | 200K | 与官方同价      |
+| [ZenMux](https://zenmux.ai/)                      | 中转 | 38 万   | \$4    | \$20   | 200K | 与官方同价      |
+| [AIHubMix](https://aihubmix.com/)                 | 中转 | 28 万   | \$4    | \$20   | 200K | 与官方同价      |
+| [TeamoRouter](https://teamorouter.com/)           | 中转 | 23 万   | \$1.17 | \$5.84 | 200K | 2.9 折      |
+| [OfoxAI](https://ofox.ai/)                        | 中转 | 21 万   | \$4    | \$20   | 200K | 与官方同价      |
+
+### Claude Sonnet 5
+
+
+
+| 渠道                                                | 类型 | 月访问    | 输入      | 输出     | 上下文  | 备注         |
+| ------------------------------------------------- | -- | ------ | ------- | ------ | ---- | ---------- |
+| [Anthropic 官方](https://www.anthropic.com/pricing) | 官方 | 7.2 亿  | \$2     | \$10   | 200K | 主力         |
+| [OpenRouter](https://openrouter.ai/docs/limits)   | 聚合 | 2127 万 | \$2.1   | \$10.5 | 200K | 官方价 + 约 5% |
+| [B.AI](https://b.ai/)                             | 中转 | 128 万  | \$2     | \$10   | 200K | 与官方同价      |
+| [ZenMux](https://zenmux.ai/)                      | 中转 | 38 万   | \$2     | \$10   | 200K | 与官方同价      |
+| [AIHubMix](https://aihubmix.com/)                 | 中转 | 28 万   | \$2     | \$10   | 200K | 与官方同价      |
+| [TeamoRouter](https://teamorouter.com/)           | 中转 | 23 万   | \$0.576 | \$2.88 | 200K | 2.9 折      |
+| [OfoxAI](https://ofox.ai/)                        | 中转 | 21 万   | \$2     | \$10   | 200K | 与官方同价      |
+
+## DeepSeek
+
+### DeepSeek V4-Pro
+
+
+
+| 渠道                                                               | 类型 | 月访问    | 输入     | 输出     | 上下文  | 备注       |
+| ---------------------------------------------------------------- | -- | ------ | ------ | ------ | ---- | -------- |
+| [DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing) | 官方 | 3.6 亿  | ¥9     | ¥27    | 128K | 高峰价，闲时半价 |
+| [OpenRouter](https://openrouter.ai/docs/limits)                  | 聚合 | 2127 万 | \$1.26 | \$3.78 | 128K | 高峰价折 USD |
+| [B.AI](https://b.ai/)                                            | 中转 | 128 万  | \$1.32 | \$3.96 | 128K | 高峰价，闲时半价 |
+| [ZenMux](https://zenmux.ai/)                                     | 中转 | 38 万   | \$1.32 | \$3.96 | 128K | 高峰价参考    |
+| [AIHubMix](https://aihubmix.com/)                                | 中转 | 28 万   | \$1.32 | \$3.96 | 128K | 高峰价参考    |
+| [TeamoRouter](https://teamorouter.com/)                          | 中转 | 23 万   | \$0.36 | \$1.07 | 128K | 约 2.7 折  |
+| [OfoxAI](https://ofox.ai/)                                       | 中转 | 21 万   | \$0.92 | \$2.77 | 128K | 限时 7 折   |
+
+### DeepSeek V4.1-Flash
+
+
+
+| 渠道                                                               | 类型 | 月访问    | 输入      | 输出      | 上下文  | 备注              |
+| ---------------------------------------------------------------- | -- | ------ | ------- | ------- | ---- | --------------- |
+| [DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing) | 官方 | 3.6 亿  | ¥1      | ¥4      | 128K | 原生多模态           |
+| [OpenRouter](https://openrouter.ai/docs/limits)                  | 聚合 | 2127 万 | \$0.14  | \$0.56  | 128K | 官方价 + 约 5%（USD） |
+| [B.AI](https://b.ai/)                                            | 中转 | 128 万  | \$0.3   | \$1.2   | 128K | 高峰价，闲时半价        |
+| [Together AI](https://www.together.ai/pricing)                   | 聚合 | 69 万   | \$0.16  | \$0.55  | 128K | 托管开源权重          |
+| [Groq](https://groq.com/pricing/)                                | 聚合 | 363 万  | \$0.15  | \$0.6   | 128K | LPU 加速          |
+| [Fireworks AI](https://fireworks.ai/pricing)                     | 聚合 | 54 万   | \$0.16  | \$0.6   | 128K | —               |
+| [硅基流动 SiliconFlow](https://siliconflow.cn/pricing)               | 聚合 | 147 万  | ¥1      | ¥4      | 128K | 与官方同价           |
+| [ZenMux](https://zenmux.ai/)                                     | 中转 | 38 万   | \$0.3   | \$1.2   | 128K | 高峰价参考           |
+| [AIHubMix](https://aihubmix.com/)                                | 中转 | 28 万   | \$0.3   | \$1.2   | 128K | 高峰价参考           |
+| [TeamoRouter](https://teamorouter.com/)                          | 中转 | 23 万   | \$0.128 | \$0.511 | 128K | 8.5 折           |
+| [OfoxAI](https://ofox.ai/)                                       | 中转 | 21 万   | \$0.21  | \$0.84  | 128K | 限时 7 折          |
+
+## GLM（智谱）
+
+### GLM-5.3
+
+
+
+| 渠道                                                 | 类型 | 月访问    | 输入     | 输出     | 上下文 | 备注         |
+| -------------------------------------------------- | -- | ------ | ------ | ------ | --- | ---------- |
+| [智谱 GLM 官方](https://open.bigmodel.cn/pricing)      | 官方 | 687 万  | ¥8     | ¥28    | 1M  | 旗舰，缓存命中 ¥2 |
+| [OpenRouter](https://openrouter.ai/docs/limits)    | 聚合 | 2127 万 | \$1.15 | \$4.1  | 1M  | 官方价 + 约 5% |
+| [B.AI](https://b.ai/)                              | 中转 | 128 万  | \$1.1  | \$3.9  | 1M  | 与官方同价      |
+| [硅基流动 SiliconFlow](https://siliconflow.cn/pricing) | 聚合 | 147 万  | ¥8     | ¥28    | 1M  | 与官方同价      |
+| [ZenMux](https://zenmux.ai/)                       | 中转 | 38 万   | \$1.1  | \$3.9  | 1M  | 多供应商最低价    |
+| [AIHubMix](https://aihubmix.com/)                  | 中转 | 28 万   | \$1.1  | \$3.9  | 1M  | 与官方同价      |
+| [TeamoRouter](https://teamorouter.com/)            | 中转 | 23 万   | \$0.33 | \$1.17 | 1M  | 约 3 折      |
+| [OfoxAI](https://ofox.ai/)                         | 中转 | 21 万   | \$1.1  | \$3.9  | 1M  | 0 手续费直通    |
+| [OhMyGPT](https://ohmygpt.com/)                    | 中转 | 2 万    | \$1.2  | \$4.2  | 1M  | 中转参考价      |
+| [302.AI](https://302.ai/)                          | 中转 | 7 万    | \$1.2  | \$4.2  | 1M  | 中转参考价      |
+
+### GLM-5.3-Flash
+
+
+
+| 渠道                                                 | 类型 | 月访问    | 输入      | 输出     | 上下文 | 备注         |
+| -------------------------------------------------- | -- | ------ | ------- | ------ | --- | ---------- |
+| [智谱 GLM 官方](https://open.bigmodel.cn/pricing)      | 官方 | 687 万  | ¥0.4    | ¥1.4   | 1M  | 限时五折，原生多模态 |
+| [OpenRouter](https://openrouter.ai/docs/limits)    | 聚合 | 2127 万 | \$0.063 | \$0.2  | 1M  | 官方价 + 约 5% |
+| [B.AI](https://b.ai/)                              | 中转 | 128 万  | \$0.06  | \$0.2  | 1M  | 与官方同价      |
+| [硅基流动 SiliconFlow](https://siliconflow.cn/pricing) | 聚合 | 147 万  | ¥0.4    | ¥1.4   | 1M  | 与官方同价      |
+| [ZenMux](https://zenmux.ai/)                       | 中转 | 38 万   | \$0.06  | \$0.2  | 1M  | 多供应商最低价    |
+| [AIHubMix](https://aihubmix.com/)                  | 中转 | 28 万   | \$0.06  | \$0.2  | 1M  | 与官方同价      |
+| [TeamoRouter](https://teamorouter.com/)            | 中转 | 23 万   | \$0.018 | \$0.06 | 1M  | 约 3 折      |
+| [OfoxAI](https://ofox.ai/)                         | 中转 | 21 万   | \$0.06  | \$0.2  | 1M  | 0 手续费直通    |
+| [OhMyGPT](https://ohmygpt.com/)                    | 中转 | 2 万    | \$0.065 | \$0.22 | 1M  | 中转参考价      |
+| [302.AI](https://302.ai/)                          | 中转 | 7 万    | \$0.065 | \$0.22 | 1M  | 中转参考价      |
+
+## 渠道明细
+
+
+
+* [OpenAI 官方](https://openai.com/api/pricing/) \[官方] — GPT 系列闭源模型官方 API。・月访问 4.9 亿（2026-08）・[官网](https://openai.com)
+
+* [Anthropic 官方](https://www.anthropic.com/pricing) \[官方] — Claude 系列官方 API，长文本与代码能力强。・月访问 7.2 亿（2026-08）・[官网](https://www.anthropic.com)
+
+* [DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing) \[官方] — 国产开源权重模型官方 API，性价比极高。・月访问 3.6 亿（2026-09）・[官网](https://api-docs.deepseek.com)
+
+* [智谱 GLM 官方](https://open.bigmodel.cn/pricing) \[官方] — 智谱清言 GLM 系列官方 API。・月访问 687 万（2026-09）・[官网](https://open.bigmodel.cn)
+
+* [OpenRouter](https://openrouter.ai/docs/limits) \[聚合] — 统一 API 接入数百模型，上游价 + 约 5%。・月访问 2127 万（2026-09）・[官网](https://openrouter.ai)
+
+* [B.AI](https://b.ai/) \[中转] — 一个 Key 调用 Claude/GPT/Gemini/ 国产模型。・月访问 128 万（2026-09）・[官网](https://b.ai)
+
+* [Together AI](https://www.together.ai/pricing) \[聚合] — 开源模型推理云，也托管 DeepSeek。・月访问 69 万（2026-08）・[官网](https://www.together.ai)
+
+* [Groq](https://groq.com/pricing/) \[聚合] — LPU 推理，速度极快，价格便宜。・月访问 363 万（2026-09）・[官网](https://groq.com)
+
+* [Fireworks AI](https://fireworks.ai/pricing) \[聚合] — 开源模型托管，企业级 SLA。・月访问 54 万（2026-08）・[官网](https://fireworks.ai)
+
+* [硅基流动 SiliconFlow](https://siliconflow.cn/pricing) \[聚合] — 国内开源模型推理平台，同时托管 DeepSeek/GLM。・月访问 147 万（2026-09）・[官网](https://siliconflow.cn)
+
+* [ZenMux](https://zenmux.ai/) \[中转] — 聚合 GPT/Claude/Gemini 的折扣网关。・月访问 38 万（2026-09）・[官网](https://zenmux.ai)
+
+* [AIHubMix](https://aihubmix.com/) \[中转] — 国内开发者常用的统一 Key 网关。・月访问 28 万（2026-09）・[官网](https://aihubmix.com)
+
+* [TeamoRouter](https://teamorouter.com/) \[中转] — 面向编码场景的模型网关。・月访问 23 万（2026-09）・[官网](https://teamorouter.com)
+
+* [OfoxAI](https://ofox.ai/) \[中转] — 多模型统一 API 网关。・月访问 21 万（2026-09）・[官网](https://ofox.ai)
+
+* [OhMyGPT](https://ohmygpt.com/) \[中转] — 国内开发者常用中转网关，折扣稳定・月访问 2 万（2026-09）・[官网](https://ohmygpt.com)
+
+* [302.AI](https://302.ai/) \[中转] — 按量付费企业级 AI 资源站，图像 / 视频 / 语言模型一站式・月访问 7 万（2026-09）・[官网](https://302.ai)
+
+
+
+***
 
 ## 关于本清单
 
-本仓库是一份社区维护的大模型 API 价格对比清单，数据由 `data/items.json` 驱动，README 由脚本自动生成，请勿直接手改 README。
+社区维护的大模型 API 价格对比。数据由 `data/items.json` 驱动，README 由脚本生成，请勿手改。
 
 ## 数据与更新
 
-- 结构化数据见 [`data/items.json`](data/items.json)，表格版见 [`data/items.csv`](data/items.csv)；
-- 价格过期、厂商调价或新增模型，欢迎提 Issue 或 PR；
-- GitHub Actions 每日自动重建 README。
+
+
+* 结构化数据见 [data/items.json](data/items.json)，表格版见 [data/items.csv](data/items.csv)；
+
+* 价格过期或厂商调价，欢迎提 Issue 或 PR；
+
+* GitHub Actions 每日自动重建 README。
 
 ## 参与贡献
 
-欢迎提交新厂商、新模型或更正价格，流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎提交新渠道、新模型或更正价格，流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 许可证
 

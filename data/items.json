@@ -1,237 +1,1367 @@
 {
   "_meta": {
-    "unit": "input/output 单位均为每 1M tokens；海外厂商默认 USD，国内厂商默认 CNY",
-    "note": "以下为参考价格，正式收录前请按官方定价页核对；价格调整见 git history",
+    "unit": "input/output 单位均为每 1M tokens；海外默认 USD，国内默认 CNY",
+    "note": "样例数据；价格为 2026-10 公开报价参考，发布前再核对",
     "verified": false
   },
   "items": [
     {
       "slug": "openai",
-      "name": { "zh": "OpenAI", "en": "OpenAI" },
-      "vendor": { "zh": "美国", "en": "US" },
+      "name": {
+        "zh": "OpenAI 官方",
+        "en": "OpenAI"
+      },
+      "vendor": {
+        "zh": "美国",
+        "en": "US"
+      },
+      "type": "official",
       "desc": {
-        "zh": "GPT 系列闭源模型，生态最成熟，支持函数调用、视觉与音频。",
-        "en": "Closed-source GPT family with the most mature ecosystem; supports function calling, vision and audio."
+        "zh": "GPT 系列闭源模型官方 API。",
+        "en": "Official API for the closed-source GPT family."
       },
       "category": "overseas",
       "url": "https://openai.com/api/pricing/",
       "currency": "USD",
       "pricing": [
-        { "model": "GPT-4o", "input": 2.5, "output": 10, "context": "128K" },
-        { "model": "GPT-4o mini", "input": 0.15, "output": 0.6, "context": "128K" },
-        { "model": "o1", "input": 15, "output": 60, "context": "200K" }
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1.05M",
+          "note": {
+            "zh": "旗舰",
+            "en": "flagship"
+          }
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1.05M",
+          "note": {
+            "zh": "主力",
+            "en": "workhorse"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.2,
+          "output": 1.2,
+          "context": "1.05M",
+          "note": {
+            "zh": "轻量便宜",
+            "en": "budget"
+          }
+        }
       ],
-      "tags": ["closed-source", "multimodal", "function-calling"],
+      "cache": {
+        "zh": "缓存输入约为标准输入 1/10",
+        "en": "Cached input ~1/10 of standard"
+      },
+      "free_tier": {
+        "zh": "无，需充值",
+        "en": "No free tier"
+      },
+      "min_recharge": "",
+      "monthly_visits": 487470000,
+      "traffic_month": "2026-08",
+      "tags": [
+        "closed-source",
+        "multimodal"
+      ],
       "notes": {
-        "zh": "缓存命中输入约五折；企业级有批量折扣。",
-        "en": "Cached input tokens are ~50% off; volume discounts for enterprise."
+        "zh": "企业批量折扣；视觉/音频按 token 另计。全站月访问含 ChatGPT 网页用户。",
+        "en": "Volume discounts; vision/audio billed per token. Site-wide visits include ChatGPT web users."
       }
     },
     {
       "slug": "anthropic",
-      "name": { "zh": "Anthropic", "en": "Anthropic" },
-      "vendor": { "zh": "美国", "en": "US" },
+      "name": {
+        "zh": "Anthropic 官方",
+        "en": "Anthropic"
+      },
+      "vendor": {
+        "zh": "美国",
+        "en": "US"
+      },
+      "type": "official",
       "desc": {
-        "zh": "Claude 系列，长文本与代码能力强，主打安全与企业合规。",
-        "en": "Claude family, strong at long context and coding, positioned for safety and enterprise compliance."
+        "zh": "Claude 系列官方 API，长文本与代码能力强。",
+        "en": "Official Claude API; strong at long context and coding."
       },
       "category": "overseas",
       "url": "https://www.anthropic.com/pricing",
       "currency": "USD",
       "pricing": [
-        { "model": "Claude Sonnet 4", "input": 3, "output": 15, "context": "200K" },
-        { "model": "Claude Haiku 4.5", "input": 1, "output": 5, "context": "200K" }
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "200K",
+          "note": {
+            "zh": "旗舰",
+            "en": "flagship"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "200K",
+          "note": {
+            "zh": "主力",
+            "en": "workhorse"
+          }
+        }
       ],
-      "tags": ["closed-source", "long-context", "coding"],
-      "notes": {
-        "zh": "缓存写入/读取分价，prompt 缓存可显著降低重复输入成本。",
-        "en": "Separate prices for cache write vs read; prompt caching cuts repeated input cost."
-      }
-    },
-    {
-      "slug": "google-gemini",
-      "name": { "zh": "Google Gemini", "en": "Google Gemini" },
-      "vendor": { "zh": "美国", "en": "US" },
-      "desc": {
-        "zh": "Gemini 系列，Flash 档价格极低，上下文窗口大，多模态原生。",
-        "en": "Gemini family; the Flash tier is very cheap with long context and native multimodality."
+      "cache": {
+        "zh": "缓存读取 $0.20/M，写入 $2.50/M",
+        "en": "Cache read $0.20/M, write $2.50/M"
       },
-      "category": "overseas",
-      "url": "https://ai.google.dev/pricing",
-      "currency": "USD",
-      "pricing": [
-        { "model": "Gemini 2.0 Flash", "input": 0.1, "output": 0.4, "context": "1M" },
-        { "model": "Gemini 2.5 Pro", "input": 1.25, "output": 10, "context": "1M" }
-      ],
-      "tags": ["closed-source", "multimodal", "long-context"],
-      "notes": {
-        "zh": "免费层有每分钟调用限制，适合个人试用。",
-        "en": "A free tier exists with per-minute rate limits, good for personal trials."
-      }
-    },
-    {
-      "slug": "xai-grok",
-      "name": { "zh": "xAI Grok", "en": "xAI Grok" },
-      "vendor": { "zh": "美国", "en": "US" },
-      "desc": {
-        "zh": "Grok 系列，实时数据接入，定价对标中端闭源模型。",
-        "en": "Grok family with live-data access; pricing targets the mid-tier closed-source segment."
+      "free_tier": {
+        "zh": "无，需充值",
+        "en": "No free tier"
       },
-      "category": "overseas",
-      "url": "https://x.ai/pricing",
-      "currency": "USD",
-      "pricing": [
-        { "model": "Grok 2", "input": 2, "output": 10, "context": "128K" }
+      "min_recharge": "",
+      "monthly_visits": 722220000,
+      "traffic_month": "2026-08",
+      "tags": [
+        "closed-source",
+        "long-context",
+        "coding"
       ],
-      "tags": ["closed-source", "real-time"],
       "notes": {
-        "zh": "新模型发布初期常有促销价。",
-        "en": "Launch promotions are common right after a new model ships."
+        "zh": "Prompt 缓存显著降低重复输入成本；批量处理五折。全站月访问含 Claude.ai 网页用户。",
+        "en": "Prompt caching cuts repeated input cost; batch saves 50%. Site-wide visits include claude.ai web users."
       }
     },
     {
       "slug": "deepseek",
-      "name": { "zh": "深度求索 DeepSeek", "en": "DeepSeek" },
-      "vendor": { "zh": "中国", "en": "China" },
+      "name": {
+        "zh": "DeepSeek 官方",
+        "en": "DeepSeek"
+      },
+      "vendor": {
+        "zh": "中国",
+        "en": "China"
+      },
+      "type": "official",
       "desc": {
-        "zh": "国产开源权重模型代表，V3/R1 性价比极高，支持 MLA 缓存。",
-        "en": "Representative open-weight Chinese model; V3/R1 offer extreme value with MLA cache."
+        "zh": "国产开源权重模型官方 API，性价比极高。",
+        "en": "Official API for the open-weight DeepSeek models; extreme value."
       },
       "category": "domestic",
       "url": "https://api-docs.deepseek.com/quick_start/pricing",
       "currency": "CNY",
       "pricing": [
-        { "model": "DeepSeek V3 (cache miss)", "input": 2, "output": 8, "context": "128K" },
-        { "model": "DeepSeek V3 (cache hit)", "input": 0.5, "output": 8, "context": "128K" }
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 1,
+          "output": 4,
+          "context": "128K",
+          "note": {
+            "zh": "原生多模态",
+            "en": "native multimodal"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 9,
+          "output": 27,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价，闲时半价",
+            "en": "peak; off-peak half price"
+          }
+        }
       ],
-      "tags": ["open-weight", "coding", "cheap"],
-      "notes": {
-        "zh": "缓存命中输入约 2.5 折；夜间时段批量输入另有折扣。",
-        "en": "Cache-hit input is ~25% of list price; off-peak batch input is additionally discounted."
-      }
-    },
-    {
-      "slug": "alibaba-qwen",
-      "name": { "zh": "阿里云百炼 Qwen", "en": "Alibaba Cloud DashScope Qwen" },
-      "vendor": { "zh": "中国", "en": "China" },
-      "desc": {
-        "zh": "通义千问 API，qwen-plus/max/turbo 分档齐全，新用户有额度。",
-        "en": "Tongyi Qianwen API with plus/max/turbo tiers; free quota for new users."
+      "cache": {
+        "zh": "V4-Pro 缓存命中 ¥0.3/M",
+        "en": "V4-Pro cache hit ¥0.3/M"
       },
-      "category": "domestic",
-      "url": "https://help.aliyun.com/zh/model-studio/models",
-      "currency": "CNY",
-      "pricing": [
-        { "model": "qwen-plus", "input": 0.8, "output": 2, "context": "128K" },
-        { "model": "qwen-max", "input": 20, "output": 60, "context": "32K" }
+      "free_tier": {
+        "zh": "新用户送体验额度",
+        "en": "Trial credit for new users"
+      },
+      "min_recharge": "¥10",
+      "monthly_visits": 357600000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "open-weight",
+        "cheap",
+        "coding"
       ],
-      "tags": ["open-weight", "multimodal", "china-cloud"],
       "notes": {
-        "zh": "百炼平台对新用户赠送百万级 token 体验额度。",
-        "en": "DashScope grants million-token trial quota to new users."
+        "zh": "夜间批量输入另有折扣；兼容 OpenAI SDK。",
+        "en": "Off-peak batch discount; OpenAI-SDK compatible."
       }
     },
     {
       "slug": "zhipu-glm",
-      "name": { "zh": "智谱 GLM", "en": "Zhipu GLM" },
-      "vendor": { "zh": "中国", "en": "China" },
+      "name": {
+        "zh": "智谱 GLM 官方",
+        "en": "Zhipu GLM"
+      },
+      "vendor": {
+        "zh": "中国",
+        "en": "China"
+      },
+      "type": "official",
       "desc": {
-        "zh": "智谱清言 GLM 系列，GLM-4-Plus 对标旗舰，长文本与 Agent 工具链完善。",
-        "en": "Zhipu GLM family; GLM-4-Plus targets flagship tier with mature long-context and agent tooling."
+        "zh": "智谱清言 GLM 系列官方 API。",
+        "en": "Official Zhipu GLM API."
       },
       "category": "domestic",
       "url": "https://open.bigmodel.cn/pricing",
       "currency": "CNY",
       "pricing": [
-        { "model": "GLM-4-Plus", "input": 5, "output": 5, "context": "128K" },
-        { "model": "GLM-4-Flash", "input": 0, "output": 0, "context": "128K" }
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 8,
+          "output": 28,
+          "context": "1M",
+          "note": {
+            "zh": "旗舰，缓存命中 ¥2",
+            "en": "flagship, cache hit ¥2"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.4,
+          "output": 1.4,
+          "context": "1M",
+          "note": {
+            "zh": "限时五折，原生多模态",
+            "en": "limited 50% off, native multimodal"
+          }
+        }
       ],
-      "tags": ["open-weight", "agent", "china-cloud"],
-      "notes": {
-        "zh": "Flash 档长期免费；旗舰档输入输出同价。",
-        "en": "The Flash tier is permanently free; the flagship tier charges input and output equally."
-      }
-    },
-    {
-      "slug": "moonshot-kimi",
-      "name": { "zh": "月之暗面 Kimi", "en": "Moonshot Kimi" },
-      "vendor": { "zh": "中国", "en": "China" },
-      "desc": {
-        "zh": "Kimi 长文本助手背后的 API，主打超长上下文与文档解析。",
-        "en": "API behind the Kimi assistant, focused on very long context and document parsing."
+      "cache": {
+        "zh": "缓存命中约为标准价一半",
+        "en": "Cache hit ~50% of standard"
       },
-      "category": "domestic",
-      "url": "https://platform.moonshot.cn/docs/pricing/chat",
-      "currency": "CNY",
-      "pricing": [
-        { "model": "moonshot-v1-8k", "input": 12, "output": 12, "context": "8K" },
-        { "model": "moonshot-v1-128k", "input": 60, "output": 60, "context": "128K" }
-      ],
-      "tags": ["closed-source", "long-context", "china-cloud"],
-      "notes": {
-        "zh": "上下文越长单价越高；缓存命中有折扣。",
-        "en": "Longer context costs more per token; cached prompts are discounted."
-      }
-    },
-    {
-      "slug": "doubao",
-      "name": { "zh": "火山方舟豆包", "en": "Volcengine Ark Doubao" },
-      "vendor": { "zh": "中国", "en": "China" },
-      "desc": {
-        "zh": "字节跳动豆包大模型，火山方舟托管，pro/lite 分档，价格亲民。",
-        "en": "ByteDance Doubao models hosted on Volcengine Ark; pro/lite tiers at friendly prices."
+      "free_tier": {
+        "zh": "新用户有体验额度",
+        "en": "Trial credit for new users"
       },
-      "category": "domestic",
-      "url": "https://www.volcengine.com/docs/82379/1099320",
-      "currency": "CNY",
-      "pricing": [
-        { "model": "Doubao-pro-32k", "input": 0.8, "output": 2, "context": "32K" },
-        { "model": "Doubao-lite-32k", "input": 0.3, "output": 0.6, "context": "32K" }
+      "min_recharge": "",
+      "monthly_visits": 6870000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "open-weight",
+        "cheap",
+        "free"
       ],
-      "tags": ["closed-source", "china-cloud", "cheap"],
       "notes": {
-        "zh": "新用户有免费额度；方舟平台同时托管第三方开源模型。",
-        "en": "Free quota for new users; Ark also hosts third-party open models."
+        "zh": "旗舰档输入输出同价；国内合规发票齐全。",
+        "en": "Flagship tier bills input and output equally."
       }
     },
     {
       "slug": "openrouter",
-      "name": { "zh": "OpenRouter", "en": "OpenRouter" },
-      "vendor": { "zh": "美国（聚合）", "en": "US (Aggregator)" },
+      "name": {
+        "zh": "OpenRouter",
+        "en": "OpenRouter"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
       "desc": {
-        "zh": "统一 API 接入数百家模型，按上游原价加约 5%，支持按 token 混合路由。",
-        "en": "One API for hundreds of models at upstream price plus ~5%, with per-token routing."
+        "zh": "统一 API 接入数百模型，上游价 +约 5%。",
+        "en": "One API for hundreds of models at upstream price plus ~5%."
       },
       "category": "aggregator",
       "url": "https://openrouter.ai/docs/limits",
       "currency": "USD",
       "pricing": [
-        { "model": "All models (upstream +~5%)", "input": null, "output": null, "context": "varying" }
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2.1,
+          "output": 10.5,
+          "context": "1.05M",
+          "note": {
+            "zh": "官方价 +约5%",
+            "en": "official +~5%"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.21,
+          "output": 1.26,
+          "context": "1.05M",
+          "note": {
+            "zh": "官方价 +约5%",
+            "en": "official +~5%"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4.2,
+          "output": 21,
+          "context": "200K",
+          "note": {
+            "zh": "官方价 +约5%",
+            "en": "official +~5%"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2.1,
+          "output": 10.5,
+          "context": "200K",
+          "note": {
+            "zh": "官方价 +约5%",
+            "en": "official +~5%"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.26,
+          "output": 3.78,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价折 USD",
+            "en": "peak, USD"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.14,
+          "output": 0.56,
+          "context": "128K",
+          "note": {
+            "zh": "官方价 +约5%（USD）",
+            "en": "official +~5% (USD)"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.15,
+          "output": 4.1,
+          "context": "1M",
+          "note": {
+            "zh": "官方价+约5%",
+            "en": "list + ~5%"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.063,
+          "output": 0.2,
+          "context": "1M",
+          "note": {
+            "zh": "官方价+约5%",
+            "en": "list + ~5%"
+          }
+        }
       ],
-      "tags": ["aggregator", "gateway", "unified-api"],
+      "cache": {
+        "zh": "部分模型支持上下文缓存",
+        "en": "Context caching on select models"
+      },
+      "free_tier": {
+        "zh": "部分模型免费",
+        "en": "Some models free"
+      },
+      "min_recharge": "$10",
+      "monthly_visits": 21270000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "unified-api"
+      ],
       "notes": {
-        "zh": "价格即上游价 + 小额手续费；可按性能/价格自动选模型。",
-        "en": "Price equals upstream plus a small fee; auto-routing can pick the cheapest model that meets quality."
+        "zh": "可按性能/价格自动选模型。",
+        "en": "Auto-routing picks cheapest model meeting quality."
+      }
+    },
+    {
+      "slug": "b-ai",
+      "name": {
+        "zh": "B.AI",
+        "en": "B.AI"
+      },
+      "vendor": {
+        "zh": "中转网关",
+        "en": "Relay"
+      },
+      "type": "relay",
+      "desc": {
+        "zh": "一个 Key 调用 Claude/GPT/Gemini/国产模型。",
+        "en": "One key for Claude/GPT/Gemini and Chinese models."
+      },
+      "category": "relay",
+      "url": "https://b.ai/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1.05M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.1,
+          "output": 0.5,
+          "context": "1.05M",
+          "note": {
+            "zh": "官方半价",
+            "en": "half of official"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.32,
+          "output": 3.96,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价，闲时半价",
+            "en": "peak rate; off-peak half"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价，闲时半价",
+            "en": "peak rate; off-peak half"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.1,
+          "output": 3.9,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.06,
+          "output": 0.2,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户体验额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
+      "monthly_visits": 1280000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "relay",
+        "anonymous"
+      ],
+      "notes": {
+        "zh": "第三方中转，勿充大额。",
+        "en": "Third-party relay; do not deposit large amounts."
+      }
+    },
+    {
+      "slug": "together",
+      "name": {
+        "zh": "Together AI",
+        "en": "Together AI"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "开源模型推理云，也托管 DeepSeek。",
+        "en": "Open-model inference cloud; hosts DeepSeek."
+      },
+      "category": "aggregator",
+      "url": "https://www.together.ai/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.16,
+          "output": 0.55,
+          "context": "128K",
+          "note": {
+            "zh": "托管开源权重",
+            "en": "hosted open weights"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "无",
+        "en": "None"
+      },
+      "free_tier": {
+        "zh": "送试用额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "$10",
+      "monthly_visits": 691000,
+      "traffic_month": "2026-08",
+      "tags": [
+        "aggregator",
+        "open-source"
+      ],
+      "notes": {
+        "zh": "按秒计费，适合批量任务。",
+        "en": "Per-second billing; good for batch jobs."
+      }
+    },
+    {
+      "slug": "groq",
+      "name": {
+        "zh": "Groq",
+        "en": "Groq"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "LPU 推理，速度极快，价格便宜。",
+        "en": "LPU inference; extremely fast and cheap."
+      },
+      "category": "aggregator",
+      "url": "https://groq.com/pricing/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.15,
+          "output": 0.6,
+          "context": "128K",
+          "note": {
+            "zh": "LPU 加速",
+            "en": "LPU accelerated"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "无",
+        "en": "None"
+      },
+      "free_tier": {
+        "zh": "有免费层（限速）",
+        "en": "Free tier (rate-limited)"
+      },
+      "min_recharge": "",
+      "monthly_visits": 3630000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "fast",
+        "free"
+      ],
+      "notes": {
+        "zh": "吞吐高但上下文有限。",
+        "en": "High throughput, shorter context."
+      }
+    },
+    {
+      "slug": "fireworks",
+      "name": {
+        "zh": "Fireworks AI",
+        "en": "Fireworks AI"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "开源模型托管，企业级 SLA。",
+        "en": "Open-model hosting with enterprise SLA."
+      },
+      "category": "aggregator",
+      "url": "https://fireworks.ai/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.16,
+          "output": 0.6,
+          "context": "128K",
+          "note": {
+            "zh": "",
+            "en": ""
+          }
+        }
+      ],
+      "cache": {
+        "zh": "无",
+        "en": "None"
+      },
+      "free_tier": {
+        "zh": "送试用额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
+      "monthly_visits": 542000,
+      "traffic_month": "2026-08",
+      "tags": [
+        "aggregator",
+        "enterprise"
+      ],
+      "notes": {
+        "zh": "支持私有化部署。",
+        "en": "Private deployment available."
       }
     },
     {
       "slug": "siliconflow",
-      "name": { "zh": "硅基流动 SiliconFlow", "en": "SiliconFlow" },
-      "vendor": { "zh": "中国（聚合）", "en": "China (Aggregator)" },
+      "name": {
+        "zh": "硅基流动 SiliconFlow",
+        "en": "SiliconFlow"
+      },
+      "vendor": {
+        "zh": "中国（聚合）",
+        "en": "China (Aggregator)"
+      },
+      "type": "aggregator",
       "desc": {
-        "zh": "国产开源模型聚合推理平台，Qwen/DeepSeek/GLM 权重模型一站调用。",
-        "en": "Aggregated inference for Chinese open-weight models (Qwen/DeepSeek/GLM) under one endpoint."
+        "zh": "国内开源模型推理平台，同时托管 DeepSeek/GLM。",
+        "en": "Chinese open-model cloud; hosts DeepSeek and GLM."
       },
       "category": "aggregator",
       "url": "https://siliconflow.cn/pricing",
       "currency": "CNY",
       "pricing": [
-        { "model": "DeepSeek-V3", "input": 2, "output": 8, "context": "128K" }
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 1,
+          "output": 4,
+          "context": "128K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 8,
+          "output": 28,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.4,
+          "output": 1.4,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        }
       ],
-      "tags": ["aggregator", "open-weight", "china-cloud"],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户送额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "¥10",
+      "monthly_visits": 1470000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "china",
+        "open-source"
+      ],
       "notes": {
-        "zh": "部分小模型限时免费；充赠活动常见。",
-        "en": "Some small models are free for limited time; top-up bonuses are common."
+        "zh": "国内直连，无需代理。",
+        "en": "Direct access within China."
+      }
+    },
+    {
+      "slug": "zenmux",
+      "name": {
+        "zh": "ZenMux",
+        "en": "ZenMux"
+      },
+      "vendor": {
+        "zh": "中转网关",
+        "en": "Relay"
+      },
+      "type": "relay",
+      "desc": {
+        "zh": "聚合 GPT/Claude/Gemini 的折扣网关。",
+        "en": "Discount gateway aggregating GPT/Claude/Gemini."
+      },
+      "category": "relay",
+      "url": "https://zenmux.ai/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1.05M",
+          "note": {
+            "zh": "多供应商最低价",
+            "en": "lowest across providers"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.1,
+          "output": 0.5,
+          "context": "1.05M",
+          "note": {
+            "zh": "多供应商最低价",
+            "en": "lowest across providers"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.32,
+          "output": 3.96,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价参考",
+            "en": "peak rate, off-peak half"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价参考",
+            "en": "peak rate, off-peak half"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.1,
+          "output": 3.9,
+          "context": "1M",
+          "note": {
+            "zh": "多供应商最低价",
+            "en": "lowest across providers"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.06,
+          "output": 0.2,
+          "context": "1M",
+          "note": {
+            "zh": "多供应商最低价",
+            "en": "lowest across providers"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户体验额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
+      "monthly_visits": 381000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "relay"
+      ],
+      "notes": {
+        "zh": "第三方中转，勿充大额。",
+        "en": "Third-party relay; do not deposit large amounts."
+      }
+    },
+    {
+      "slug": "aihubmix",
+      "name": {
+        "zh": "AIHubMix",
+        "en": "AIHubMix"
+      },
+      "vendor": {
+        "zh": "中转网关",
+        "en": "Relay"
+      },
+      "type": "relay",
+      "desc": {
+        "zh": "国内开发者常用的统一 Key 网关。",
+        "en": "Popular unified-key gateway among Chinese devs."
+      },
+      "category": "relay",
+      "url": "https://aihubmix.com/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1.05M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.2,
+          "output": 1.2,
+          "context": "1.05M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.32,
+          "output": 3.96,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价参考",
+            "en": "peak rate, off-peak half"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "128K",
+          "note": {
+            "zh": "高峰价参考",
+            "en": "peak rate, off-peak half"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.1,
+          "output": 3.9,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.06,
+          "output": 0.2,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户体验额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
+      "monthly_visits": 284000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "relay"
+      ],
+      "notes": {
+        "zh": "第三方中转，勿充大额。",
+        "en": "Third-party relay; do not deposit large amounts."
+      }
+    },
+    {
+      "slug": "teamorouter",
+      "name": {
+        "zh": "TeamoRouter",
+        "en": "TeamoRouter"
+      },
+      "vendor": {
+        "zh": "中转网关",
+        "en": "Relay"
+      },
+      "type": "relay",
+      "desc": {
+        "zh": "面向编码场景的模型网关。",
+        "en": "Model gateway targeting coding workflows."
+      },
+      "category": "relay",
+      "url": "https://teamorouter.com/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 0.344,
+          "output": 1.72,
+          "context": "1.05M",
+          "note": {
+            "zh": "1.7折",
+            "en": "17% of list"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.05,
+          "output": 0.25,
+          "context": "1.05M",
+          "note": {
+            "zh": "5折",
+            "en": "50% of list"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 1.17,
+          "output": 5.84,
+          "context": "200K",
+          "note": {
+            "zh": "2.9折",
+            "en": "29% of list"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 0.576,
+          "output": 2.88,
+          "context": "200K",
+          "note": {
+            "zh": "2.9折",
+            "en": "29% of list"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 0.36,
+          "output": 1.07,
+          "context": "128K",
+          "note": {
+            "zh": "约2.7折",
+            "en": "~27% of list"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.128,
+          "output": 0.511,
+          "context": "128K",
+          "note": {
+            "zh": "8.5折",
+            "en": "85% of list"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 0.33,
+          "output": 1.17,
+          "context": "1M",
+          "note": {
+            "zh": "约3折",
+            "en": "~30% of list"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.018,
+          "output": 0.06,
+          "context": "1M",
+          "note": {
+            "zh": "约3折",
+            "en": "~30% of list"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户体验额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
+      "monthly_visits": 231000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "relay",
+        "coding"
+      ],
+      "notes": {
+        "zh": "第三方中转，勿充大额。",
+        "en": "Third-party relay; do not deposit large amounts."
+      }
+    },
+    {
+      "slug": "ofoxai",
+      "name": {
+        "zh": "OfoxAI",
+        "en": "OfoxAI"
+      },
+      "vendor": {
+        "zh": "中转网关",
+        "en": "Relay"
+      },
+      "type": "relay",
+      "desc": {
+        "zh": "多模型统一 API 网关。",
+        "en": "Unified multi-model API gateway."
+      },
+      "category": "relay",
+      "url": "https://ofox.ai/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 1.6,
+          "output": 8,
+          "context": "1.05M",
+          "note": {
+            "zh": "限时8折",
+            "en": "limited 20% off"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.16,
+          "output": 0.96,
+          "context": "1.05M",
+          "note": {
+            "zh": "限时8折",
+            "en": "limited 20% off"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "200K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 0.92,
+          "output": 2.77,
+          "context": "128K",
+          "note": {
+            "zh": "限时7折",
+            "en": "limited 30% off"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.21,
+          "output": 0.84,
+          "context": "128K",
+          "note": {
+            "zh": "限时7折",
+            "en": "limited 30% off"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.1,
+          "output": 3.9,
+          "context": "1M",
+          "note": {
+            "zh": "0手续费直通",
+            "en": "0 fee passthrough"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.06,
+          "output": 0.2,
+          "context": "1M",
+          "note": {
+            "zh": "0手续费直通",
+            "en": "0 fee passthrough"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户体验额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
+      "monthly_visits": 213000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "relay"
+      ],
+      "notes": {
+        "zh": "第三方中转，勿充大额。",
+        "en": "Third-party relay; do not deposit large amounts."
+      }
+    },
+    {
+      "slug": "ohmygpt",
+      "name": {
+        "zh": "OhMyGPT",
+        "en": "OhMyGPT"
+      },
+      "vendor": {
+        "zh": "中国",
+        "en": "China"
+      },
+      "desc": {
+        "zh": "国内开发者常用中转网关，折扣稳定",
+        "en": "popular relay for Chinese devs, stable discounts"
+      },
+      "category": "aggregator",
+      "type": "relay",
+      "url": "https://ohmygpt.com/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.2,
+          "output": 4.2,
+          "context": "1M",
+          "note": {
+            "zh": "中转参考价",
+            "en": "relay rate"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.065,
+          "output": 0.22,
+          "context": "1M",
+          "note": {
+            "zh": "中转参考价",
+            "en": "relay rate"
+          }
+        }
+      ],
+      "tags": [
+        "relay"
+      ],
+      "monthly_visits": 16200,
+      "traffic_month": "2026-09",
+      "notes": {
+        "zh": "第三方中转，勿充大额。",
+        "en": "third-party relay, top up small amount."
+      }
+    },
+    {
+      "slug": "302ai",
+      "name": {
+        "zh": "302.AI",
+        "en": "302.AI"
+      },
+      "vendor": {
+        "zh": "中国",
+        "en": "China"
+      },
+      "desc": {
+        "zh": "按量付费企业级 AI 资源站，图像/视频/语言模型一站式",
+        "en": "pay-as-you-go enterprise AI hub"
+      },
+      "category": "aggregator",
+      "type": "relay",
+      "url": "https://302.ai/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.2,
+          "output": 4.2,
+          "context": "1M",
+          "note": {
+            "zh": "中转参考价",
+            "en": "relay rate"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.065,
+          "output": 0.22,
+          "context": "1M",
+          "note": {
+            "zh": "中转参考价",
+            "en": "relay rate"
+          }
+        }
+      ],
+      "tags": [
+        "relay"
+      ],
+      "monthly_visits": 66920,
+      "traffic_month": "2026-09",
+      "notes": {
+        "zh": "第三方中转，勿充大额。",
+        "en": "third-party relay, top up small amount."
       }
     }
   ]
