@@ -1271,10 +1271,10 @@
         "en": "China"
       },
       "desc": {
-        "zh": "国内开发者常用中转网关，折扣稳定",
-        "en": "popular relay for Chinese devs, stable discounts"
+        "zh": "国内开发者常用中转网关，折扣稳定。",
+        "en": "Popular relay gateway for Chinese devs; stable discounts."
       },
-      "category": "aggregator",
+      "category": "relay",
       "type": "relay",
       "url": "https://ohmygpt.com/",
       "currency": "USD",
@@ -1302,6 +1302,15 @@
           }
         }
       ],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户体验额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
       "tags": [
         "relay"
       ],
@@ -1323,10 +1332,10 @@
         "en": "China"
       },
       "desc": {
-        "zh": "按量付费企业级 AI 资源站，图像/视频/语言模型一站式",
-        "en": "pay-as-you-go enterprise AI hub"
+        "zh": "按量付费企业级 AI 资源站，图像/视频/语言模型一站式。",
+        "en": "Pay-as-you-go enterprise AI hub: image, video and language models in one place."
       },
-      "category": "aggregator",
+      "category": "relay",
       "type": "relay",
       "url": "https://302.ai/",
       "currency": "USD",
@@ -1354,6 +1363,15 @@
           }
         }
       ],
+      "cache": {
+        "zh": "跟随上游",
+        "en": "Follows upstream"
+      },
+      "free_tier": {
+        "zh": "新用户体验额度",
+        "en": "Trial credit"
+      },
+      "min_recharge": "",
       "tags": [
         "relay"
       ],

@@ -1,14 +1,10 @@
 # 依赖
 node_modules/
 
-# 构建脚本（私有，不随仓库发布；README 由脚本本地生成后提交）
-scripts/
-
 # 日志 / 系统垃圾
 .DS_Store
 *.log
 
 # 工作区记忆与个人配置（不对外公开）
 .workbuddy/
-.vmark/
 .vmark/

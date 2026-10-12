@@ -10,17 +10,17 @@
 
 ## Table of Contents
 
-- [Scope & How to Read]](#scope--how-to-read)
-- [OpenAI]](#openai)
-- [Claude (Anthropic)]](#claude-anthropic)
-- [DeepSeek]](#deepseek)
-- [GLM (Zhipu)]](#glm-zhipu)
-- [Channels]](#channels)
+- [Scope & How to Read](#scope--how-to-read)
+- [OpenAI](#openai)
+- [Claude (Anthropic)](#claude-anthropic)
+- [DeepSeek](#deepseek)
+- [GLM (Zhipu)](#glm-zhipu)
+- [Channels](#channels)
 - **More**
-  - [About]](#about)
-  - [Data & Updates]](#data--updates)
-  - [Contributing]](#contributing)
-  - [License]](#license)
+  - [About](#about)
+  - [Data & Updates](#data--updates)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ---
 
@@ -172,8 +172,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 - **[AIHubMix](https://aihubmix.com/)** [Relay] — Popular unified-key gateway among Chinese devs. · monthly visits 284K（2026-09） · [website](https://aihubmix.com)
 - **[TeamoRouter](https://teamorouter.com/)** [Relay] — Model gateway targeting coding workflows. · monthly visits 231K（2026-09） · [website](https://teamorouter.com)
 - **[OfoxAI](https://ofox.ai/)** [Relay] — Unified multi-model API gateway. · monthly visits 213K（2026-09） · [website](https://ofox.ai)
-- **[OhMyGPT](https://ohmygpt.com/)** [Relay] — popular relay for Chinese devs, stable discounts · monthly visits 16K（2026-09） · [website](https://ohmygpt.com)
-- **[302.AI](https://302.ai/)** [Relay] — pay-as-you-go enterprise AI hub · monthly visits 67K（2026-09） · [website](https://302.ai)
+- **[OhMyGPT](https://ohmygpt.com/)** [Relay] — Popular relay gateway for Chinese devs; stable discounts. · monthly visits 16K（2026-09） · [website](https://ohmygpt.com)
+- **[302.AI](https://302.ai/)** [Relay] — Pay-as-you-go enterprise AI hub: image, video and language models in one place. · monthly visits 67K（2026-09） · [website](https://302.ai)
 
 ---
 

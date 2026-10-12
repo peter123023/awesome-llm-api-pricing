@@ -22,8 +22,8 @@ README 由脚本生成，**不要手改 `README.md` / `README.en.md`**，改 `da
 ## 3. 厂商分级
 
 ### 3.1 官方厂商
-- **海外**：OpenAI、Anthropic、Google Gemini、xAI、Mistral（T1 必收）
-- **国内**：DeepSeek、阿里云百炼 Qwen、智谱 GLM、月之暗面 Kimi、火山方舟豆包、百度千帆 ERNIE、腾讯混元、MiniMax、阶跃星辰 StepFun
+- **海外**：OpenAI、Anthropic、Google Gemini、xAI、Mistral（T1 必收；已收录 OpenAI、Anthropic，其余待补）
+- **国内**：DeepSeek、阿里云百炼 Qwen、智谱 GLM、月之暗面 Kimi、火山方舟豆包、百度千帆 ERNIE、腾讯混元、MiniMax、阶跃星辰 StepFun（已收录 DeepSeek、智谱 GLM，其余待补）
 - **向量嵌入**单独小表：OpenAI text-embedding-3、智谱 embedding、阿里 text-embedding-v3、硅基流动 bge 系列
 - T2 观察（Cohere、Voyage、01.ai、百川、商汤）有人提 Issue 再补。
 - **不收** Azure OpenAI / AWS Bedrock 这类转售渠道（价格是企业协议价，会打乱对比口径），只在备注里提一句。
@@ -38,22 +38,24 @@ OpenRouter、Together AI、Groq、Fireworks、SiliconFlow 硅基流动、NovitaA
 > ⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。
 
 **B 类收录门槛（全部满足）：**
-1. 月访问量 **≥ 10 万次**（SimilarWeb 估算，数据来源和月份写进数据字段）；
+1. 月访问量 **≥ 1 万次**（SimilarWeb 估算，数据来源和月份写进数据字段）；
 2. 有公开定价页，写清折扣率或实际单价；
 3. 最低充值 ≤ ¥50；
 4. 运营 ≥ 6 个月，有可查社区讨论；
 5. 有自用 dashboard 查 token 用量。
 
-**按 2026-09 数据过线的 6 家**：OpenRouter(2127万)、B.AI(128万)、ZenMux(38万)、AIHubMix(28万)、TeamoRouter(23万)、OfoxAI(21万)。
-低于 10 万的（IKunCode 6.9万、CCTest、AIGoCode 等）不收；AICoding 已停服下架。
+**按 2026-09 数据过线并已收录的 8 家**：OpenRouter(2127万)、B.AI(128万)、ZenMux(38万)、AIHubMix(28万)、TeamoRouter(23万)、OfoxAI(21万)、302.AI(6.69万)、OhMyGPT(1.62万)。
+IKunCode(6.9万) 达标但暂未收录；低于 1 万的（CCTest、AIGoCode 等）不收；AICoding 已停服下架。
 流量数据**每月手工更新**，没有免费 API，不要写进自动 workflow。
 
-## 4. README 内容结构（四层）
+## 4. README 内容结构（由 build-readme.mjs 生成）
 
-1. **读表须知**：计价口径——1M tokens、输入/输出分价、缓存命中折扣、长上下文加价档、中文 token 换算（~1 token ≈ 1.5 汉字）、免费层与最低充值。
-2. **价格总表**（核心）：厂商 · 模型 · 输入价 · 输出价 · 上下文 · 缓存价 · 免费层 · 定价页链接。
-3. **场景速选**：极致性价比 / 编码最强 / 超长上下文 / 免费试用 / 多模态 / 向量嵌入。
-4. **厂商明细**：一句话定位 + 隐藏成本（速率限制、充值门槛、夜间折扣）。
+1. **语言切换行 + 徽章**：顶部「简体中文 | English」与 shields 徽章。
+2. **目录**：收录范围 → 各模型家族 H2 → 渠道明细 → **更多**（关于/数据/贡献/许可，tight list）。
+3. **收录范围与读表须知**：按**模型**组织的说明；计价口径——每 1M tokens 输入/输出分价、海外 USD / 国内 CNY、官方/聚合/中转三类定义、中转风险标注（收录门槛月访问 ≥ 1 万次）、缓存与免费层写在备注、1 token ≈ 1.5 汉字。
+4. **模型比价**（核心）：家族 H2（OpenAI / Claude（Anthropic） / DeepSeek / GLM（智谱） / 其他厂商）内按模型 H3 出表，列：渠道 · 类型 · 月访问 · 输入 · 输出 · 上下文 · 备注；家族内按最高输入价降序（旗舰在前）。
+5. **渠道明细**：每渠道一条——一句话定位 · 月访问（含 traffic_month）· 官网链接。
+6. **尾部**：关于本清单 / 数据与更新 / 参与贡献 / 许可证。
 
 ## 5. 数据 schema（data/items.json）
 
@@ -64,15 +66,16 @@ OpenRouter、Together AI、Groq、Fireworks、SiliconFlow 硅基流动、NovitaA
   "name": {"zh": "中文名", "en": "Official English Name"},
   "vendor": {"zh": "国家", "en": "Country"},
   "desc": {"zh": "", "en": ""},
-  "category": "overseas | domestic | aggregator",
+  "category": "overseas | domestic | aggregator | relay",
+  "type": "official | aggregator | relay",
   "url": "https://官方定价页",
   "currency": "USD | CNY",
   "pricing": [
-    {"model": "模型名", "input": 2.5, "output": 10, "context": "128K"}
+    {"model": "模型名", "family": "openai | claude | deepseek | glm | other", "input": 2.5, "output": 10, "context": "128K", "note": {"zh": "", "en": ""}}
   ],
-  "cache": "缓存命中价说明",
-  "free_tier": "免费层描述",
-  "min_recharge": "最低充值",
+  "cache": {"zh": "缓存命中价说明", "en": "cache notes"},
+  "free_tier": {"zh": "免费层描述", "en": "free tier notes"},
+  "min_recharge": "最低充值，未知留空",
   "monthly_visits": 21270000,
   "traffic_month": "2026-09",
   "tags": ["cheap", "coding", "long-context"],
@@ -80,22 +83,25 @@ OpenRouter、Together AI、Groq、Fireworks、SiliconFlow 硅基流动、NovitaA
 }
 ```
 规则：
+- `category` 与 `type` 必须配套：overseas/domestic → official，aggregator → aggregator，relay → relay（sync.mjs 校验）。
+- `pricing[].family` 决定 README 分组，只能取 openai / claude / deepseek / glm / other（sync.mjs 校验）。
 - `pricing[].input/output` 单位固定 1M tokens；免费填 `0`，按上游浮动填 `null`。
 - **`name.en` / `desc.en` 不得含中文**；中国品牌用官方英文名（DeepSeek、Qwen、Zhipu、Moonshot）。
-- B 类中转站才填 `monthly_visits`；A 类聚合和官方厂商留空待补。
+- `monthly_visits` 各渠道都填（全站口径，官方渠道含其网页用户流量），B 类中转**必填且 ≥ 1 万次**；一律写 `traffic_month`。
+- `cache` / `free_tier` / `min_recharge` 三个字段必须存在，值可为空字符串（sync.mjs 校验）。
 - 价格是参考值，每条正式收录前必须点开官方定价页核对；`_meta.verified` 标核对状态。
 
 ## 6. 技术约束（改脚本时必须遵守）
 
-- **GitHub 锚点算法**：先删标点，再把每个空格逐个换 `-`（不折叠）。含 `&` 的标题锚点会是双连字符。用这个实现：
+- **GitHub 锚点算法**：先删标点（含全角标点如（）「」），再把每个空格逐个换 `-`（不折叠）。含 `&` 的标题锚点会是双连字符。用这个实现：
   ```js
   const slugify = (t) => t.toLowerCase().trim()
-    .replace(/[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g, '')
+    .replace(/[\u2000-\u206F\u2E00-\u2E7F\u3000-\u303F\uFF00-\uFFEF\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g, '')
     .replace(/ /g, '-');
   ```
 - **tight list**：目录尾部的"关于/数据/贡献/许可"前必须加 `**更多**` 小标题，否则渲染成松散列表、行距变大。
 - **英文版纯净度**：`README.en.md` 除语言切换行外不得出现中文（`/[\u4e00-\u9fff]/` 命中 0）。
-- `scripts/sync.mjs` 做数据校验（缺字段/重名/非法 category/英文含中文），CI 里失败即标红。
+- `scripts/sync.mjs` 做数据校验（必填字段 / slug 重复 / category↔type 配套 / family 枚举 / 中转月访问 ≥ 1 万 / cache·free_tier·min_recharge 字段存在 / 英文含中文），CI 里失败即标红。
 - `.github/workflows/sync.yml` 每日重建：sync → build → 有 diff 才 commit。
 - REPO 名通过环境变量传入，默认 `peter123023/awesome-llm-api-pricing`（远端仓库名最终待定）。
 

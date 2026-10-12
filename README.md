@@ -10,17 +10,17 @@
 
 ## 目录
 
-- [收录范围与读表须知]](#收录范围与读表须知)
-- [OpenAI]](#openai)
-- [Claude（Anthropic）]](#claudeanthropic)
-- [DeepSeek]](#deepseek)
-- [GLM（智谱）]](#glm智谱)
-- [渠道明细]](#渠道明细)
+- [收录范围与读表须知](#收录范围与读表须知)
+- [OpenAI](#openai)
+- [Claude（Anthropic）](#claudeanthropic)
+- [DeepSeek](#deepseek)
+- [GLM（智谱）](#glm智谱)
+- [渠道明细](#渠道明细)
 - **更多**
-  - [关于本清单]](#关于本清单)
-  - [数据与更新]](#数据与更新)
-  - [参与贡献]](#参与贡献)
-  - [许可证]](#许可证)
+  - [关于本清单](#关于本清单)
+  - [数据与更新](#数据与更新)
+  - [参与贡献](#参与贡献)
+  - [许可证](#许可证)
 
 ---
 
@@ -172,8 +172,8 @@
 - **[AIHubMix](https://aihubmix.com/)** [中转] — 国内开发者常用的统一 Key 网关。 · 月访问 28 万（2026-09） · [官网](https://aihubmix.com)
 - **[TeamoRouter](https://teamorouter.com/)** [中转] — 面向编码场景的模型网关。 · 月访问 23 万（2026-09） · [官网](https://teamorouter.com)
 - **[OfoxAI](https://ofox.ai/)** [中转] — 多模型统一 API 网关。 · 月访问 21 万（2026-09） · [官网](https://ofox.ai)
-- **[OhMyGPT](https://ohmygpt.com/)** [中转] — 国内开发者常用中转网关，折扣稳定 · 月访问 2 万（2026-09） · [官网](https://ohmygpt.com)
-- **[302.AI](https://302.ai/)** [中转] — 按量付费企业级 AI 资源站，图像/视频/语言模型一站式 · 月访问 7 万（2026-09） · [官网](https://302.ai)
+- **[OhMyGPT](https://ohmygpt.com/)** [中转] — 国内开发者常用中转网关，折扣稳定。 · 月访问 2 万（2026-09） · [官网](https://ohmygpt.com)
+- **[302.AI](https://302.ai/)** [中转] — 按量付费企业级 AI 资源站，图像/视频/语言模型一站式。 · 月访问 7 万（2026-09） · [官网](https://302.ai)
 
 ---
 
