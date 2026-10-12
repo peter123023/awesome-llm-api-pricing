@@ -266,8 +266,8 @@ Relays are tempting on price but carry "shell-model / degraded-quality" risk —
 | Tool | Monthly Visits | Method | What to check |
 | --- | --- | --- | --- |
 | **[API Magnifier](https://apicheck.cn/)** | — | Relay honesty check | 15-layer probes + 6-dimension scoring to verify the claimed model is really served; pure frontend, no key storage |
-| **[LMArena](https://lmarena.ai)** | 385.7K | Anonymous blind battles | Compare behavior and style against official models on the same prompts |
-| **[LiveBench](https://livebench.ai)** | 1.01M | Contamination-free benchmark runs | Run benchmarks through the relay API and compare with official scores |
+| **[BazaarLink Probe](https://bazaarlink.ai/zh-CN/probe)** | 176.5K | 84 automated probes | Purpose-built to detect degraded, adulterated or swapped models; enter Base URL + test key for a report |
+| **[LLM Zhaoyaojing](https://llmtest.cn/)** | 3.4K | Multi-round behavior probes | Checks identity consistency, knowledge and chain-of-thought traces; open source, pure frontend, key never uploaded |
 
 ## Channels
 
