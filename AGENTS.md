@@ -23,7 +23,7 @@ README 由脚本生成，**不要手改 `README.md` / `README.en.md`**，改 `da
 
 ### 3.1 官方厂商
 - **海外**：OpenAI、Anthropic、Google Gemini、xAI、Mistral（T1 必收；已收录 OpenAI、Anthropic，其余待补）
-- **国内**：DeepSeek、阿里云百炼 Qwen、智谱 GLM、月之暗面 Kimi、火山方舟豆包、百度千帆 ERNIE、腾讯混元、MiniMax、阶跃星辰 StepFun（已收录 DeepSeek、智谱 GLM，其余待补）
+- **国内**：DeepSeek、阿里云百炼 Qwen、智谱 GLM、月之暗面 Kimi、火山方舟豆包、百度千帆 ERNIE、腾讯混元、MiniMax、阶跃星辰 StepFun（已收录 DeepSeek、智谱 GLM、Kimi 官方，其余待补）
 - **向量嵌入**单独小表：OpenAI text-embedding-3、智谱 embedding、阿里 text-embedding-v3、硅基流动 bge 系列
 - T2 观察（Cohere、Voyage、01.ai、百川、商汤）有人提 Issue 再补。
 - **不收** Azure OpenAI / AWS Bedrock 这类转售渠道（价格是企业协议价，会打乱对比口径），只在备注里提一句。

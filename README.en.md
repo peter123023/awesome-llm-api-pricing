@@ -10,7 +10,7 @@
 
 ## Table of Contents
 
-[Scope & How to Read](#scope--how-to-read) · [OpenAI](#openai) · [Claude (Anthropic)](#claude-anthropic) · [DeepSeek](#deepseek) · [GLM (Zhipu)](#glm-zhipu)
+[Scope & How to Read](#scope--how-to-read) · [OpenAI](#openai) · [Claude (Anthropic)](#claude-anthropic) · [DeepSeek](#deepseek) · [GLM (Zhipu)](#glm-zhipu) · [Other Providers](#other-providers)
 
 - [Channels](#channels)
 - [About](#about)
@@ -151,12 +151,22 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $0.065 | $0.22 | 1M | relay rate; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 | **[302.AI](https://302.ai/)** | Relay | 67K | $0.065 | $0.22 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 
+## Other Providers
+
+### Kimi K3
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Kimi (Moonshot) Official](https://platform.kimi.com/docs/pricing/chat-k3)** | Official | 40.5M | ¥20 | ¥100 | 1.05M | flagship for long-horizon coding and agent tasks; cache hit ¥2; Official Kimi API: K3 targets 1M-token long context, long-horizon coding and agent tasks; CNY billing on the China site (¥20/¥100), international site at $3/$15 equivalent; context cache hits cost just ¥2 (write ¥40, 1h TTL), ideal for repeated prefixes. Monthly visits include Kimi web assistant users (kimi.com, ~40.5M in 2026-09). |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $3 | $15 | 1M | same as official intl; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
+
 ## Channels
 
 - **[OpenAI](https://openai.com/api/pricing/)** [Official] — Official API for the closed-source GPT family. · monthly visits 487.5M（2026-08） · [website](https://openai.com)
 - **[Anthropic](https://www.anthropic.com/pricing)** [Official] — Official Claude API; strong at long context and coding. · monthly visits 722.2M（2026-08） · [website](https://www.anthropic.com)
 - **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** [Official] — Official API for the open-weight DeepSeek models; extreme value. · monthly visits 357.6M（2026-09） · [website](https://api-docs.deepseek.com)
 - **[Zhipu GLM](https://open.bigmodel.cn/pricing)** [Official] — Official Zhipu GLM API. · monthly visits 6.9M（2026-09） · [website](https://open.bigmodel.cn)
+- **[Kimi (Moonshot) Official](https://platform.kimi.com/docs/pricing/chat-k3)** [Official] — Official Kimi API by Moonshot AI, focused on long context and agentic workflows. · monthly visits 40.5M（2026-09） · [website](https://platform.kimi.com)
 - **[OpenRouter](https://openrouter.ai/docs/limits)** [Aggregator] — One API for hundreds of models at upstream list prices. · monthly visits 21.3M（2026-09） · [website](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [Relay] — Agent API infrastructure; one key for all models. · monthly visits 1.3M（2026-09） · [website](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [Aggregator] — Open-model inference cloud; hosts DeepSeek. · monthly visits 691K（2026-08） · [website](https://www.together.ai)

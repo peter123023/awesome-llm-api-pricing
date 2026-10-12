@@ -268,6 +268,49 @@
       }
     },
     {
+      "slug": "kimi",
+      "name": {"zh": "Kimi（月之暗面）官方", "en": "Kimi (Moonshot) Official"},
+      "vendor": {"zh": "中国", "en": "China"},
+      "desc": {"zh": "月之暗面 Kimi 系列官方 API，主打长上下文与 Agentic 能力。", "en": "Official Kimi API by Moonshot AI, focused on long context and agentic workflows."},
+      "category": "domestic",
+      "type": "official",
+      "url": "https://platform.kimi.com/docs/pricing/chat-k3",
+      "currency": "CNY",
+      "pricing": [
+        {
+          "model": "Kimi K3",
+          "family": "other",
+          "input": 20,
+          "output": 100,
+          "context": "1.05M",
+          "note": {
+            "zh": "旗舰，长程编码与 Agent 任务；缓存命中 ¥2",
+            "en": "flagship for long-horizon coding and agent tasks; cache hit ¥2"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存命中 ¥2/M tokens；缓存写入 ¥40（1 小时有效，命中后顺延）",
+        "en": "Cache hit ¥2/M tokens; cache write ¥40 (1h TTL, refreshed on hit)"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": 40500000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "long-context",
+        "coding",
+        "agentic"
+      ],
+      "notes": {
+        "zh": "Kimi 系列官方 API：K3 主打 1M tokens 长上下文、长程编码与 Agent 任务；国内站人民币计价（¥20/¥100），国际站等值 $3/$15；上下文缓存命中仅 ¥2、写入 ¥40（1 小时有效），适合高频重复前缀场景。全站月访问含 Kimi 网页助手用户（kimi.com，2026-09 约 4050 万）。",
+        "en": "Official Kimi API: K3 targets 1M-token long context, long-horizon coding and agent tasks; CNY billing on the China site (¥20/¥100), international site at $3/$15 equivalent; context cache hits cost just ¥2 (write ¥40, 1h TTL), ideal for repeated prefixes. Monthly visits include Kimi web assistant users (kimi.com, ~40.5M in 2026-09)."
+      }
+    },
+    {
       "slug": "openrouter",
       "name": {
         "zh": "OpenRouter",
@@ -1227,6 +1270,17 @@
           "note": {
             "zh": "0手续费直通",
             "en": "0 fee passthrough"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "other",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "与官方国际版同价",
+            "en": "same as official intl"
           }
         }
       ],

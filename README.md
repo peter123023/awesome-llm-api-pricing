@@ -10,7 +10,7 @@
 
 ## 目录
 
-[收录范围与读表须知](#收录范围与读表须知) · [OpenAI](#openai) · [Claude（Anthropic）](#claudeanthropic) · [DeepSeek](#deepseek) · [GLM（智谱）](#glm智谱)
+[收录范围与读表须知](#收录范围与读表须知) · [OpenAI](#openai) · [Claude（Anthropic）](#claudeanthropic) · [DeepSeek](#deepseek) · [GLM（智谱）](#glm智谱) · [其他厂商](#其他厂商)
 
 - [渠道明细](#渠道明细)
 - [关于本清单](#关于本清单)
@@ -151,12 +151,22 @@
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.065 | $0.22 | 1M | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $0.065 | $0.22 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 
+## 其他厂商
+
+### Kimi K3
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Kimi（月之暗面）官方](https://platform.kimi.com/docs/pricing/chat-k3)** | 官方 | 4050 万 | ¥20 | ¥100 | 1.05M | 旗舰，长程编码与 Agent 任务；缓存命中 ¥2；Kimi 系列官方 API：K3 主打 1M tokens 长上下文、长程编码与 Agent 任务；国内站人民币计价（¥20/¥100），国际站等值 $3/$15；上下文缓存命中仅 ¥2、写入 ¥40（1 小时有效），适合高频重复前缀场景。全站月访问含 Kimi 网页助手用户（kimi.com，2026-09 约 4050 万）。 |
+| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $3 | $15 | 1M | 与官方国际版同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+
 ## 渠道明细
 
 - **[OpenAI 官方](https://openai.com/api/pricing/)** [官方] — GPT 系列闭源模型官方 API。 · 月访问 4.9 亿（2026-08） · [官网](https://openai.com)
 - **[Anthropic 官方](https://www.anthropic.com/pricing)** [官方] — Claude 系列官方 API，长文本与代码能力强。 · 月访问 7.2 亿（2026-08） · [官网](https://www.anthropic.com)
 - **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** [官方] — 国产开源权重模型官方 API，性价比极高。 · 月访问 3.6 亿（2026-09） · [官网](https://api-docs.deepseek.com)
 - **[智谱 GLM 官方](https://open.bigmodel.cn/pricing)** [官方] — 智谱清言 GLM 系列官方 API。 · 月访问 687 万（2026-09） · [官网](https://open.bigmodel.cn)
+- **[Kimi（月之暗面）官方](https://platform.kimi.com/docs/pricing/chat-k3)** [官方] — 月之暗面 Kimi 系列官方 API，主打长上下文与 Agentic 能力。 · 月访问 4050 万（2026-09） · [官网](https://platform.kimi.com)
 - **[OpenRouter](https://openrouter.ai/docs/limits)** [聚合] — 统一 API 接入数百模型，模型价与上游挂牌一致。 · 月访问 2127 万（2026-09） · [官网](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [中转] — Agent API 基础设施，一个 Key 调用全模型。 · 月访问 128 万（2026-09） · [官网](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [聚合] — 开源模型推理云，也托管 DeepSeek。 · 月访问 69 万（2026-08） · [官网](https://www.together.ai)
