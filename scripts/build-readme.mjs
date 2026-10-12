@@ -65,12 +65,19 @@ for (const it of items) {
     });
   }
 }
+// 模型顺序覆盖：仅在同一家族内生效（如 DeepSeek 固定 V4.1-Flash 在前、V4-Pro 在后）
+const MODEL_ORDER_OVERRIDE = { 'DeepSeek V4.1-Flash': 1, 'DeepSeek V4-Pro': 2 };
 // 排序：家族顺序（OpenAI > Claude > DeepSeek > 其他），家族内按最高输入价降序（旗舰在前）
 const models = [...modelMap.keys()].sort((a, b) => {
   const fa = modelMap.get(a)[0].family;
   const fb = modelMap.get(b)[0].family;
   const fo = (FAMILY_ORDER[fa] || 9) - (FAMILY_ORDER[fb] || 9);
   if (fo !== 0) return fo;
+  const oa = MODEL_ORDER_OVERRIDE[a];
+  const ob = MODEL_ORDER_OVERRIDE[b];
+  if (oa !== undefined || ob !== undefined) {
+    return (oa ?? Infinity) - (ob ?? Infinity);
+  }
   const pa = Math.max(...modelMap.get(a).map((r) => r.input || 0));
   const pb = Math.max(...modelMap.get(b).map((r) => r.input || 0));
   return pb - pa;
