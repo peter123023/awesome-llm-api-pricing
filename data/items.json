@@ -311,6 +311,132 @@
       }
     },
     {
+      "slug": "google",
+      "name": {"zh": "Google Gemini 官方", "en": "Google Gemini"},
+      "vendor": {"zh": "美国", "en": "USA"},
+      "desc": {"zh": "Google Gemini 系列官方 API，多模态与长上下文见长。", "en": "Official Gemini API by Google, strong in multimodality and long context."},
+      "category": "overseas",
+      "type": "official",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.75,
+          "output": 3.75,
+          "context": "1M",
+          "note": {
+            "zh": "介绍价至 2026-12-31，2027 起 $1.5/$7.5",
+            "en": "intro price through 2026-12-31, then $1.5/$7.5"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "上下文缓存 $0.075/M（介绍价），另收存储费 $0.50/M tokens/小时",
+        "en": "Context caching $0.075/M (intro), plus $0.50/M tokens per hour storage"
+      },
+      "free_tier": {
+        "zh": "AI Studio 免费层可试用（数据用于改进 Google 产品）",
+        "en": "Free tier in AI Studio (data used to improve Google products)"
+      },
+      "min_recharge": "",
+      "monthly_visits": null,
+      "traffic_month": "2026-10",
+      "tags": [
+        "multimodal",
+        "long-context"
+      ],
+      "notes": {
+        "zh": "Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。",
+        "en": "Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000."
+      }
+    },
+    {
+      "slug": "xai",
+      "name": {"zh": "xAI 官方", "en": "xAI"},
+      "vendor": {"zh": "美国", "en": "USA"},
+      "desc": {"zh": "xAI 的 Grok 系列官方 API。", "en": "Official Grok API by xAI."},
+      "category": "overseas",
+      "type": "official",
+      "url": "https://docs.x.ai/docs/models",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "旗舰；缓存命中 $0.50",
+            "en": "flagship; cache hit $0.50"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存命中 $0.50/M tokens",
+        "en": "Cache hit $0.50/M tokens"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": null,
+      "traffic_month": "2026-10",
+      "tags": [
+        "coding",
+        "agents"
+      ],
+      "notes": {
+        "zh": "Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。",
+        "en": "Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price."
+      }
+    },
+    {
+      "slug": "mistral",
+      "name": {"zh": "Mistral 官方", "en": "Mistral AI"},
+      "vendor": {"zh": "法国", "en": "France"},
+      "desc": {"zh": "欧洲开源权重大模型厂商 Mistral 的官方 API。", "en": "Official API of Mistral AI, the European open-weight model lab."},
+      "category": "overseas",
+      "type": "official",
+      "url": "https://mistral.ai/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "Mistral Large 3",
+          "family": "mistral",
+          "input": 0.5,
+          "output": 1.5,
+          "context": "256K",
+          "note": {
+            "zh": "开源权重旗舰；Batch 半价",
+            "en": "open-weight flagship; batch half price"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存输入最高省 90%；Batch 批处理半价",
+        "en": "Cached input up to 90% off; batch processing half price"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": null,
+      "traffic_month": "2026-10",
+      "tags": [
+        "open-source",
+        "cheap"
+      ],
+      "notes": {
+        "zh": "欧洲旗帜型 AI 厂商：Large 3 为 675B 开源权重旗舰（41B 激活，256K 上下文，多模态），官方 API 仅 $0.5/$1.5；批量处理再半价、缓存输入最高省 90%；权重可下载私有化部署，欧洲数据合规场景常用选择。",
+        "en": "Flagship European AI lab: Large 3 is a 675B open-weight flagship (41B active, 256K context, multimodal) whose official API costs just $0.5/$1.5; batch processing halves the price and cached input saves up to 90%; weights are downloadable for private deployment, popular for EU data-compliance workloads."
+      }
+    },
+    {
       "slug": "openrouter",
       "name": {
         "zh": "OpenRouter",
@@ -412,6 +538,39 @@
           "input": 0.04,
           "output": 0.5,
           "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.75,
+          "output": 3.75,
+          "context": "1M",
+          "note": {
+            "zh": "与官方介绍价同价",
+            "en": "same as official intro price"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Mistral Large 3",
+          "family": "mistral",
+          "input": 0.5,
+          "output": 1.5,
+          "context": "256K",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -1281,6 +1440,17 @@
           "note": {
             "zh": "与官方国际版同价",
             "en": "same as official intl"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         }
       ],

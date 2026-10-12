@@ -18,6 +18,9 @@
 
 - [OpenAI](#openai)：[GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
 - [Claude（Anthropic）](#claudeanthropic)：[Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
+- [Google Gemini](#google-gemini)：[Gemini 3.8 Flash](#gemini-38-flash)
+- [xAI（Grok）](#xaigrok)：[Grok 4.7](#grok-47)
+- [Mistral](#mistral)：[Mistral Large 3](#mistral-large-3)
 - [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
 - [GLM（智谱）](#glm智谱)：[GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
 - [Kimi（月之暗面）](#kimi月之暗面)：[Kimi K3](#kimi-k3)
@@ -93,6 +96,34 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $10 | 1M | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.562 | $2.81 | 1M | 2.8折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $10 | 1M | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+
+## Google Gemini
+
+### Gemini 3.8 Flash
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** | 官方 | 待核实 | $0.75 | $3.75 | 1M | 介绍价至 2026-12-31，2027 起 $1.5/$7.5；Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $0.75 | $3.75 | 1M | 与官方介绍价同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
+
+## xAI（Grok）
+
+### Grok 4.7
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[xAI 官方](https://docs.x.ai/docs/models)** | 官方 | 待核实 | $2 | $6 | 500K | 旗舰；缓存命中 $0.50；Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $2 | $6 | 500K | 与官方同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
+| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $6 | 500K | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+
+## Mistral
+
+### Mistral Large 3
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Mistral 官方](https://mistral.ai/pricing)** | 官方 | 待核实 | $0.5 | $1.5 | 256K | 开源权重旗舰；Batch 半价；欧洲旗帜型 AI 厂商：Large 3 为 675B 开源权重旗舰（41B 激活，256K 上下文，多模态），官方 API 仅 $0.5/$1.5；批量处理再半价、缓存输入最高省 90%；权重可下载私有化部署，欧洲数据合规场景常用选择。 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $0.5 | $1.5 | 256K | 与官方同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 
 ## DeepSeek
 
@@ -171,6 +202,9 @@
 - **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** [官方] — 国产开源权重模型官方 API，性价比极高。 · 月访问 3.6 亿（2026-09） · [官网](https://api-docs.deepseek.com)
 - **[智谱 GLM 官方](https://open.bigmodel.cn/pricing)** [官方] — 智谱清言 GLM 系列官方 API。 · 月访问 687 万（2026-09） · [官网](https://open.bigmodel.cn)
 - **[Kimi（月之暗面）官方](https://platform.kimi.com/docs/pricing/chat-k3)** [官方] — 月之暗面 Kimi 系列官方 API，主打长上下文与 Agentic 能力。 · 月访问 4050 万（2026-09） · [官网](https://platform.kimi.com)
+- **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** [官方] — Google Gemini 系列官方 API，多模态与长上下文见长。 · 月访问 待核实 · [官网](https://ai.google.dev)
+- **[xAI 官方](https://docs.x.ai/docs/models)** [官方] — xAI 的 Grok 系列官方 API。 · 月访问 待核实 · [官网](https://docs.x.ai)
+- **[Mistral 官方](https://mistral.ai/pricing)** [官方] — 欧洲开源权重大模型厂商 Mistral 的官方 API。 · 月访问 待核实 · [官网](https://mistral.ai)
 - **[OpenRouter](https://openrouter.ai/docs/limits)** [聚合] — 统一 API 接入数百模型，模型价与上游挂牌一致。 · 月访问 2127 万（2026-09） · [官网](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [中转] — Agent API 基础设施，一个 Key 调用全模型。 · 月访问 128 万（2026-09） · [官网](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [聚合] — 开源模型推理云，也托管 DeepSeek。 · 月访问 69 万（2026-08） · [官网](https://www.together.ai)

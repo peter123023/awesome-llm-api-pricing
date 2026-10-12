@@ -22,7 +22,7 @@ README 由脚本生成，**不要手改 `README.md` / `README.en.md`**，改 `da
 ## 3. 厂商分级
 
 ### 3.1 官方厂商
-- **海外**：OpenAI、Anthropic、Google Gemini、xAI、Mistral（T1 必收；已收录 OpenAI、Anthropic，其余待补）
+- **海外**：OpenAI、Anthropic、Google Gemini、xAI、Mistral（T1 必收，已全部收录）
 - **国内**：DeepSeek、阿里云百炼 Qwen、智谱 GLM、月之暗面 Kimi、火山方舟豆包、百度千帆 ERNIE、腾讯混元、MiniMax、阶跃星辰 StepFun（已收录 DeepSeek、智谱 GLM、Kimi 官方，其余待补）
 - **向量嵌入**单独小表：OpenAI text-embedding-3、智谱 embedding、阿里 text-embedding-v3、硅基流动 bge 系列
 - T2 观察（Cohere、Voyage、01.ai、百川、商汤）有人提 Issue 再补。
@@ -53,7 +53,7 @@ IKunCode(6.9万) 达标但暂未收录；低于 1 万的（CCTest、AIGoCode 等
 1. **语言切换行 + 徽章**：顶部「简体中文 | English」与 shields 徽章。
 2. **目录 + 快速跳转**：目录一行内联全部栏目（收录范围 · 快速跳转 · 渠道明细 · 关于本清单 · 数据与更新 · 参与贡献 · 许可证，` · ` 分隔）；随后「快速跳转」单独一节，tight list 每个模型家族一行——家族名跳家族 H2，后接该家族各模型 H3 直达锚点（` · ` 分隔）。
 3. **收录范围与读表须知**：按**模型**组织的说明；计价口径——每 1M tokens 输入/输出分价、海外 USD / 国内 CNY、官方/聚合/中转三类定义、中转风险标注（收录门槛月访问 ≥ 1 万次）、缓存与免费层写在备注、1 token ≈ 1.5 汉字。
-4. **模型比价**（核心）：家族 H2（OpenAI / Claude（Anthropic） / DeepSeek / GLM（智谱） / Kimi（月之暗面） / 其他厂商）内按模型 H3 出表，列：渠道 · 类型 · 月访问 · 输入 · 输出 · 上下文 · 备注（价格标签 + 渠道丰富备注）；家族内按最高输入价降序（旗舰在前），例外：DeepSeek 家族固定 V4.1-Flash 在前、V4-Pro 在后。
+4. **模型比价**（核心）：家族 H2（OpenAI / Claude（Anthropic） / Google Gemini / xAI（Grok） / Mistral / DeepSeek / GLM（智谱） / Kimi（月之暗面） / 其他厂商）内按模型 H3 出表，列：渠道 · 类型 · 月访问 · 输入 · 输出 · 上下文 · 备注（价格标签 + 渠道丰富备注）；家族内按最高输入价降序（旗舰在前），例外：DeepSeek 家族固定 V4.1-Flash 在前、V4-Pro 在后。
 5. **渠道明细**：每渠道一条——一句话定位 · 月访问（含 traffic_month）· 官网链接。
 6. **尾部**：关于本清单 / 数据与更新 / 参与贡献 / 许可证。
 
@@ -84,7 +84,7 @@ IKunCode(6.9万) 达标但暂未收录；低于 1 万的（CCTest、AIGoCode 等
 ```
 规则：
 - `category` 与 `type` 必须配套：overseas/domestic → official，aggregator → aggregator，relay → relay（sync.mjs 校验）。
-- `pricing[].family` 决定 README 分组，只能取 openai / claude / deepseek / glm / kimi / other（sync.mjs 校验）。
+- `pricing[].family` 决定 README 分组，只能取 openai / claude / google / xai / mistral / deepseek / glm / kimi / other（sync.mjs 校验）。
 - `pricing[].input/output` 单位固定 1M tokens；免费填 `0`，按上游浮动填 `null`。
 - **`name.en` / `desc.en` 不得含中文**；中国品牌用官方英文名（DeepSeek、Qwen、Zhipu、Moonshot）。
 - `monthly_visits` 各渠道都填（全站口径，官方渠道含其网页用户流量），B 类中转**必填且 ≥ 1 万次**；一律写 `traffic_month`。
