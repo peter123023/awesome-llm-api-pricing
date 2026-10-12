@@ -163,12 +163,12 @@
         {
           "model": "DeepSeek V4.1-Flash",
           "family": "deepseek",
-          "input": 1,
-          "output": 4,
+          "input": 2,
+          "output": 8,
           "context": "1M",
           "note": {
-            "zh": "原生多模态",
-            "en": "native multimodal"
+            "zh": "原生多模态；高峰价，闲时半价",
+            "en": "native multimodal; peak, off-peak half"
           }
         },
         {
@@ -200,8 +200,8 @@
         "coding"
       ],
       "notes": {
-        "zh": "夜间批量输入另有折扣；兼容 OpenAI SDK。",
-        "en": "Off-peak batch discount; OpenAI-SDK compatible."
+        "zh": "工作日 9-12、14-18（北京时间）为高峰，其余时段半价；兼容 OpenAI SDK。",
+        "en": "Peak: 9-12 & 14-18 Beijing weekdays; off-peak half price. OpenAI-SDK compatible."
       }
     },
     {
@@ -263,8 +263,8 @@
         "free"
       ],
       "notes": {
-        "zh": "旗舰档输入输出同价；国内合规发票齐全。",
-        "en": "Flagship tier bills input and output equally."
+        "zh": "GLM-5.3-Flash 限时五折（标准价 0.8/2.8 元）；国内合规发票齐全。",
+        "en": "GLM-5.3-Flash at 50% off for a limited time (list CNY 0.8/2.8); proper invoicing in China."
       }
     },
     {
@@ -279,8 +279,8 @@
       },
       "type": "aggregator",
       "desc": {
-        "zh": "统一 API 接入数百模型，上游价 +约 5%。",
-        "en": "One API for hundreds of models at upstream price plus ~5%."
+        "zh": "统一 API 接入数百模型，模型价与上游挂牌一致。",
+        "en": "One API for hundreds of models at upstream list prices."
       },
       "category": "aggregator",
       "url": "https://openrouter.ai/docs/limits",
@@ -289,89 +289,89 @@
         {
           "model": "GPT-6.1 Sol",
           "family": "openai",
-          "input": 2.1,
-          "output": 10.5,
+          "input": 2,
+          "output": 10,
           "context": "1.05M",
           "note": {
-            "zh": "官方价 +约5%",
-            "en": "official +~5%"
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         },
         {
           "model": "GPT-6 Luna",
           "family": "openai",
-          "input": 0.21,
-          "output": 1.26,
+          "input": 0.1,
+          "output": 0.5,
           "context": "1.05M",
           "note": {
-            "zh": "官方价 +约5%",
-            "en": "official +~5%"
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         },
         {
           "model": "Claude Opus 5.5",
           "family": "claude",
-          "input": 4.2,
-          "output": 21,
+          "input": 4,
+          "output": 20,
           "context": "1M",
           "note": {
-            "zh": "官方价 +约5%",
-            "en": "official +~5%"
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         },
         {
           "model": "Claude Sonnet 5",
           "family": "claude",
-          "input": 2.1,
-          "output": 10.5,
+          "input": 2,
+          "output": 10,
           "context": "1M",
           "note": {
-            "zh": "官方价 +约5%",
-            "en": "official +~5%"
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         },
         {
           "model": "DeepSeek V4-Pro",
           "family": "deepseek",
-          "input": 1.26,
-          "output": 3.78,
+          "input": 0.66,
+          "output": 1.98,
           "context": "1M",
           "note": {
-            "zh": "高峰价折 USD",
-            "en": "peak, USD"
+            "zh": "官方闲时价",
+            "en": "official off-peak rate"
           }
         },
         {
           "model": "DeepSeek V4.1-Flash",
           "family": "deepseek",
-          "input": 0.14,
-          "output": 0.56,
+          "input": 0.15,
+          "output": 0.6,
           "context": "1M",
           "note": {
-            "zh": "官方价 +约5%（USD）",
-            "en": "official +~5% (USD)"
+            "zh": "官方闲时价",
+            "en": "official off-peak rate"
           }
         },
         {
           "model": "GLM-5.3",
           "family": "glm",
-          "input": 1.15,
-          "output": 4.1,
+          "input": 0.079,
+          "output": 4.8,
           "context": "1M",
           "note": {
-            "zh": "官方价+约5%",
-            "en": "list + ~5%"
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         },
         {
           "model": "GLM-5.3-Flash",
           "family": "glm",
-          "input": 0.063,
-          "output": 0.2,
+          "input": 0.04,
+          "output": 0.5,
           "context": "1M",
           "note": {
-            "zh": "官方价+约5%",
-            "en": "list + ~5%"
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         }
       ],
@@ -432,8 +432,8 @@
           "output": 0.5,
           "context": "1.05M",
           "note": {
-            "zh": "官方半价",
-            "en": "half of official"
+            "zh": "与官方同价",
+            "en": "same as official"
           }
         },
         {
@@ -545,8 +545,8 @@
         {
           "model": "DeepSeek V4.1-Flash",
           "family": "deepseek",
-          "input": 0.16,
-          "output": 0.55,
+          "input": 0.3,
+          "output": 1.2,
           "context": "1M",
           "note": {
             "zh": "托管开源权重",
@@ -555,8 +555,8 @@
         }
       ],
       "cache": {
-        "zh": "无",
-        "en": "None"
+        "zh": "缓存命中 $0.006/M",
+        "en": "Cache hit $0.006/M"
       },
       "free_tier": {
         "zh": "送试用额度",
@@ -648,8 +648,8 @@
         {
           "model": "DeepSeek V4.1-Flash",
           "family": "deepseek",
-          "input": 0.16,
-          "output": 0.6,
+          "input": 0.3,
+          "output": 1.2,
           "context": "1M",
           "note": {
             "zh": "",
@@ -911,8 +911,8 @@
         {
           "model": "GPT-6 Luna",
           "family": "openai",
-          "input": 0.2,
-          "output": 1.2,
+          "input": 0.1,
+          "output": 0.5,
           "context": "1.05M",
           "note": {
             "zh": "与官方同价",
@@ -1166,8 +1166,8 @@
         {
           "model": "GPT-6 Luna",
           "family": "openai",
-          "input": 0.16,
-          "output": 0.96,
+          "input": 0.08,
+          "output": 0.4,
           "context": "1.05M",
           "note": {
             "zh": "限时8折",

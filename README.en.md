@@ -45,7 +45,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[OpenAI](https://openai.com/api/pricing/)** | Official | 487.5M | $2 | $10 | 1.05M | workhorse |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2.1 | $10.5 | 1.05M | official +~5% |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2 | $10 | 1.05M | same as official |
 | **[B.AI](https://b.ai/)** | Relay | 1.3M | $2 | $10 | 1.05M | same as official |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $2 | $10 | 1.05M | lowest across providers |
 | **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $2 | $10 | 1.05M | same as official |
@@ -57,12 +57,12 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[OpenAI](https://openai.com/api/pricing/)** | Official | 487.5M | $0.2 | $1.2 | 1.05M | budget |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.21 | $1.26 | 1.05M | official +~5% |
-| **[B.AI](https://b.ai/)** | Relay | 1.3M | $0.1 | $0.5 | 1.05M | half of official |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.1 | $0.5 | 1.05M | same as official |
+| **[B.AI](https://b.ai/)** | Relay | 1.3M | $0.1 | $0.5 | 1.05M | same as official |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $0.1 | $0.5 | 1.05M | lowest across providers |
-| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $0.2 | $1.2 | 1.05M | same as official |
+| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $0.1 | $0.5 | 1.05M | same as official |
 | **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.05 | $0.25 | 1.05M | 50% of list |
-| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.16 | $0.96 | 1.05M | limited 20% off |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.08 | $0.4 | 1.05M | limited 20% off |
 
 ## Claude (Anthropic)
 
@@ -71,7 +71,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[Anthropic](https://www.anthropic.com/pricing)** | Official | 722.2M | $4 | $20 | 1M | flagship |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $4.2 | $21 | 1M | official +~5% |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $4 | $20 | 1M | same as official |
 | **[B.AI](https://b.ai/)** | Relay | 1.3M | $4 | $20 | 1M | same as official |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $4 | $20 | 1M | same as official |
 | **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $4 | $20 | 1M | same as official |
@@ -83,7 +83,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[Anthropic](https://www.anthropic.com/pricing)** | Official | 722.2M | $2 | $10 | 1M | workhorse |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2.1 | $10.5 | 1M | official +~5% |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2 | $10 | 1M | same as official |
 | **[B.AI](https://b.ai/)** | Relay | 1.3M | $2 | $10 | 1M | same as official |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $2 | $10 | 1M | same as official |
 | **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $2 | $10 | 1M | same as official |
@@ -97,7 +97,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | Official | 357.6M | ¥9 | ¥27 | 1M | peak; off-peak half price |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $1.26 | $3.78 | 1M | peak, USD |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.66 | $1.98 | 1M | official off-peak rate |
 | **[B.AI](https://b.ai/)** | Relay | 1.3M | $1.32 | $3.96 | 1M | peak rate; off-peak half |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $1.32 | $3.96 | 1M | peak rate, off-peak half |
 | **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $1.32 | $3.96 | 1M | peak rate, off-peak half |
@@ -108,12 +108,12 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | Official | 357.6M | ¥1 | ¥4 | 1M | native multimodal |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.14 | $0.56 | 1M | official +~5% (USD) |
+| **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | Official | 357.6M | ¥2 | ¥8 | 1M | native multimodal; peak, off-peak half |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.15 | $0.6 | 1M | official off-peak rate |
 | **[B.AI](https://b.ai/)** | Relay | 1.3M | $0.3 | $1.2 | 1M | peak rate; off-peak half |
-| **[Together AI](https://www.together.ai/pricing)** | Aggregator | 691K | $0.16 | $0.55 | 1M | hosted open weights |
+| **[Together AI](https://www.together.ai/pricing)** | Aggregator | 691K | $0.3 | $1.2 | 1M | hosted open weights |
 | **[Groq](https://groq.com/pricing/)** | Aggregator | 3.6M | $0.15 | $0.6 | 1M | LPU accelerated |
-| **[Fireworks AI](https://fireworks.ai/pricing)** | Aggregator | 542K | $0.16 | $0.6 | 1M | — |
+| **[Fireworks AI](https://fireworks.ai/pricing)** | Aggregator | 542K | $0.3 | $1.2 | 1M | — |
 | **[SiliconFlow](https://siliconflow.cn/pricing)** | Aggregator | 1.5M | ¥1 | ¥4 | 1M | same as official |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $0.3 | $1.2 | 1M | peak rate, off-peak half |
 | **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $0.3 | $1.2 | 1M | peak rate, off-peak half |
@@ -127,7 +127,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[Zhipu GLM](https://open.bigmodel.cn/pricing)** | Official | 6.9M | ¥8 | ¥28 | 1M | flagship, cache hit ¥2 |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $1.15 | $4.1 | 1M | list + ~5% |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.079 | $4.8 | 1M | same as official |
 | **[B.AI](https://b.ai/)** | Relay | 1.3M | $1.1 | $3.9 | 1M | same as official |
 | **[SiliconFlow](https://siliconflow.cn/pricing)** | Aggregator | 1.5M | ¥8 | ¥28 | 1M | same as official |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $1.1 | $3.9 | 1M | lowest across providers |
@@ -142,7 +142,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[Zhipu GLM](https://open.bigmodel.cn/pricing)** | Official | 6.9M | ¥0.4 | ¥1.4 | 1M | limited 50% off, native multimodal |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.063 | $0.2 | 1M | list + ~5% |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.04 | $0.5 | 1M | same as official |
 | **[B.AI](https://b.ai/)** | Relay | 1.3M | $0.06 | $0.2 | 1M | same as official |
 | **[SiliconFlow](https://siliconflow.cn/pricing)** | Aggregator | 1.5M | ¥0.4 | ¥1.4 | 1M | same as official |
 | **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $0.06 | $0.2 | 1M | lowest across providers |
@@ -158,7 +158,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 - **[Anthropic](https://www.anthropic.com/pricing)** [Official] — Official Claude API; strong at long context and coding. · monthly visits 722.2M（2026-08） · [website](https://www.anthropic.com)
 - **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** [Official] — Official API for the open-weight DeepSeek models; extreme value. · monthly visits 357.6M（2026-09） · [website](https://api-docs.deepseek.com)
 - **[Zhipu GLM](https://open.bigmodel.cn/pricing)** [Official] — Official Zhipu GLM API. · monthly visits 6.9M（2026-09） · [website](https://open.bigmodel.cn)
-- **[OpenRouter](https://openrouter.ai/docs/limits)** [Aggregator] — One API for hundreds of models at upstream price plus ~5%. · monthly visits 21.3M（2026-09） · [website](https://openrouter.ai)
+- **[OpenRouter](https://openrouter.ai/docs/limits)** [Aggregator] — One API for hundreds of models at upstream list prices. · monthly visits 21.3M（2026-09） · [website](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [Relay] — One key for Claude/GPT/Gemini and Chinese models. · monthly visits 1.3M（2026-09） · [website](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [Aggregator] — Open-model inference cloud; hosts DeepSeek. · monthly visits 691K（2026-08） · [website](https://www.together.ai)
 - **[Groq](https://groq.com/pricing/)** [Aggregator] — LPU inference; extremely fast and cheap. · monthly visits 3.6M（2026-09） · [website](https://groq.com)
