@@ -261,13 +261,13 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 ## Model Verification Tools
 
-Relays are tempting on price but carry "shell-model / degraded-quality" risk — use these three free tools to verify what is actually behind the API.
+Relays are tempting on price but carry "shell-model / degraded-quality" risk — use these three free tools to verify what is actually behind the API (monthly visits from traffic.cv, 2026-09).
 
-| Tool | Method | What to check |
-| --- | --- | --- |
-| **[Artificial Analysis](https://artificialanalysis.ai)** | Third-party benchmark comparison | Suspicious if intelligence index, speed or latency deviates badly from official data |
-| **[LMArena](https://lmarena.ai)** | Anonymous blind battles | Compare behavior and style against official models on the same prompts |
-| **[LiveBench](https://livebench.ai)** | Contamination-free benchmark runs | Run benchmarks through the relay API and compare with official scores |
+| Tool | Monthly Visits | Method | What to check |
+| --- | --- | --- | --- |
+| **[Artificial Analysis](https://artificialanalysis.ai)** | 10.26M | Third-party benchmark comparison | Suspicious if intelligence index, speed or latency deviates badly from official data |
+| **[LMArena](https://lmarena.ai)** | 385.7K | Anonymous blind battles | Compare behavior and style against official models on the same prompts |
+| **[LiveBench](https://livebench.ai)** | 1.01M | Contamination-free benchmark runs | Run benchmarks through the relay API and compare with official scores |
 
 ## Channels
 
