@@ -40,7 +40,7 @@
 > ⚠️ 表中标「中转」的为第三方网关，价格不代表官方，稳定性与账号安全自行评估。中转收录门槛：月访问量 ≥ 1 万次（SimilarWeb / traffic.cv 估算），欢迎 PR 推荐。
 
 ## OpenAI
-<p align="right"><a href="#许可证">⬇ 回到底部</a></p>
+<p align="right"><a href="#许可证">⬇ 直达底部</a></p>
 
 ### GPT-6 Astra
 
@@ -73,7 +73,7 @@
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.08 | $0.4 | 1.05M | 限时8折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 
 ## Claude（Anthropic）
-<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 回到底部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### Claude Opus 5.5
 
@@ -100,7 +100,7 @@
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $10 | 1M | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 
 ## DeepSeek
-<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 回到底部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### DeepSeek V4.1-Flash
 
@@ -131,7 +131,7 @@
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.92 | $2.77 | 1M | 限时7折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 
 ## GLM（智谱）
-<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 回到底部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### GLM-5.3
 
@@ -163,7 +163,7 @@
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $0.065 | $0.22 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 
 ## Qwen（阿里）
-<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 回到底部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### Qwen3.8 Max
 
@@ -173,7 +173,7 @@
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $1.71 | $5.14 | 1M | 0手续费直通；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 
 ## Kimi（月之暗面）
-<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 回到底部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### Kimi K3
 
@@ -183,7 +183,7 @@
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $3 | $15 | 1M | 与官方国际版同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 
 ## Google Gemini
-<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 回到底部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### Gemini 3.8 Flash
 

@@ -109,7 +109,7 @@ const I18N = {
     ].join('\n'),
     compareH: '## 模型比价',
     navTop: '⬆ 回到顶部',
-    navBottom: '⬇ 回到底部',
+    navBottom: '⬇ 直达底部',
     th: ['渠道', '类型', '月访问', '输入', '输出', '上下文', '备注'],
     relayNote: '> ⚠️ 表中标「中转」的为第三方网关，价格不代表官方，稳定性与账号安全自行评估。中转收录门槛：月访问量 ≥ 1 万次（SimilarWeb / traffic.cv 估算），欢迎 PR 推荐。',
     channelsH: '## 渠道明细',
