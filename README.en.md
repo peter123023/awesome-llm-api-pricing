@@ -265,7 +265,7 @@ Relays are tempting on price but carry "shell-model / degraded-quality" risk —
 
 | Tool | Monthly Visits | Method | What to check |
 | --- | --- | --- | --- |
-| **[Artificial Analysis](https://artificialanalysis.ai)** | 10.26M | Third-party benchmark comparison | Suspicious if intelligence index, speed or latency deviates badly from official data |
+| **[API Magnifier](https://apicheck.cn/)** | — | Relay honesty check | 15-layer probes + 6-dimension scoring to verify the claimed model is really served; pure frontend, no key storage |
 | **[LMArena](https://lmarena.ai)** | 385.7K | Anonymous blind battles | Compare behavior and style against official models on the same prompts |
 | **[LiveBench](https://livebench.ai)** | 1.01M | Contamination-free benchmark runs | Run benchmarks through the relay API and compare with official scores |
 
