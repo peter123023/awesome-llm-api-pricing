@@ -4,7 +4,7 @@
 
 > 同一个模型，哪家渠道最便宜？按模型列出官方、聚合与中转渠道的输入/输出价格，帮你选最划算的调用方式。
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ![GitHub Stars](https://img.shields.io/github/stars/peter123023/awesome-llm-api-pricing.svg) ![Last Commit](https://img.shields.io/github/last-commit/peter123023/awesome-llm-api-pricing.svg)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Prices verified](https://img.shields.io/badge/prices%20verified-2026--09-2ea44f) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ![GitHub Stars](https://img.shields.io/github/stars/peter123023/awesome-llm-api-pricing.svg) ![Last Commit](https://img.shields.io/github/last-commit/peter123023/awesome-llm-api-pricing.svg)
 
 ---
 
@@ -251,6 +251,7 @@
 ## 数据与更新
 
 - 结构化数据见 [`data/items.json`](data/items.json)，表格版见 [`data/items.csv`](data/items.csv)；
+- 顶部「prices verified」徽章的月份 = 最近一次全渠道核对轮次（与月访问数据的 traffic_month 同源，每月人工核对后更新）；
 - 价格过期或厂商调价，欢迎提 Issue 或 PR；
 - GitHub Actions 每日自动重建 README。
 

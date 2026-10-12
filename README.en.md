@@ -4,7 +4,7 @@
 
 > Same model, which channel is cheapest? Per-model tables comparing official, aggregator and relay prices per 1M tokens.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ![GitHub Stars](https://img.shields.io/github/stars/peter123023/awesome-llm-api-pricing.svg) ![Last Commit](https://img.shields.io/github/last-commit/peter123023/awesome-llm-api-pricing.svg)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Prices verified](https://img.shields.io/badge/prices%20verified-2026--09-2ea44f) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ![GitHub Stars](https://img.shields.io/github/stars/peter123023/awesome-llm-api-pricing.svg) ![Last Commit](https://img.shields.io/github/last-commit/peter123023/awesome-llm-api-pricing.svg)
 
 ---
 
@@ -251,6 +251,7 @@ Community-maintained LLM API price comparison. Data in `data/items.json`; README
 ## Data & Updates
 
 - Structured data: [`data/items.json`](data/items.json); spreadsheet: [`data/items.csv`](data/items.csv);
+- The "prices verified" badge month = the latest full verification round (same source as traffic_month, updated in the monthly manual check);
 - File an issue or open a PR for stale prices;
 - GitHub Actions rebuilds the README daily.
 

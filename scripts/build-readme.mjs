@@ -83,6 +83,16 @@ const models = [...modelMap.keys()].sort((a, b) => {
   return pb - pa;
 });
 
+// 价格核对时效月 = 全渠道 traffic_month 的最大值（每月人工核对轮次，与流量数据同源）
+const VERIFIED_MONTH = items
+  .map((it) => it.traffic_month)
+  .filter(Boolean)
+  .sort()
+  .pop() || '';
+const VERIFIED_BADGE = VERIFIED_MONTH
+  ? `![Prices verified](https://img.shields.io/badge/prices%20verified-${VERIFIED_MONTH.replace('-', '--')}-2ea44f)`
+  : '';
+
 const I18N = {
   zh: {
     switchLine: '**简体中文** | [English](README.en.md)',
@@ -90,6 +100,7 @@ const I18N = {
     tagline: '> 同一个模型，哪家渠道最便宜？按模型列出官方、聚合与中转渠道的输入/输出价格，帮你选最划算的调用方式。',
     badges: [
       '[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)',
+      VERIFIED_BADGE,
       `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)`,
       `[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)`,
       `![GitHub Stars](https://img.shields.io/github/stars/${REPO}.svg)`,
@@ -118,6 +129,7 @@ const I18N = {
     dataH: '## 数据与更新',
     dataBody: [
       '- 结构化数据见 [`data/items.json`](data/items.json)，表格版见 [`data/items.csv`](data/items.csv)；',
+      '- 顶部「prices verified」徽章的月份 = 最近一次全渠道核对轮次（与月访问数据的 traffic_month 同源，每月人工核对后更新）；',
       '- 价格过期或厂商调价，欢迎提 Issue 或 PR；',
       '- GitHub Actions 每日自动重建 README。',
     ].join('\n'),
@@ -132,6 +144,7 @@ const I18N = {
     tagline: '> Same model, which channel is cheapest? Per-model tables comparing official, aggregator and relay prices per 1M tokens.',
     badges: [
       '[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)',
+      VERIFIED_BADGE,
       `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)`,
       `[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)`,
       `![GitHub Stars](https://img.shields.io/github/stars/${REPO}.svg)`,
@@ -160,6 +173,7 @@ const I18N = {
     dataH: '## Data & Updates',
     dataBody: [
       '- Structured data: [`data/items.json`](data/items.json); spreadsheet: [`data/items.csv`](data/items.csv);',
+      '- The "prices verified" badge month = the latest full verification round (same source as traffic_month, updated in the monthly manual check);',
       '- File an issue or open a PR for stale prices;',
       '- GitHub Actions rebuilds the README daily.',
     ].join('\n'),
