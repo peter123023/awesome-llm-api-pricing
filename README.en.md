@@ -10,17 +10,13 @@
 
 ## Table of Contents
 
-- [Scope & How to Read](#scope--how-to-read)
-- [OpenAI](#openai)
-- [Claude (Anthropic)](#claude-anthropic)
-- [DeepSeek](#deepseek)
-- [GLM (Zhipu)](#glm-zhipu)
+[Scope & How to Read](#scope--how-to-read) · [OpenAI](#openai) · [Claude (Anthropic)](#claude-anthropic) · [DeepSeek](#deepseek) · [GLM (Zhipu)](#glm-zhipu)
+
 - [Channels](#channels)
-- **More**
-  - [About](#about)
-  - [Data & Updates](#data--updates)
-  - [Contributing](#contributing)
-  - [License](#license)
+- [About](#about)
+- [Data & Updates](#data--updates)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 

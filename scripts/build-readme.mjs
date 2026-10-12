@@ -102,7 +102,6 @@ const I18N = {
     th: ['渠道', '类型', '月访问', '输入', '输出', '上下文', '备注'],
     relayNote: '> ⚠️ 表中标「中转」的为第三方网关，价格不代表官方，稳定性与账号安全自行评估。中转收录门槛：月访问量 ≥ 1 万次（SimilarWeb / traffic.cv 估算），欢迎 PR 推荐。',
     channelsH: '## 渠道明细',
-    more: '**更多**',
     about: '## 关于本清单',
     aboutBody: '社区维护的大模型 API 价格对比。数据由 `data/items.json` 驱动，README 由脚本生成，请勿手改。',
     dataH: '## 数据与更新',
@@ -142,7 +141,6 @@ const I18N = {
     th: ['Channel', 'Type', 'Visits', 'Input', 'Output', 'Context', 'Notes'],
     relayNote: '> ⚠️ Rows marked 「Relay」 are third-party gateways. Their prices are not official; evaluate stability and safety yourself.',
     channelsH: '## Channels',
-    more: '**More**',
     about: '## About',
     aboutBody: 'Community-maintained LLM API price comparison. Data in `data/items.json`; README is generated.',
     dataH: '## Data & Updates',
@@ -222,19 +220,20 @@ function tocLines(lang) {
   const t = I18N[lang];
   const L = lang === 'zh' ? 'zh' : 'en';
   const anchor = (h) => '(#' + slugify(h.replace(/^##\s*/, '')) + ')';
-  const lines = [`- [${lang === 'zh' ? '收录范围与读表须知' : 'Scope & How to Read'}]${anchor(t.scope)}`];
-  // 家族 H2
+  // 收录范围 + 各模型家族内联成一行，节省纵向空间
+  const nav = [[lang === 'zh' ? '收录范围与读表须知' : 'Scope & How to Read', anchor(t.scope)]];
   const famInUse = new Set(models.map((m) => modelMap.get(m)[0].family));
   for (const fam of FAMILY_ORDER_KEYS) {
     if (!famInUse.has(fam)) continue;
-    lines.push(`- [${FAMILY_LABEL[fam][L]}]${anchor('## ' + FAMILY_LABEL[fam][L])}`);
+    nav.push([FAMILY_LABEL[fam][L], anchor('## ' + FAMILY_LABEL[fam][L])]);
   }
+  const lines = [nav.map(([label, a]) => `[${label}]${a}`).join(' · ')];
+  lines.push('');
   lines.push(`- [${lang === 'zh' ? '渠道明细' : 'Channels'}]${anchor(t.channelsH)}`);
-  lines.push(`- ${t.more}`);
-  lines.push(`  - [${lang === 'zh' ? '关于本清单' : 'About'}]${anchor(t.about)}`);
-  lines.push(`  - [${lang === 'zh' ? '数据与更新' : 'Data & Updates'}]${anchor(t.dataH)}`);
-  lines.push(`  - [${lang === 'zh' ? '参与贡献' : 'Contributing'}]${anchor(t.contrib)}`);
-  lines.push(`  - [${lang === 'zh' ? '许可证' : 'License'}]${anchor(t.license)}`);
+  lines.push(`- [${lang === 'zh' ? '关于本清单' : 'About'}]${anchor(t.about)}`);
+  lines.push(`- [${lang === 'zh' ? '数据与更新' : 'Data & Updates'}]${anchor(t.dataH)}`);
+  lines.push(`- [${lang === 'zh' ? '参与贡献' : 'Contributing'}]${anchor(t.contrib)}`);
+  lines.push(`- [${lang === 'zh' ? '许可证' : 'License'}]${anchor(t.license)}`);
   return lines.join('\n');
 }
 

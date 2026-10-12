@@ -10,17 +10,13 @@
 
 ## 目录
 
-- [收录范围与读表须知](#收录范围与读表须知)
-- [OpenAI](#openai)
-- [Claude（Anthropic）](#claudeanthropic)
-- [DeepSeek](#deepseek)
-- [GLM（智谱）](#glm智谱)
+[收录范围与读表须知](#收录范围与读表须知) · [OpenAI](#openai) · [Claude（Anthropic）](#claudeanthropic) · [DeepSeek](#deepseek) · [GLM（智谱）](#glm智谱)
+
 - [渠道明细](#渠道明细)
-- **更多**
-  - [关于本清单](#关于本清单)
-  - [数据与更新](#数据与更新)
-  - [参与贡献](#参与贡献)
-  - [许可证](#许可证)
+- [关于本清单](#关于本清单)
+- [数据与更新](#数据与更新)
+- [参与贡献](#参与贡献)
+- [许可证](#许可证)
 
 ---
 
