@@ -70,25 +70,25 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[Anthropic](https://www.anthropic.com/pricing)** | Official | 722.2M | $4 | $20 | 200K | flagship |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $4.2 | $21 | 200K | official +~5% |
-| **[B.AI](https://b.ai/)** | Relay | 1.3M | $4 | $20 | 200K | same as official |
-| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $4 | $20 | 200K | same as official |
-| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $4 | $20 | 200K | same as official |
-| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $1.17 | $5.84 | 200K | 29% of list |
-| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $4 | $20 | 200K | same as official |
+| **[Anthropic](https://www.anthropic.com/pricing)** | Official | 722.2M | $4 | $20 | 1M | flagship |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $4.2 | $21 | 1M | official +~5% |
+| **[B.AI](https://b.ai/)** | Relay | 1.3M | $4 | $20 | 1M | same as official |
+| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $4 | $20 | 1M | same as official |
+| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $4 | $20 | 1M | same as official |
+| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $1.17 | $5.84 | 1M | 29% of list |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $4 | $20 | 1M | same as official |
 
 ### Claude Sonnet 5
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[Anthropic](https://www.anthropic.com/pricing)** | Official | 722.2M | $2 | $10 | 200K | workhorse |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2.1 | $10.5 | 200K | official +~5% |
-| **[B.AI](https://b.ai/)** | Relay | 1.3M | $2 | $10 | 200K | same as official |
-| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $2 | $10 | 200K | same as official |
-| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $2 | $10 | 200K | same as official |
-| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.576 | $2.88 | 200K | 29% of list |
-| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $10 | 200K | same as official |
+| **[Anthropic](https://www.anthropic.com/pricing)** | Official | 722.2M | $2 | $10 | 1M | workhorse |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2.1 | $10.5 | 1M | official +~5% |
+| **[B.AI](https://b.ai/)** | Relay | 1.3M | $2 | $10 | 1M | same as official |
+| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $2 | $10 | 1M | same as official |
+| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $2 | $10 | 1M | same as official |
+| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.576 | $2.88 | 1M | 29% of list |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $10 | 1M | same as official |
 
 ## DeepSeek
 
@@ -96,13 +96,13 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | Official | 357.6M | ¥9 | ¥27 | 128K | peak; off-peak half price |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $1.26 | $3.78 | 128K | peak, USD |
-| **[B.AI](https://b.ai/)** | Relay | 1.3M | $1.32 | $3.96 | 128K | peak rate; off-peak half |
-| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $1.32 | $3.96 | 128K | peak rate, off-peak half |
-| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $1.32 | $3.96 | 128K | peak rate, off-peak half |
-| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.36 | $1.07 | 128K | ~27% of list |
-| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.92 | $2.77 | 128K | limited 30% off |
+| **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | Official | 357.6M | ¥9 | ¥27 | 1M | peak; off-peak half price |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $1.26 | $3.78 | 1M | peak, USD |
+| **[B.AI](https://b.ai/)** | Relay | 1.3M | $1.32 | $3.96 | 1M | peak rate; off-peak half |
+| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $1.32 | $3.96 | 1M | peak rate, off-peak half |
+| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $1.32 | $3.96 | 1M | peak rate, off-peak half |
+| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.36 | $1.07 | 1M | ~27% of list |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.92 | $2.77 | 1M | limited 30% off |
 
 ### DeepSeek V4.1-Flash
 

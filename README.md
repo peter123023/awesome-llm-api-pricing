@@ -70,25 +70,25 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[Anthropic 官方](https://www.anthropic.com/pricing)** | 官方 | 7.2 亿 | $4 | $20 | 200K | 旗舰 |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $4.2 | $21 | 200K | 官方价 +约5% |
-| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $4 | $20 | 200K | 与官方同价 |
-| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $4 | $20 | 200K | 与官方同价 |
-| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $4 | $20 | 200K | 与官方同价 |
-| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $1.17 | $5.84 | 200K | 2.9折 |
-| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $4 | $20 | 200K | 与官方同价 |
+| **[Anthropic 官方](https://www.anthropic.com/pricing)** | 官方 | 7.2 亿 | $4 | $20 | 1M | 旗舰 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $4.2 | $21 | 1M | 官方价 +约5% |
+| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $4 | $20 | 1M | 与官方同价 |
+| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $4 | $20 | 1M | 与官方同价 |
+| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $4 | $20 | 1M | 与官方同价 |
+| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $1.17 | $5.84 | 1M | 2.9折 |
+| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $4 | $20 | 1M | 与官方同价 |
 
 ### Claude Sonnet 5
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[Anthropic 官方](https://www.anthropic.com/pricing)** | 官方 | 7.2 亿 | $2 | $10 | 200K | 主力 |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $2.1 | $10.5 | 200K | 官方价 +约5% |
-| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $2 | $10 | 200K | 与官方同价 |
-| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $2 | $10 | 200K | 与官方同价 |
-| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $10 | 200K | 与官方同价 |
-| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.576 | $2.88 | 200K | 2.9折 |
-| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $10 | 200K | 与官方同价 |
+| **[Anthropic 官方](https://www.anthropic.com/pricing)** | 官方 | 7.2 亿 | $2 | $10 | 1M | 主力 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $2.1 | $10.5 | 1M | 官方价 +约5% |
+| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $2 | $10 | 1M | 与官方同价 |
+| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $2 | $10 | 1M | 与官方同价 |
+| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $10 | 1M | 与官方同价 |
+| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.576 | $2.88 | 1M | 2.9折 |
+| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $10 | 1M | 与官方同价 |
 
 ## DeepSeek
 
@@ -96,13 +96,13 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** | 官方 | 3.6 亿 | ¥9 | ¥27 | 128K | 高峰价，闲时半价 |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $1.26 | $3.78 | 128K | 高峰价折 USD |
-| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $1.32 | $3.96 | 128K | 高峰价，闲时半价 |
-| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $1.32 | $3.96 | 128K | 高峰价参考 |
-| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $1.32 | $3.96 | 128K | 高峰价参考 |
-| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.36 | $1.07 | 128K | 约2.7折 |
-| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.92 | $2.77 | 128K | 限时7折 |
+| **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** | 官方 | 3.6 亿 | ¥9 | ¥27 | 1M | 高峰价，闲时半价 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $1.26 | $3.78 | 1M | 高峰价折 USD |
+| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $1.32 | $3.96 | 1M | 高峰价，闲时半价 |
+| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $1.32 | $3.96 | 1M | 高峰价参考 |
+| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $1.32 | $3.96 | 1M | 高峰价参考 |
+| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.36 | $1.07 | 1M | 约2.7折 |
+| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.92 | $2.77 | 1M | 限时7折 |
 
 ### DeepSeek V4.1-Flash
 

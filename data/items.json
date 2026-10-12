@@ -102,7 +102,7 @@
           "family": "claude",
           "input": 4,
           "output": 20,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "旗舰",
             "en": "flagship"
@@ -113,7 +113,7 @@
           "family": "claude",
           "input": 2,
           "output": 10,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "主力",
             "en": "workhorse"
@@ -176,7 +176,7 @@
           "family": "deepseek",
           "input": 9,
           "output": 27,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价，闲时半价",
             "en": "peak; off-peak half price"
@@ -313,7 +313,7 @@
           "family": "claude",
           "input": 4.2,
           "output": 21,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "官方价 +约5%",
             "en": "official +~5%"
@@ -324,7 +324,7 @@
           "family": "claude",
           "input": 2.1,
           "output": 10.5,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "官方价 +约5%",
             "en": "official +~5%"
@@ -335,7 +335,7 @@
           "family": "deepseek",
           "input": 1.26,
           "output": 3.78,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价折 USD",
             "en": "peak, USD"
@@ -441,7 +441,7 @@
           "family": "claude",
           "input": 4,
           "output": 20,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -452,7 +452,7 @@
           "family": "claude",
           "input": 2,
           "output": 10,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -463,7 +463,7 @@
           "family": "deepseek",
           "input": 1.32,
           "output": 3.96,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价，闲时半价",
             "en": "peak rate; off-peak half"
@@ -797,7 +797,7 @@
           "family": "claude",
           "input": 4,
           "output": 20,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -808,7 +808,7 @@
           "family": "claude",
           "input": 2,
           "output": 10,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -819,7 +819,7 @@
           "family": "deepseek",
           "input": 1.32,
           "output": 3.96,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价参考",
             "en": "peak rate, off-peak half"
@@ -924,7 +924,7 @@
           "family": "claude",
           "input": 4,
           "output": 20,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -935,7 +935,7 @@
           "family": "claude",
           "input": 2,
           "output": 10,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -946,7 +946,7 @@
           "family": "deepseek",
           "input": 1.32,
           "output": 3.96,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价参考",
             "en": "peak rate, off-peak half"
@@ -1051,7 +1051,7 @@
           "family": "claude",
           "input": 1.17,
           "output": 5.84,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "2.9折",
             "en": "29% of list"
@@ -1062,7 +1062,7 @@
           "family": "claude",
           "input": 0.576,
           "output": 2.88,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "2.9折",
             "en": "29% of list"
@@ -1073,7 +1073,7 @@
           "family": "deepseek",
           "input": 0.36,
           "output": 1.07,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "约2.7折",
             "en": "~27% of list"
@@ -1179,7 +1179,7 @@
           "family": "claude",
           "input": 4,
           "output": 20,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -1190,7 +1190,7 @@
           "family": "claude",
           "input": 2,
           "output": 10,
-          "context": "200K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -1201,7 +1201,7 @@
           "family": "deepseek",
           "input": 0.92,
           "output": 2.77,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "限时7折",
             "en": "limited 30% off"
