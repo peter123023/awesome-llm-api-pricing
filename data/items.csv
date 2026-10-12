@@ -72,5 +72,3 @@ model,channel,type,input_per_1m,output_per_1m,context,pricing_url
 "Grok 4.7","xAI","official","2","6","500K","https://docs.x.ai/docs/models"
 "Grok 4.7","OpenRouter","aggregator","2","6","500K","https://openrouter.ai/docs/limits"
 "Grok 4.7","OfoxAI","relay","2","6","500K","https://ofox.ai/"
-"Mistral Large 3","Mistral AI","official","0.5","1.5","256K","https://mistral.ai/pricing"
-"Mistral Large 3","OpenRouter","aggregator","0.5","1.5","256K","https://openrouter.ai/docs/limits"

@@ -18,12 +18,11 @@
 
 - [OpenAI](#openai): [GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
 - [Claude (Anthropic)](#claude-anthropic): [Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
-- [Google Gemini](#google-gemini): [Gemini 3.8 Flash](#gemini-38-flash)
-- [xAI (Grok)](#xai-grok): [Grok 4.7](#grok-47)
-- [Mistral](#mistral): [Mistral Large 3](#mistral-large-3)
 - [DeepSeek](#deepseek): [DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
 - [GLM (Zhipu)](#glm-zhipu): [GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
 - [Kimi (Moonshot)](#kimi-moonshot): [Kimi K3](#kimi-k3)
+- [Google Gemini](#google-gemini): [Gemini 3.8 Flash](#gemini-38-flash)
+- [xAI (Grok)](#xai-grok): [Grok 4.7](#grok-47)
 
 ---
 
@@ -97,34 +96,6 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.562 | $2.81 | 1M | 28% of list; Production-oriented model router: smart scheduling, prompt caching (>99% claimed hit rate), automatic failover, and a no-model-downgrade promise; real-time bidding across 2,000+ providers, hot GPT/Claude models typically at 17-29% of list; works with 10+ agent clients incl. Claude Code & Codex; claims 6,000+ teams, 1T+ tokens routed daily and 99.98% routing SLA; pay-as-you-go in USD, no minimum spend, Alipay supported. Third-party relay; do not deposit large amounts. |
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $10 | 1M | same as official; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
-## Google Gemini
-
-### Gemini 3.8 Flash
-
-| Channel | Type | Visits | Input | Output | Context | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** | Official | — | $0.75 | $3.75 | 1M | intro price through 2026-12-31, then $1.5/$7.5; Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.75 | $3.75 | 1M | same as official intro price; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
-
-## xAI (Grok)
-
-### Grok 4.7
-
-| Channel | Type | Visits | Input | Output | Context | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[xAI](https://docs.x.ai/docs/models)** | Official | — | $2 | $6 | 500K | flagship; cache hit $0.50; Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price. |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2 | $6 | 500K | same as official; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
-| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $6 | 500K | same as official; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
-
-## Mistral
-
-### Mistral Large 3
-
-| Channel | Type | Visits | Input | Output | Context | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[Mistral AI](https://mistral.ai/pricing)** | Official | — | $0.5 | $1.5 | 256K | open-weight flagship; batch half price; Flagship European AI lab: Large 3 is a 675B open-weight flagship (41B active, 256K context, multimodal) whose official API costs just $0.5/$1.5; batch processing halves the price and cached input saves up to 90%; weights are downloadable for private deployment, popular for EU data-compliance workloads. |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.5 | $1.5 | 256K | same as official; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
-
 ## DeepSeek
 
 ### DeepSeek V4.1-Flash
@@ -195,6 +166,25 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Kimi (Moonshot) Official](https://platform.kimi.com/docs/pricing/chat-k3)** | Official | 40.5M | ¥20 | ¥100 | 1.05M | flagship for long-horizon coding and agent tasks; cache hit ¥2; Official Kimi API: K3 targets 1M-token long context, long-horizon coding and agent tasks; CNY billing on the China site (¥20/¥100), international site at $3/$15 equivalent; context cache hits cost just ¥2 (write ¥40, 1h TTL), ideal for repeated prefixes. Monthly visits include Kimi web assistant users (kimi.com, ~40.5M in 2026-09). |
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $3 | $15 | 1M | same as official intl; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
+## Google Gemini
+
+### Gemini 3.8 Flash
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** | Official | — | $0.75 | $3.75 | 1M | intro price through 2026-12-31, then $1.5/$7.5; Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.75 | $3.75 | 1M | same as official intro price; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
+
+## xAI (Grok)
+
+### Grok 4.7
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[xAI](https://docs.x.ai/docs/models)** | Official | — | $2 | $6 | 500K | flagship; cache hit $0.50; Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price. |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2 | $6 | 500K | same as official; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $6 | 500K | same as official; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
+
 ## Channels
 
 - **[OpenAI](https://openai.com/api/pricing/)** [Official] — Official API for the closed-source GPT family. · monthly visits 487.5M（2026-08） · [website](https://openai.com)
@@ -204,7 +194,6 @@ Organized **by model**: each model is a section, and the table lists every chann
 - **[Kimi (Moonshot) Official](https://platform.kimi.com/docs/pricing/chat-k3)** [Official] — Official Kimi API by Moonshot AI, focused on long context and agentic workflows. · monthly visits 40.5M（2026-09） · [website](https://platform.kimi.com)
 - **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** [Official] — Official Gemini API by Google, strong in multimodality and long context. · monthly visits unverified · [website](https://ai.google.dev)
 - **[xAI](https://docs.x.ai/docs/models)** [Official] — Official Grok API by xAI. · monthly visits unverified · [website](https://docs.x.ai)
-- **[Mistral AI](https://mistral.ai/pricing)** [Official] — Official API of Mistral AI, the European open-weight model lab. · monthly visits unverified · [website](https://mistral.ai)
 - **[OpenRouter](https://openrouter.ai/docs/limits)** [Aggregator] — One API for hundreds of models at upstream list prices. · monthly visits 21.3M（2026-09） · [website](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [Relay] — Agent API infrastructure; one key for all models. · monthly visits 1.3M（2026-09） · [website](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [Aggregator] — Open-model inference cloud; hosts DeepSeek. · monthly visits 691K（2026-08） · [website](https://www.together.ai)

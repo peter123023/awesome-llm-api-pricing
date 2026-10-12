@@ -16,7 +16,7 @@ const slugs = new Set();
 
 const CJK = /[\u4e00-\u9fff]/;
 const RELAY_MIN_VISITS = 10000; // 中转门槛：月访问 ≥ 1 万次
-const FAMILIES = new Set(['openai', 'claude', 'google', 'xai', 'mistral', 'deepseek', 'glm', 'kimi', 'other']);
+const FAMILIES = new Set(['openai', 'claude', 'deepseek', 'glm', 'kimi', 'google', 'xai', 'other']);
 const EXPECTED_TYPE = { overseas: 'official', domestic: 'official', aggregator: 'aggregator', relay: 'relay' };
 
 for (const it of items) {
@@ -40,7 +40,7 @@ for (const it of items) {
     errors.push(`${p}: cache / free_tier / min_recharge 字段必须存在（值可为空字符串）`);
   }
   for (const pr of it.pricing ?? []) {
-    if (!FAMILIES.has(pr.family)) errors.push(`${p}: 模型 "${pr.model}" family "${pr.family}" 非法（openai/claude/google/xai/mistral/deepseek/glm/kimi/other）`);
+    if (!FAMILIES.has(pr.family)) errors.push(`${p}: 模型 "${pr.model}" family "${pr.family}" 非法（openai/claude/deepseek/glm/kimi/google/xai/other）`);
   }
   // 英文版不得含中文（品牌名请用官方英文名/罗马化）
   if (CJK.test(it.name?.en ?? '')) errors.push(`${p}: name.en 含中文: ${it.name.en}`);

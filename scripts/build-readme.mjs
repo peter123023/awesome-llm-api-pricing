@@ -45,7 +45,7 @@ const TYPE_LABEL = {
 };
 
 // —— 反排索引：model -> 渠道价格行
-const FAMILY_ORDER = { openai: 1, claude: 2, google: 3, xai: 4, mistral: 5, deepseek: 6, glm: 7, kimi: 8, other: 9 };
+const FAMILY_ORDER = { openai: 1, claude: 2, deepseek: 3, glm: 4, kimi: 5, google: 6, xai: 7, other: 9 };
 const modelMap = new Map();
 for (const it of items) {
   for (const p of it.pricing) {
@@ -169,15 +169,14 @@ const I18N = {
 const FAMILY_LABEL = {
   openai: { zh: 'OpenAI', en: 'OpenAI' },
   claude: { zh: 'Claude（Anthropic）', en: 'Claude (Anthropic)' },
-  google: { zh: 'Google Gemini', en: 'Google Gemini' },
-  xai: { zh: 'xAI（Grok）', en: 'xAI (Grok)' },
-  mistral: { zh: 'Mistral', en: 'Mistral' },
   deepseek: { zh: 'DeepSeek', en: 'DeepSeek' },
   glm: { zh: 'GLM（智谱）', en: 'GLM (Zhipu)' },
   kimi: { zh: 'Kimi（月之暗面）', en: 'Kimi (Moonshot)' },
+  google: { zh: 'Google Gemini', en: 'Google Gemini' },
+  xai: { zh: 'xAI（Grok）', en: 'xAI (Grok)' },
   other: { zh: '其他厂商', en: 'Other Providers' },
 };
-const FAMILY_ORDER_KEYS = ['openai', 'claude', 'google', 'xai', 'mistral', 'deepseek', 'glm', 'kimi', 'other'];
+const FAMILY_ORDER_KEYS = ['openai', 'claude', 'deepseek', 'glm', 'kimi', 'google', 'xai', 'other'];
 
 function compareSection(lang) {
   const t = I18N[lang];
