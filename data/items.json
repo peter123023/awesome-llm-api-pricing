@@ -1,0 +1,238 @@
+{
+  "_meta": {
+    "unit": "input/output 单位均为每 1M tokens；海外厂商默认 USD，国内厂商默认 CNY",
+    "note": "以下为参考价格，正式收录前请按官方定价页核对；价格调整见 git history",
+    "verified": false
+  },
+  "items": [
+    {
+      "slug": "openai",
+      "name": { "zh": "OpenAI", "en": "OpenAI" },
+      "vendor": { "zh": "美国", "en": "US" },
+      "desc": {
+        "zh": "GPT 系列闭源模型，生态最成熟，支持函数调用、视觉与音频。",
+        "en": "Closed-source GPT family with the most mature ecosystem; supports function calling, vision and audio."
+      },
+      "category": "overseas",
+      "url": "https://openai.com/api/pricing/",
+      "currency": "USD",
+      "pricing": [
+        { "model": "GPT-4o", "input": 2.5, "output": 10, "context": "128K" },
+        { "model": "GPT-4o mini", "input": 0.15, "output": 0.6, "context": "128K" },
+        { "model": "o1", "input": 15, "output": 60, "context": "200K" }
+      ],
+      "tags": ["closed-source", "multimodal", "function-calling"],
+      "notes": {
+        "zh": "缓存命中输入约五折；企业级有批量折扣。",
+        "en": "Cached input tokens are ~50% off; volume discounts for enterprise."
+      }
+    },
+    {
+      "slug": "anthropic",
+      "name": { "zh": "Anthropic", "en": "Anthropic" },
+      "vendor": { "zh": "美国", "en": "US" },
+      "desc": {
+        "zh": "Claude 系列，长文本与代码能力强，主打安全与企业合规。",
+        "en": "Claude family, strong at long context and coding, positioned for safety and enterprise compliance."
+      },
+      "category": "overseas",
+      "url": "https://www.anthropic.com/pricing",
+      "currency": "USD",
+      "pricing": [
+        { "model": "Claude Sonnet 4", "input": 3, "output": 15, "context": "200K" },
+        { "model": "Claude Haiku 4.5", "input": 1, "output": 5, "context": "200K" }
+      ],
+      "tags": ["closed-source", "long-context", "coding"],
+      "notes": {
+        "zh": "缓存写入/读取分价，prompt 缓存可显著降低重复输入成本。",
+        "en": "Separate prices for cache write vs read; prompt caching cuts repeated input cost."
+      }
+    },
+    {
+      "slug": "google-gemini",
+      "name": { "zh": "Google Gemini", "en": "Google Gemini" },
+      "vendor": { "zh": "美国", "en": "US" },
+      "desc": {
+        "zh": "Gemini 系列，Flash 档价格极低，上下文窗口大，多模态原生。",
+        "en": "Gemini family; the Flash tier is very cheap with long context and native multimodality."
+      },
+      "category": "overseas",
+      "url": "https://ai.google.dev/pricing",
+      "currency": "USD",
+      "pricing": [
+        { "model": "Gemini 2.0 Flash", "input": 0.1, "output": 0.4, "context": "1M" },
+        { "model": "Gemini 2.5 Pro", "input": 1.25, "output": 10, "context": "1M" }
+      ],
+      "tags": ["closed-source", "multimodal", "long-context"],
+      "notes": {
+        "zh": "免费层有每分钟调用限制，适合个人试用。",
+        "en": "A free tier exists with per-minute rate limits, good for personal trials."
+      }
+    },
+    {
+      "slug": "xai-grok",
+      "name": { "zh": "xAI Grok", "en": "xAI Grok" },
+      "vendor": { "zh": "美国", "en": "US" },
+      "desc": {
+        "zh": "Grok 系列，实时数据接入，定价对标中端闭源模型。",
+        "en": "Grok family with live-data access; pricing targets the mid-tier closed-source segment."
+      },
+      "category": "overseas",
+      "url": "https://x.ai/pricing",
+      "currency": "USD",
+      "pricing": [
+        { "model": "Grok 2", "input": 2, "output": 10, "context": "128K" }
+      ],
+      "tags": ["closed-source", "real-time"],
+      "notes": {
+        "zh": "新模型发布初期常有促销价。",
+        "en": "Launch promotions are common right after a new model ships."
+      }
+    },
+    {
+      "slug": "deepseek",
+      "name": { "zh": "深度求索 DeepSeek", "en": "DeepSeek" },
+      "vendor": { "zh": "中国", "en": "China" },
+      "desc": {
+        "zh": "国产开源权重模型代表，V3/R1 性价比极高，支持 MLA 缓存。",
+        "en": "Representative open-weight Chinese model; V3/R1 offer extreme value with MLA cache."
+      },
+      "category": "domestic",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "currency": "CNY",
+      "pricing": [
+        { "model": "DeepSeek V3 (cache miss)", "input": 2, "output": 8, "context": "128K" },
+        { "model": "DeepSeek V3 (cache hit)", "input": 0.5, "output": 8, "context": "128K" }
+      ],
+      "tags": ["open-weight", "coding", "cheap"],
+      "notes": {
+        "zh": "缓存命中输入约 2.5 折；夜间时段批量输入另有折扣。",
+        "en": "Cache-hit input is ~25% of list price; off-peak batch input is additionally discounted."
+      }
+    },
+    {
+      "slug": "alibaba-qwen",
+      "name": { "zh": "阿里云百炼 Qwen", "en": "Alibaba Cloud DashScope Qwen" },
+      "vendor": { "zh": "中国", "en": "China" },
+      "desc": {
+        "zh": "通义千问 API，qwen-plus/max/turbo 分档齐全，新用户有额度。",
+        "en": "Tongyi Qianwen API with plus/max/turbo tiers; free quota for new users."
+      },
+      "category": "domestic",
+      "url": "https://help.aliyun.com/zh/model-studio/models",
+      "currency": "CNY",
+      "pricing": [
+        { "model": "qwen-plus", "input": 0.8, "output": 2, "context": "128K" },
+        { "model": "qwen-max", "input": 20, "output": 60, "context": "32K" }
+      ],
+      "tags": ["open-weight", "multimodal", "china-cloud"],
+      "notes": {
+        "zh": "百炼平台对新用户赠送百万级 token 体验额度。",
+        "en": "DashScope grants million-token trial quota to new users."
+      }
+    },
+    {
+      "slug": "zhipu-glm",
+      "name": { "zh": "智谱 GLM", "en": "Zhipu GLM" },
+      "vendor": { "zh": "中国", "en": "China" },
+      "desc": {
+        "zh": "智谱清言 GLM 系列，GLM-4-Plus 对标旗舰，长文本与 Agent 工具链完善。",
+        "en": "Zhipu GLM family; GLM-4-Plus targets flagship tier with mature long-context and agent tooling."
+      },
+      "category": "domestic",
+      "url": "https://open.bigmodel.cn/pricing",
+      "currency": "CNY",
+      "pricing": [
+        { "model": "GLM-4-Plus", "input": 5, "output": 5, "context": "128K" },
+        { "model": "GLM-4-Flash", "input": 0, "output": 0, "context": "128K" }
+      ],
+      "tags": ["open-weight", "agent", "china-cloud"],
+      "notes": {
+        "zh": "Flash 档长期免费；旗舰档输入输出同价。",
+        "en": "The Flash tier is permanently free; the flagship tier charges input and output equally."
+      }
+    },
+    {
+      "slug": "moonshot-kimi",
+      "name": { "zh": "月之暗面 Kimi", "en": "Moonshot Kimi" },
+      "vendor": { "zh": "中国", "en": "China" },
+      "desc": {
+        "zh": "Kimi 长文本助手背后的 API，主打超长上下文与文档解析。",
+        "en": "API behind the Kimi assistant, focused on very long context and document parsing."
+      },
+      "category": "domestic",
+      "url": "https://platform.moonshot.cn/docs/pricing/chat",
+      "currency": "CNY",
+      "pricing": [
+        { "model": "moonshot-v1-8k", "input": 12, "output": 12, "context": "8K" },
+        { "model": "moonshot-v1-128k", "input": 60, "output": 60, "context": "128K" }
+      ],
+      "tags": ["closed-source", "long-context", "china-cloud"],
+      "notes": {
+        "zh": "上下文越长单价越高；缓存命中有折扣。",
+        "en": "Longer context costs more per token; cached prompts are discounted."
+      }
+    },
+    {
+      "slug": "doubao",
+      "name": { "zh": "火山方舟豆包", "en": "Volcengine Ark Doubao" },
+      "vendor": { "zh": "中国", "en": "China" },
+      "desc": {
+        "zh": "字节跳动豆包大模型，火山方舟托管，pro/lite 分档，价格亲民。",
+        "en": "ByteDance Doubao models hosted on Volcengine Ark; pro/lite tiers at friendly prices."
+      },
+      "category": "domestic",
+      "url": "https://www.volcengine.com/docs/82379/1099320",
+      "currency": "CNY",
+      "pricing": [
+        { "model": "Doubao-pro-32k", "input": 0.8, "output": 2, "context": "32K" },
+        { "model": "Doubao-lite-32k", "input": 0.3, "output": 0.6, "context": "32K" }
+      ],
+      "tags": ["closed-source", "china-cloud", "cheap"],
+      "notes": {
+        "zh": "新用户有免费额度；方舟平台同时托管第三方开源模型。",
+        "en": "Free quota for new users; Ark also hosts third-party open models."
+      }
+    },
+    {
+      "slug": "openrouter",
+      "name": { "zh": "OpenRouter", "en": "OpenRouter" },
+      "vendor": { "zh": "美国（聚合）", "en": "US (Aggregator)" },
+      "desc": {
+        "zh": "统一 API 接入数百家模型，按上游原价加约 5%，支持按 token 混合路由。",
+        "en": "One API for hundreds of models at upstream price plus ~5%, with per-token routing."
+      },
+      "category": "aggregator",
+      "url": "https://openrouter.ai/docs/limits",
+      "currency": "USD",
+      "pricing": [
+        { "model": "All models (upstream +~5%)", "input": null, "output": null, "context": "varying" }
+      ],
+      "tags": ["aggregator", "gateway", "unified-api"],
+      "notes": {
+        "zh": "价格即上游价 + 小额手续费；可按性能/价格自动选模型。",
+        "en": "Price equals upstream plus a small fee; auto-routing can pick the cheapest model that meets quality."
+      }
+    },
+    {
+      "slug": "siliconflow",
+      "name": { "zh": "硅基流动 SiliconFlow", "en": "SiliconFlow" },
+      "vendor": { "zh": "中国（聚合）", "en": "China (Aggregator)" },
+      "desc": {
+        "zh": "国产开源模型聚合推理平台，Qwen/DeepSeek/GLM 权重模型一站调用。",
+        "en": "Aggregated inference for Chinese open-weight models (Qwen/DeepSeek/GLM) under one endpoint."
+      },
+      "category": "aggregator",
+      "url": "https://siliconflow.cn/pricing",
+      "currency": "CNY",
+      "pricing": [
+        { "model": "DeepSeek-V3", "input": 2, "output": 8, "context": "128K" }
+      ],
+      "tags": ["aggregator", "open-weight", "china-cloud"],
+      "notes": {
+        "zh": "部分小模型限时免费；充赠活动常见。",
+        "en": "Some small models are free for limited time; top-up bonuses are common."
+      }
+    }
+  ]
+}

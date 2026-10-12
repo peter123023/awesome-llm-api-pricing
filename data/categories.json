@@ -1,0 +1,23 @@
+[
+  {
+    "id": "overseas",
+    "group": "providers",
+    "order": 1,
+    "icon": "🌍",
+    "name": { "zh": "海外厂商", "en": "Overseas Providers" }
+  },
+  {
+    "id": "domestic",
+    "group": "providers",
+    "order": 2,
+    "icon": "🇨🇳",
+    "name": { "zh": "国内厂商", "en": "China Providers" }
+  },
+  {
+    "id": "aggregator",
+    "group": "providers",
+    "order": 3,
+    "icon": "🔀",
+    "name": { "zh": "聚合与网关", "en": "Aggregators & Gateways" }
+  }
+]

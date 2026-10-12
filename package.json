@@ -1,0 +1,15 @@
+{
+  "name": "awesome-llm-api-pricing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A curated price comparison list of LLM APIs: input/output rates, context windows and cache discounts across providers.",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "build": "node scripts/build-readme.mjs",
+    "all": "npm run sync && npm run build"
+  },
+  "dependencies": {
+    "markdown-it": "^15.0.2"
+  }
+}
