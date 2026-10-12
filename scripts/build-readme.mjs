@@ -60,6 +60,7 @@ for (const it of items) {
       output: p.output,
       context: p.context,
       note: p.note || '',
+      channelNotes: it.notes || '',
       monthly_visits: it.monthly_visits,
     });
   }
@@ -188,8 +189,11 @@ function compareSection(lang) {
       out.push('|' + ' --- |'.repeat(t.th.length));
       for (const row of modelMap.get(model)) {
         const visits = row.monthly_visits ? fmtTraffic(row.monthly_visits, lang) : (lang === 'zh' ? '待核实' : '—');
+        const noteParts = [];
+        if (row.note && row.note[L]) noteParts.push(row.note[L]);
+        if (row.channelNotes && row.channelNotes[L]) noteParts.push(row.channelNotes[L]);
         out.push(
-          `| **[${row.channel[L]}](${row.url})** | ${TYPE_LABEL[row.type][L]} | ${visits} | ${fmtPrice(row.input, row.currency, lang)} | ${fmtPrice(row.output, row.currency, lang)} | ${row.context} | ${(row.note && row.note[L]) || '—'} |`
+          `| **[${row.channel[L]}](${row.url})** | ${TYPE_LABEL[row.type][L]} | ${visits} | ${fmtPrice(row.input, row.currency, lang)} | ${fmtPrice(row.output, row.currency, lang)} | ${row.context} | ${noteParts.join(lang === 'zh' ? '；' : '; ') || '—'} |`
         );
       }
       out.push('');
@@ -210,7 +214,7 @@ function channelSection(lang) {
       tv = lang === 'zh' ? '待核实' : 'unverified';
     }
     out.push(
-      `- **[${it.name[L]}](${it.url})** [${TYPE_LABEL[it.type]?.[L] || ''}] — ${it.desc[L]}${tv ? ` · ${lang==='zh'?'月访问':'monthly visits'} ${tv}` : ''}${it.notes?.[L] ? ` · ${it.notes[L]}` : ''} · [${lang === 'zh' ? '官网' : 'website'}](${originOf(it.url)})`
+      `- **[${it.name[L]}](${it.url})** [${TYPE_LABEL[it.type]?.[L] || ''}] — ${it.desc[L]}${tv ? ` · ${lang==='zh'?'月访问':'monthly visits'} ${tv}` : ''} · [${lang === 'zh' ? '官网' : 'website'}](${originOf(it.url)})`
     );
   }
   return out.join('\n');
