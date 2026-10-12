@@ -165,7 +165,7 @@
           "family": "deepseek",
           "input": 1,
           "output": 4,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "原生多模态",
             "en": "native multimodal"
@@ -346,7 +346,7 @@
           "family": "deepseek",
           "input": 0.14,
           "output": 0.56,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "官方价 +约5%（USD）",
             "en": "official +~5% (USD)"
@@ -474,7 +474,7 @@
           "family": "deepseek",
           "input": 0.3,
           "output": 1.2,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价，闲时半价",
             "en": "peak rate; off-peak half"
@@ -547,7 +547,7 @@
           "family": "deepseek",
           "input": 0.16,
           "output": 0.55,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "托管开源权重",
             "en": "hosted open weights"
@@ -598,7 +598,7 @@
           "family": "deepseek",
           "input": 0.15,
           "output": 0.6,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "LPU 加速",
             "en": "LPU accelerated"
@@ -650,7 +650,7 @@
           "family": "deepseek",
           "input": 0.16,
           "output": 0.6,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "",
             "en": ""
@@ -701,7 +701,7 @@
           "family": "deepseek",
           "input": 1,
           "output": 4,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
@@ -830,7 +830,7 @@
           "family": "deepseek",
           "input": 0.3,
           "output": 1.2,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价参考",
             "en": "peak rate, off-peak half"
@@ -957,7 +957,7 @@
           "family": "deepseek",
           "input": 0.3,
           "output": 1.2,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "高峰价参考",
             "en": "peak rate, off-peak half"
@@ -1084,7 +1084,7 @@
           "family": "deepseek",
           "input": 0.128,
           "output": 0.511,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "8.5折",
             "en": "85% of list"
@@ -1212,7 +1212,7 @@
           "family": "deepseek",
           "input": 0.21,
           "output": 0.84,
-          "context": "128K",
+          "context": "1M",
           "note": {
             "zh": "限时7折",
             "en": "limited 30% off"

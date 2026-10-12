@@ -112,17 +112,17 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** | 官方 | 3.6 亿 | ¥1 | ¥4 | 128K | 原生多模态 |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $0.14 | $0.56 | 128K | 官方价 +约5%（USD） |
-| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $0.3 | $1.2 | 128K | 高峰价，闲时半价 |
-| **[Together AI](https://www.together.ai/pricing)** | 聚合 | 69 万 | $0.16 | $0.55 | 128K | 托管开源权重 |
-| **[Groq](https://groq.com/pricing/)** | 聚合 | 363 万 | $0.15 | $0.6 | 128K | LPU 加速 |
-| **[Fireworks AI](https://fireworks.ai/pricing)** | 聚合 | 54 万 | $0.16 | $0.6 | 128K | — |
-| **[硅基流动 SiliconFlow](https://siliconflow.cn/pricing)** | 聚合 | 147 万 | ¥1 | ¥4 | 128K | 与官方同价 |
-| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $0.3 | $1.2 | 128K | 高峰价参考 |
-| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $0.3 | $1.2 | 128K | 高峰价参考 |
-| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.128 | $0.511 | 128K | 8.5折 |
-| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.21 | $0.84 | 128K | 限时7折 |
+| **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** | 官方 | 3.6 亿 | ¥1 | ¥4 | 1M | 原生多模态 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $0.14 | $0.56 | 1M | 官方价 +约5%（USD） |
+| **[B.AI](https://b.ai/)** | 中转 | 128 万 | $0.3 | $1.2 | 1M | 高峰价，闲时半价 |
+| **[Together AI](https://www.together.ai/pricing)** | 聚合 | 69 万 | $0.16 | $0.55 | 1M | 托管开源权重 |
+| **[Groq](https://groq.com/pricing/)** | 聚合 | 363 万 | $0.15 | $0.6 | 1M | LPU 加速 |
+| **[Fireworks AI](https://fireworks.ai/pricing)** | 聚合 | 54 万 | $0.16 | $0.6 | 1M | — |
+| **[硅基流动 SiliconFlow](https://siliconflow.cn/pricing)** | 聚合 | 147 万 | ¥1 | ¥4 | 1M | 与官方同价 |
+| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $0.3 | $1.2 | 1M | 高峰价参考 |
+| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $0.3 | $1.2 | 1M | 高峰价参考 |
+| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.128 | $0.511 | 1M | 8.5折 |
+| **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.21 | $0.84 | 1M | 限时7折 |
 
 ## GLM（智谱）
 

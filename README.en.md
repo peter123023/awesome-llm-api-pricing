@@ -112,17 +112,17 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | Official | 357.6M | ¥1 | ¥4 | 128K | native multimodal |
-| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.14 | $0.56 | 128K | official +~5% (USD) |
-| **[B.AI](https://b.ai/)** | Relay | 1.3M | $0.3 | $1.2 | 128K | peak rate; off-peak half |
-| **[Together AI](https://www.together.ai/pricing)** | Aggregator | 691K | $0.16 | $0.55 | 128K | hosted open weights |
-| **[Groq](https://groq.com/pricing/)** | Aggregator | 3.6M | $0.15 | $0.6 | 128K | LPU accelerated |
-| **[Fireworks AI](https://fireworks.ai/pricing)** | Aggregator | 542K | $0.16 | $0.6 | 128K | — |
-| **[SiliconFlow](https://siliconflow.cn/pricing)** | Aggregator | 1.5M | ¥1 | ¥4 | 128K | same as official |
-| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $0.3 | $1.2 | 128K | peak rate, off-peak half |
-| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $0.3 | $1.2 | 128K | peak rate, off-peak half |
-| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.128 | $0.511 | 128K | 85% of list |
-| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.21 | $0.84 | 128K | limited 30% off |
+| **[DeepSeek](https://api-docs.deepseek.com/quick_start/pricing)** | Official | 357.6M | ¥1 | ¥4 | 1M | native multimodal |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.14 | $0.56 | 1M | official +~5% (USD) |
+| **[B.AI](https://b.ai/)** | Relay | 1.3M | $0.3 | $1.2 | 1M | peak rate; off-peak half |
+| **[Together AI](https://www.together.ai/pricing)** | Aggregator | 691K | $0.16 | $0.55 | 1M | hosted open weights |
+| **[Groq](https://groq.com/pricing/)** | Aggregator | 3.6M | $0.15 | $0.6 | 1M | LPU accelerated |
+| **[Fireworks AI](https://fireworks.ai/pricing)** | Aggregator | 542K | $0.16 | $0.6 | 1M | — |
+| **[SiliconFlow](https://siliconflow.cn/pricing)** | Aggregator | 1.5M | ¥1 | ¥4 | 1M | same as official |
+| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $0.3 | $1.2 | 1M | peak rate, off-peak half |
+| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $0.3 | $1.2 | 1M | peak rate, off-peak half |
+| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.128 | $0.511 | 1M | 85% of list |
+| **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.21 | $0.84 | 1M | limited 30% off |
 
 ## GLM (Zhipu)
 
