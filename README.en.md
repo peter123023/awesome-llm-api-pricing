@@ -10,13 +10,17 @@
 
 ## Table of Contents
 
-[Scope & How to Read](#scope--how-to-read) · [OpenAI](#openai) · [Claude (Anthropic)](#claude-anthropic) · [DeepSeek](#deepseek) · [GLM (Zhipu)](#glm-zhipu) · [Other Providers](#other-providers)
+[Scope & How to Read](#scope--how-to-read) · [Quick Links](#quick-links) · [Channels](#channels) · [About](#about) · [Data & Updates](#data--updates) · [Contributing](#contributing) · [License](#license)
 
-- [Channels](#channels)
-- [About](#about)
-- [Data & Updates](#data--updates)
-- [Contributing](#contributing)
-- [License](#license)
+---
+
+## Quick Links
+
+- [OpenAI](#openai): [GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
+- [Claude (Anthropic)](#claude-anthropic): [Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
+- [DeepSeek](#deepseek): [DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
+- [GLM (Zhipu)](#glm-zhipu): [GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
+- [Other Providers](#other-providers): [Kimi K3](#kimi-k3)
 
 ---
 

@@ -10,13 +10,17 @@
 
 ## 目录
 
-[收录范围与读表须知](#收录范围与读表须知) · [OpenAI](#openai) · [Claude（Anthropic）](#claudeanthropic) · [DeepSeek](#deepseek) · [GLM（智谱）](#glm智谱) · [其他厂商](#其他厂商)
+[收录范围与读表须知](#收录范围与读表须知) · [快速跳转](#快速跳转) · [渠道明细](#渠道明细) · [关于本清单](#关于本清单) · [数据与更新](#数据与更新) · [参与贡献](#参与贡献) · [许可证](#许可证)
 
-- [渠道明细](#渠道明细)
-- [关于本清单](#关于本清单)
-- [数据与更新](#数据与更新)
-- [参与贡献](#参与贡献)
-- [许可证](#许可证)
+---
+
+## 快速跳转
+
+- [OpenAI](#openai)：[GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
+- [Claude（Anthropic）](#claudeanthropic)：[Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
+- [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
+- [GLM（智谱）](#glm智谱)：[GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
+- [其他厂商](#其他厂商)：[Kimi K3](#kimi-k3)
 
 ---
 

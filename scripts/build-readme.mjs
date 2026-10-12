@@ -96,6 +96,7 @@ const I18N = {
       `![Last Commit](https://img.shields.io/github/last-commit/${REPO}.svg)`,
     ].join(' '),
     toc: '## 目录',
+    quickH: '## 快速跳转',
     scope: '## 收录范围与读表须知',
     scopeBody: [
       '本清单按**模型**组织：每个模型一节，下面表格列出所有可调用它的渠道及价格。',
@@ -135,6 +136,7 @@ const I18N = {
       `![Last Commit](https://img.shields.io/github/last-commit/${REPO}.svg)`,
     ].join(' '),
     toc: '## Table of Contents',
+    quickH: '## Quick Links',
     scope: '## Scope & How to Read',
     scopeBody: [
       'Organized **by model**: each model is a section, and the table lists every channel that sells it.',
@@ -229,23 +231,38 @@ function channelSection(lang) {
 
 function tocLines(lang) {
   const t = I18N[lang];
-  const L = lang === 'zh' ? 'zh' : 'en';
   const anchor = (h) => '(#' + slugify(h.replace(/^##\s*/, '')) + ')';
-  // 收录范围 + 各模型家族内联成一行，节省纵向空间
-  const nav = [[lang === 'zh' ? '收录范围与读表须知' : 'Scope & How to Read', anchor(t.scope)]];
-  const famInUse = new Set(models.map((m) => modelMap.get(m)[0].family));
-  for (const fam of FAMILY_ORDER_KEYS) {
-    if (!famInUse.has(fam)) continue;
-    nav.push([FAMILY_LABEL[fam][L], anchor('## ' + FAMILY_LABEL[fam][L])]);
+  // 目录：全部栏目内联成一行，节省纵向空间
+  const nav = [
+    [lang === 'zh' ? '收录范围与读表须知' : 'Scope & How to Read', anchor(t.scope)],
+    [lang === 'zh' ? '快速跳转' : 'Quick Links', anchor(t.quickH)],
+    [lang === 'zh' ? '渠道明细' : 'Channels', anchor(t.channelsH)],
+    [lang === 'zh' ? '关于本清单' : 'About', anchor(t.about)],
+    [lang === 'zh' ? '数据与更新' : 'Data & Updates', anchor(t.dataH)],
+    [lang === 'zh' ? '参与贡献' : 'Contributing', anchor(t.contrib)],
+    [lang === 'zh' ? '许可证' : 'License', anchor(t.license)],
+  ];
+  return [nav.map(([label, a]) => `[${label}]${a}`).join(' · ')].join('\n');
+}
+
+// 快速跳转：每个模型家族一行（家族名跳 H2），后接该家族各模型 H3 直达锚点
+function quickJumpSection(lang) {
+  const L = lang === 'zh' ? 'zh' : 'en';
+  const byFamily = new Map();
+  for (const model of models) {
+    const fam = modelMap.get(model)[0].family;
+    if (!byFamily.has(fam)) byFamily.set(fam, []);
+    byFamily.get(fam).push(model);
   }
-  const lines = [nav.map(([label, a]) => `[${label}]${a}`).join(' · ')];
-  lines.push('');
-  lines.push(`- [${lang === 'zh' ? '渠道明细' : 'Channels'}]${anchor(t.channelsH)}`);
-  lines.push(`- [${lang === 'zh' ? '关于本清单' : 'About'}]${anchor(t.about)}`);
-  lines.push(`- [${lang === 'zh' ? '数据与更新' : 'Data & Updates'}]${anchor(t.dataH)}`);
-  lines.push(`- [${lang === 'zh' ? '参与贡献' : 'Contributing'}]${anchor(t.contrib)}`);
-  lines.push(`- [${lang === 'zh' ? '许可证' : 'License'}]${anchor(t.license)}`);
-  return lines.join('\n');
+  const out = [];
+  for (const fam of FAMILY_ORDER_KEYS) {
+    const list = byFamily.get(fam);
+    if (!list || !list.length) continue;
+    const label = FAMILY_LABEL[fam][L];
+    const links = list.map((m) => `[${m}](#${slugify(m)})`).join(' · ');
+    out.push(`- [${label}](#${slugify(label)})${lang === 'zh' ? '：' : ': '}${links}`);
+  }
+  return out.join('\n');
 }
 
 function build(lang) {
@@ -258,6 +275,9 @@ function build(lang) {
     '---', '',
     t.toc, '',
     tocLines(lang), '',
+    '---', '',
+    t.quickH, '',
+    quickJumpSection(lang), '',
     '---', '',
     t.scope, '',
     t.scopeBody, '',
