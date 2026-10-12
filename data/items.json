@@ -456,6 +456,39 @@
       "currency": "USD",
       "pricing": [
         {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1.05M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1M",
+          "note": {
+            "zh": "国际版直供价",
+            "en": "global list price"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "与官方国际版同价",
+            "en": "same as official intl"
+          }
+        },
+        {
           "model": "GPT-6.1 Sol",
           "family": "openai",
           "input": 2,
@@ -691,6 +724,50 @@
           "note": {
             "zh": "与官方同价",
             "en": "same as official"
+          }
+        },
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1.05M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1M",
+          "note": {
+            "zh": "与国际版同价",
+            "en": "same as official intl"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "与官方国际版同价",
+            "en": "same as official intl"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.75,
+          "output": 3.75,
+          "context": "1M",
+          "note": {
+            "zh": "与官方介绍价同价",
+            "en": "same as official intro price"
           }
         }
       ],
@@ -1175,6 +1252,28 @@
             "zh": "与官方同价",
             "en": "same as official"
           }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1M",
+          "note": {
+            "zh": "与国际版同价",
+            "en": "same as official intl"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "same as official"
+          }
         }
       ],
       "cache": {
@@ -1290,6 +1389,28 @@
           "note": {
             "zh": "9折",
             "en": "90% of list"
+          }
+        },
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 1.74,
+          "output": 8.7,
+          "context": "1.05M",
+          "note": {
+            "zh": "1.7折",
+            "en": "17% of list"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.22,
+          "output": 1.09,
+          "context": "1M",
+          "note": {
+            "zh": "2.9折",
+            "en": "29% of list"
           }
         }
       ],
@@ -1509,6 +1630,61 @@
           "input": 0.065,
           "output": 0.22,
           "context": "1M",
+          "note": {
+            "zh": "中转参考价",
+            "en": "relay rate"
+          }
+        },
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 9,
+          "output": 45,
+          "context": "1.05M",
+          "note": {
+            "zh": "官方价九折",
+            "en": "10% off official"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 1.49,
+          "output": 4.46,
+          "context": "1M",
+          "note": {
+            "zh": "国际版九折",
+            "en": "10% off intl"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "与官方国际版同价",
+            "en": "same as official intl"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.68,
+          "output": 3.38,
+          "context": "1M",
+          "note": {
+            "zh": "介绍价九折",
+            "en": "10% off intro"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2.2,
+          "output": 6.6,
+          "context": "500K",
           "note": {
             "zh": "中转参考价",
             "en": "relay rate"
