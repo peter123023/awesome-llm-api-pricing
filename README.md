@@ -20,7 +20,7 @@
 - [Claude（Anthropic）](#claudeanthropic)：[Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
 - [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
 - [GLM（智谱）](#glm智谱)：[GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
-- [其他厂商](#其他厂商)：[Kimi K3](#kimi-k3)
+- [Kimi（月之暗面）](#kimi月之暗面)：[Kimi K3](#kimi-k3)
 
 ---
 
@@ -155,7 +155,7 @@
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.065 | $0.22 | 1M | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $0.065 | $0.22 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 
-## 其他厂商
+## Kimi（月之暗面）
 
 ### Kimi K3
 

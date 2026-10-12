@@ -45,7 +45,7 @@ const TYPE_LABEL = {
 };
 
 // —— 反排索引：model -> 渠道价格行
-const FAMILY_ORDER = { openai: 1, claude: 2, deepseek: 3, glm: 4, other: 9 };
+const FAMILY_ORDER = { openai: 1, claude: 2, deepseek: 3, glm: 4, kimi: 5, other: 9 };
 const modelMap = new Map();
 for (const it of items) {
   for (const p of it.pricing) {
@@ -171,9 +171,10 @@ const FAMILY_LABEL = {
   claude: { zh: 'Claude（Anthropic）', en: 'Claude (Anthropic)' },
   deepseek: { zh: 'DeepSeek', en: 'DeepSeek' },
   glm: { zh: 'GLM（智谱）', en: 'GLM (Zhipu)' },
+  kimi: { zh: 'Kimi（月之暗面）', en: 'Kimi (Moonshot)' },
   other: { zh: '其他厂商', en: 'Other Providers' },
 };
-const FAMILY_ORDER_KEYS = ['openai', 'claude', 'deepseek', 'glm', 'other'];
+const FAMILY_ORDER_KEYS = ['openai', 'claude', 'deepseek', 'glm', 'kimi', 'other'];
 
 function compareSection(lang) {
   const t = I18N[lang];

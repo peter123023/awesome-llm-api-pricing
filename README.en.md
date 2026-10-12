@@ -20,7 +20,7 @@
 - [Claude (Anthropic)](#claude-anthropic): [Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
 - [DeepSeek](#deepseek): [DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
 - [GLM (Zhipu)](#glm-zhipu): [GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
-- [Other Providers](#other-providers): [Kimi K3](#kimi-k3)
+- [Kimi (Moonshot)](#kimi-moonshot): [Kimi K3](#kimi-k3)
 
 ---
 
@@ -155,7 +155,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $0.065 | $0.22 | 1M | relay rate; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 | **[302.AI](https://302.ai/)** | Relay | 67K | $0.065 | $0.22 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 
-## Other Providers
+## Kimi (Moonshot)
 
 ### Kimi K3
 

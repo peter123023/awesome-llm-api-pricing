@@ -279,7 +279,7 @@
       "pricing": [
         {
           "model": "Kimi K3",
-          "family": "other",
+          "family": "kimi",
           "input": 20,
           "output": 100,
           "context": "1.05M",
@@ -1274,7 +1274,7 @@
         },
         {
           "model": "Kimi K3",
-          "family": "other",
+          "family": "kimi",
           "input": 3,
           "output": 15,
           "context": "1M",
