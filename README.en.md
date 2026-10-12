@@ -40,6 +40,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 > ⚠️ Rows marked 「Relay」 are third-party gateways. Their prices are not official; evaluate stability and safety yourself.
 
 ## OpenAI
+<p align="right"><a href="#license">⬇ Jump to bottom</a></p>
 
 ### GPT-6 Astra
 
@@ -72,6 +73,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.08 | $0.4 | 1.05M | limited 20% off; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
 ## Claude (Anthropic)
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### Claude Opus 5.5
 
@@ -98,6 +100,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $10 | 1M | same as official; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
 ## DeepSeek
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### DeepSeek V4.1-Flash
 
@@ -128,6 +131,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.92 | $2.77 | 1M | limited 30% off; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
 ## GLM (Zhipu)
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### GLM-5.3
 
@@ -159,6 +163,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[302.AI](https://302.ai/)** | Relay | 67K | $0.065 | $0.22 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 
 ## Qwen (Alibaba)
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### Qwen3.8 Max
 
@@ -168,6 +173,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $1.71 | $5.14 | 1M | 0 fee passthrough; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
 ## Kimi (Moonshot)
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### Kimi K3
 
@@ -177,6 +183,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $3 | $15 | 1M | same as official intl; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 
 ## Google Gemini
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### Gemini 3.8 Flash
 
@@ -186,6 +193,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $0.75 | $3.75 | 1M | same as official intro price; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
 
 ## xAI (Grok)
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
 
 ### Grok 4.7
 

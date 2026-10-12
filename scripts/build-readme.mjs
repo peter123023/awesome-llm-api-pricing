@@ -108,6 +108,8 @@ const I18N = {
       '- 缓存命中价、免费层写在备注里；中文约 1 token ≈ 1.5 汉字。',
     ].join('\n'),
     compareH: '## 模型比价',
+    navTop: '⬆ 回到顶部',
+    navBottom: '⬇ 回到底部',
     th: ['渠道', '类型', '月访问', '输入', '输出', '上下文', '备注'],
     relayNote: '> ⚠️ 表中标「中转」的为第三方网关，价格不代表官方，稳定性与账号安全自行评估。中转收录门槛：月访问量 ≥ 1 万次（SimilarWeb / traffic.cv 估算），欢迎 PR 推荐。',
     channelsH: '## 渠道明细',
@@ -148,6 +150,8 @@ const I18N = {
       '- Cache pricing and free tiers are in notes; ~1 token ≈ 1.5 Chinese characters.',
     ].join('\n'),
     compareH: '## Compare by Model',
+    navTop: '⬆ Back to top',
+    navBottom: '⬇ Jump to bottom',
     th: ['Channel', 'Type', 'Visits', 'Input', 'Output', 'Context', 'Notes'],
     relayNote: '> ⚠️ Rows marked 「Relay」 are third-party gateways. Their prices are not official; evaluate stability and safety yourself.',
     channelsH: '## Channels',
@@ -190,10 +194,17 @@ function compareSection(lang) {
     if (!byFamily.has(fam)) byFamily.set(fam, []);
     byFamily.get(fam).push(model);
   }
-  for (const fam of FAMILY_ORDER_KEYS) {
+  // 家族 H2 下的右上角导航：第一个家族只有「回到底部」，最后一个只有「回到顶部」，中间的两者都有
+  const tocAnchor = slugify(t.toc.replace(/^##\s*/, ''));
+  const licenseAnchor = slugify(t.license.replace(/^##\s*/, ''));
+  const fams = FAMILY_ORDER_KEYS.filter((f) => byFamily.get(f)?.length);
+  fams.forEach((fam, idx) => {
     const list = byFamily.get(fam);
-    if (!list || !list.length) continue;
     out.push(`## ${FAMILY_LABEL[fam][L]}`);
+    const nav = [];
+    if (idx > 0) nav.push(`<a href="#${tocAnchor}">${t.navTop}</a>`);
+    if (idx < fams.length - 1) nav.push(`<a href="#${licenseAnchor}">${t.navBottom}</a>`);
+    if (nav.length) out.push(`<p align="right">${nav.join(' · ')}</p>`);
     out.push('');
     for (const model of list) {
       out.push(`### ${model}`);
@@ -211,7 +222,7 @@ function compareSection(lang) {
       }
       out.push('');
     }
-  }
+  });
   return out.join('\n');
 }
 
