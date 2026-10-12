@@ -16,7 +16,7 @@ const slugs = new Set();
 
 const CJK = /[\u4e00-\u9fff]/;
 const RELAY_MIN_VISITS = 10000; // 中转门槛：月访问 ≥ 1 万次
-const FAMILIES = new Set(['openai', 'claude', 'deepseek', 'glm', 'qwen', 'kimi', 'google', 'xai', 'other']);
+const FAMILIES = new Set(['openai', 'claude', 'deepseek', 'glm', 'qwen', 'kimi', 'google', 'xai', 'embedding', 'other']);
 const EXPECTED_TYPE = { overseas: 'official', domestic: 'official', aggregator: 'aggregator', relay: 'relay' };
 
 for (const it of items) {

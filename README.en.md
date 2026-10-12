@@ -24,6 +24,7 @@
 - [Kimi (Moonshot)](#kimi-moonshot): [Kimi K3](#kimi-k3)
 - [Google Gemini](#google-gemini): [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI (Grok)](#xai-grok): [Grok 4.7](#grok-47)
+- [Embeddings](#embeddings): [Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
 
 ---
 
@@ -207,7 +208,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $0.68 | $3.38 | 1M | 10% off intro; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 
 ## xAI (Grok)
-<p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### Grok 4.7
 
@@ -218,6 +219,33 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $2 | $6 | 500K | same as official; Marketed as "one API to route all LLMs": unlimited concurrency, fully OpenAI-compatible with zero-code switching, continuously optimized routes; 27+ genuinely free models subsidized by the platform (incl. GPT-5.5, Gemini 3, GLM); 10% off spending in partner app ecosystems via APP-Code; no subscription, pay as you go; active blog and docs. Third-party relay; do not deposit large amounts. |
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $2 | $6 | 500K | same as official; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $2.2 | $6.6 | 500K | relay rate; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
+
+## Embeddings
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
+
+### Embedding-3
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Zhipu GLM](https://open.bigmodel.cn/pricing)** | Official | 6.9M | ¥0.5 | — | 8K | embedding, batch ¥0.25; Official API of the GLM family, a top Chinese model line; GLM-5.3-Flash at 50% off for a limited time (list CNY 0.8/2.8); context caching and function calling supported, proper invoicing for enterprise procurement. |
+
+### text-embedding-v3
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Alibaba Cloud Model Studio (Qwen)](https://help.aliyun.com/zh/model-studio/model-pricing)** | Official | 339K | ¥0.5 | — | 8K | embedding, batch ¥0.25; Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95. Monthly visits include Tongyi web users (tongyi.aliyun.com, ~339K in 2026-09). |
+
+### text-embedding-3-large
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenAI](https://openai.com/api/pricing/)** | Official | 487.5M | $0.13 | — | 8K | embedding, 1536/3072 dims; Official GPT API with the widest ecosystem compatibility; Batch API runs offline jobs at half price, usage tiers scale with spend automatically; vision/audio billed per token. Site-wide visits include ChatGPT web users. |
+
+### text-embedding-3-small
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenAI](https://openai.com/api/pricing/)** | Official | 487.5M | $0.02 | — | 8K | embedding, 1536 dims; Official GPT API with the widest ecosystem compatibility; Batch API runs offline jobs at half price, usage tiers scale with spend automatically; vision/audio billed per token. Site-wide visits include ChatGPT web users. |
 
 ## Channels
 

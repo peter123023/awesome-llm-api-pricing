@@ -24,6 +24,7 @@
 - [Kimi（月之暗面）](#kimi月之暗面)：[Kimi K3](#kimi-k3)
 - [Google Gemini](#google-gemini)：[Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI（Grok）](#xaigrok)：[Grok 4.7](#grok-47)
+- [向量嵌入](#向量嵌入)：[Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
 
 ---
 
@@ -207,7 +208,7 @@
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.68 | $3.38 | 1M | 介绍价九折；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 
 ## xAI（Grok）
-<p align="right"><a href="#目录">⬆ 回到顶部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### Grok 4.7
 
@@ -218,6 +219,33 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $6 | 500K | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $6 | 500K | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $2.2 | $6.6 | 500K | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
+
+## 向量嵌入
+<p align="right"><a href="#目录">⬆ 回到顶部</a></p>
+
+### Embedding-3
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[智谱 GLM 官方](https://open.bigmodel.cn/pricing)** | 官方 | 687 万 | ¥0.5 | — | 8K | 嵌入模型，Batch 半价 ¥0.25；智谱 GLM 系列官方 API，国产大模型第一梯队；GLM-5.3-Flash 限时五折（标准价 0.8/2.8 元），上下文缓存、函数调用齐全；国内合规发票齐全，适合企业采购。 |
+
+### text-embedding-v3
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[阿里云百炼 Qwen 官方](https://help.aliyun.com/zh/model-studio/model-pricing)** | 官方 | 34 万 | ¥0.5 | — | 8K | 嵌入模型，Batch 半价 ¥0.25；阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。全站月访问含通义网页用户（tongyi.aliyun.com，2026-09 约 33.9 万）。 |
+
+### text-embedding-3-large
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenAI 官方](https://openai.com/api/pricing/)** | 官方 | 4.9 亿 | $0.13 | — | 8K | 嵌入模型，1536/3072 维；GPT 系列官方 API，生态兼容最广；Batch API 半价适合离线批处理，用量分级限额随消费自动提升；视觉/音频按 token 另计。全站月访问含 ChatGPT 网页用户。 |
+
+### text-embedding-3-small
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenAI 官方](https://openai.com/api/pricing/)** | 官方 | 4.9 亿 | $0.02 | — | 8K | 嵌入模型，1536 维；GPT 系列官方 API，生态兼容最广；Batch API 半价适合离线批处理，用量分级限额随消费自动提升；视觉/音频按 token 另计。全站月访问含 ChatGPT 网页用户。 |
 
 ## 渠道明细
 

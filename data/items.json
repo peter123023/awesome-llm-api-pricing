@@ -56,6 +56,28 @@
             "zh": "轻量便宜",
             "en": "budget"
           }
+        },
+        {
+          "model": "text-embedding-3-large",
+          "family": "embedding",
+          "input": 0.13,
+          "output": null,
+          "context": "8K",
+          "note": {
+            "zh": "嵌入模型，1536/3072 维",
+            "en": "embedding, 1536/3072 dims"
+          }
+        },
+        {
+          "model": "text-embedding-3-small",
+          "family": "embedding",
+          "input": 0.02,
+          "output": null,
+          "context": "8K",
+          "note": {
+            "zh": "嵌入模型，1536 维",
+            "en": "embedding, 1536 dims"
+          }
         }
       ],
       "cache": {
@@ -244,6 +266,17 @@
             "zh": "限时五折，原生多模态",
             "en": "limited 50% off, native multimodal"
           }
+        },
+        {
+          "model": "Embedding-3",
+          "family": "embedding",
+          "input": 0.5,
+          "output": null,
+          "context": "8K",
+          "note": {
+            "zh": "嵌入模型，Batch 半价 ¥0.25",
+            "en": "embedding, batch ¥0.25"
+          }
         }
       ],
       "cache": {
@@ -286,6 +319,17 @@
           "note": {
             "zh": "旗舰，多模态；缓存命中 ¥1.5、Batch ¥6",
             "en": "flagship, multimodal; cache hit ¥1.5, batch ¥6"
+          }
+        },
+        {
+          "model": "text-embedding-v3",
+          "family": "embedding",
+          "input": 0.5,
+          "output": null,
+          "context": "8K",
+          "note": {
+            "zh": "嵌入模型，Batch 半价 ¥0.25",
+            "en": "embedding, batch ¥0.25"
           }
         }
       ],
