@@ -4,11 +4,7 @@
 
 > Same model, which channel is cheapest? Per-model tables comparing official, aggregator and relay prices per 1M tokens.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-![GitHub Stars](https://img.shields.io/github/stars/peter123023/awesome-llm-api-pricing.svg)
-![Last Commit](https://img.shields.io/github/last-commit/peter123023/awesome-llm-api-pricing.svg)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md) ![GitHub Stars](https://img.shields.io/github/stars/peter123023/awesome-llm-api-pricing.svg) ![Last Commit](https://img.shields.io/github/last-commit/peter123023/awesome-llm-api-pricing.svg)
 
 ---
 
