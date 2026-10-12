@@ -1819,6 +1819,137 @@
       }
     },
     {
+      "slug": "ikuncode",
+      "name": {"zh": "IKunCode", "en": "IKunCode"},
+      "vendor": {"zh": "中国", "en": "China"},
+      "desc": {"zh": "AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连。", "en": "Coding-tool relay for Claude Code / CodeX / Gemini CLI."},
+      "category": "relay",
+      "type": "relay",
+      "url": "https://api.ikuncode.cc/pricing",
+      "currency": "CNY",
+      "pricing": [
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 0.8,
+          "output": 4,
+          "context": "1M",
+          "note": {
+            "zh": "分组动态折扣，缓存命中 ¥0.08",
+            "en": "tiered dynamic discounts; cache ¥0.08"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 5.6,
+          "output": 19.6,
+          "context": "1M",
+          "note": {
+            "zh": "缓存命中 ¥1.4",
+            "en": "cache ¥1.4"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.56,
+          "output": 1.96,
+          "context": "1M",
+          "note": {
+            "zh": "缓存命中 ¥0.161",
+            "en": "cache ¥0.161"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 19.6,
+          "output": 98,
+          "context": "1.05M",
+          "note": {
+            "zh": "略低于官方价，缓存命中 ¥1.96",
+            "en": "slightly below official; cache ¥1.96"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.525,
+          "output": 2.625,
+          "context": "1M",
+          "note": {
+            "zh": "分组动态折扣，缓存命中 ¥0.0525",
+            "en": "tiered dynamic discounts; cache ¥0.0525"
+          }
+        },
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 2.5,
+          "output": 12.5,
+          "context": "1.05M",
+          "note": {
+            "zh": "分组动态折扣",
+            "en": "tiered dynamic discounts"
+          }
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 0.5,
+          "output": 2.5,
+          "context": "1.05M",
+          "note": {
+            "zh": "分组动态折扣",
+            "en": "tiered dynamic discounts"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.575,
+          "output": 4.725,
+          "context": "1M",
+          "note": {
+            "zh": "分组动态折扣",
+            "en": "tiered dynamic discounts"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.35,
+          "output": 1.4,
+          "context": "1M",
+          "note": {
+            "zh": "分组动态折扣",
+            "en": "tiered dynamic discounts"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存命中约为输入价 10%（各模型不同）",
+        "en": "Cache hits ~10% of input price (varies by model)"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": 95530,
+      "traffic_month": "2026-09",
+      "tags": [
+        "coding",
+        "claude-code",
+        "cheap"
+      ],
+      "notes": {
+        "zh": "AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。",
+        "en": "Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. 95.5K monthly visits (traffic.cv, www.ikuncode.cc, 2026-09)."
+      }
+    },
+    {
       "slug": "302ai",
       "name": {
         "zh": "302.AI",

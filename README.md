@@ -52,6 +52,7 @@
 | **[B.AI](https://b.ai/)** | 中转 | 128 万 | $10 | $50 | 1.05M | 与官方同价；波场创始人孙宇晨公开站台（36氪专题报道）：区块链登录、USDT 等加密货币纯匿名支付，宣称价格全网最低；定位 AI Agent 时代的金融基础设施，集成 x402 支付协议。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $1.74 | $8.7 | 1.05M | 1.7折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $9 | $45 | 1.05M | 官方价九折；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥2.5 | ¥12.5 | 1.05M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 
 ### GPT-6.1 Sol
 
@@ -64,6 +65,7 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $10 | 1.05M | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.348 | $1.74 | 1.05M | 1.7折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $1.6 | $8 | 1.05M | 限时8折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.5 | ¥2.5 | 1.05M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 
 ### GPT-6 Luna
 
@@ -103,6 +105,7 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $10 | 1M | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.562 | $2.81 | 1M | 2.8折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $10 | 1M | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.8 | ¥4 | 1M | 分组动态折扣，缓存命中 ¥0.08；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 
 ## DeepSeek
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -122,6 +125,7 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $0.3 | $1.2 | 1M | 高峰价参考；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.255 | $1.02 | 1M | 8.5折（峰时，谷时减半）；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.21 | $0.84 | 1M | 限时7折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.35 | ¥1.4 | 1M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 
 ### DeepSeek V4-Pro
 
@@ -135,6 +139,7 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $1.32 | $3.96 | 1M | 高峰价参考；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $1.13 | $3.39 | 1M | 8.6折（峰时，谷时减半）；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.92 | $2.77 | 1M | 限时7折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥1.575 | ¥4.725 | 1M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 
 ## GLM（智谱）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -151,6 +156,7 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $1.1 | $3.9 | 1M | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $1.4 | $4.4 | 1M | 0手续费直通；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $1.2 | $4.2 | 1M | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥5.6 | ¥19.6 | 1M | 缓存命中 ¥1.4；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $1.2 | $4.2 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 
 ### GLM-5.3-Flash
@@ -166,6 +172,7 @@
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.103 | $0.36 | 1M | 9折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.06 | $0.2 | 1M | 0手续费直通；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.065 | $0.22 | 1M | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.56 | ¥1.96 | 1M | 缓存命中 ¥0.161；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $0.065 | $0.22 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 
 ## Qwen（阿里）
@@ -196,6 +203,7 @@
 | **[B.AI](https://b.ai/)** | 中转 | 128 万 | $3 | $15 | 1M | 与官方国际版同价；波场创始人孙宇晨公开站台（36氪专题报道）：区块链登录、USDT 等加密货币纯匿名支付，宣称价格全网最低；定位 AI Agent 时代的金融基础设施，集成 x402 支付协议。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $3 | $15 | 1M | 与官方国际版同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $3 | $15 | 1M | 与官方国际版同价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥19.6 | ¥98 | 1.05M | 略低于官方价，缓存命中 ¥1.96；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 
 ## Google Gemini
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -209,6 +217,7 @@
 | **[B.AI](https://b.ai/)** | 中转 | 128 万 | $0.75 | $3.75 | 1M | 与官方介绍价同价；波场创始人孙宇晨公开站台（36氪专题报道）：区块链登录、USDT 等加密货币纯匿名支付，宣称价格全网最低；定位 AI Agent 时代的金融基础设施，集成 x402 支付协议。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.22 | $1.09 | 1M | 2.9折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.68 | $3.38 | 1M | 介绍价九折；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
+| **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.525 | ¥2.625 | 1M | 分组动态折扣，缓存命中 ¥0.0525；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。 |
 
 ## xAI（Grok）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -272,6 +281,7 @@
 - **[TeamoRouter](https://teamorouter.com/)** [中转] — 面向生产环境的统一模型网关，低至 1 折。 · 月访问 23 万（2026-09） · [官网](https://teamorouter.com)
 - **[OfoxAI](https://ofox.ai/)** [中转] — 多模型统一 API 网关。 · 月访问 21 万（2026-09） · [官网](https://ofox.ai)
 - **[OhMyGPT](https://ohmygpt.com/)** [中转] — 国内开发者常用中转网关，折扣稳定。 · 月访问 2 万（2026-09） · [官网](https://ohmygpt.com)
+- **[IKunCode](https://api.ikuncode.cc/pricing)** [中转] — AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连。 · 月访问 10 万（2026-09） · [官网](https://api.ikuncode.cc)
 - **[302.AI](https://302.ai/)** [中转] — 按量付费企业级 AI 资源站，图像/视频/语言模型一站式。 · 月访问 7 万（2026-09） · [官网](https://302.ai)
 
 ---
