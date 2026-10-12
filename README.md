@@ -265,7 +265,7 @@
 
 | 工具 | 月访问 | 检测方式 | 判断要点 |
 | --- | --- | --- | --- |
-| **[API放大镜](https://apicheck.cn/)** | 待核实 | 中转站诚实度检测 | 15 层纵深检测 + 六维评分，核验是否如实提供声称的模型，纯前端不存 Key |
+| **[CCTest](https://cctest.ai/zh)** | 3.65 万 | 数字指纹 + 用量检测 | 多轮请求做数字指纹归因与 Token 用量异常检测，甄别掺假降智，支持 Claude/GPT/Gemini |
 | **[BazaarLink Probe](https://bazaarlink.ai/zh-CN/probe)** | 17.6 万 | 84 项自动化探针 | 专测降智、掺假与偷换模型，填 Base URL + 测试 Key 即出报告 |
 | **[LLM 照妖镜](https://llmtest.cn/)** | 3420 | 多轮行为探测 | 检验身份一致性、知识表现与思维链痕迹，开源纯前端、不上传 Key |
 
