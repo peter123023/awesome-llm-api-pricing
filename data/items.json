@@ -648,8 +648,8 @@
         "en": "Per-model cache read/write prices; reads ~2-10% of input"
       },
       "free_tier": {
-        "zh": "Jev 1.13 模型免费",
-        "en": "Jev 1.13 model is free"
+        "zh": "12 款 Free 模型输入输出全免（Big Pickle、MiMo、Ling、Nemotron 等独立模型，不在主流比价表内），Jev 1.13 输出免费",
+        "en": "12 Free models (Big Pickle, MiMo, Ling, Nemotron etc., not in main tables) at zero cost; Jev 1.13 output free"
       },
       "min_recharge": "$20",
       "monthly_visits": 13320000,
