@@ -545,6 +545,126 @@
       }
     },
     {
+      "slug": "opencode-zen",
+      "name": {"zh": "OpenCode Zen", "en": "OpenCode Zen"},
+      "vendor": {"zh": "美国", "en": "US"},
+      "desc": {"zh": "OpenCode 官方模型网关，为编程 Agent 实测筛选模型，按请求计费零加价。", "en": "Official model gateway by the OpenCode team: coding-agent-vetted models, zero-markup pay-per-request."},
+      "category": "aggregator",
+      "type": "aggregator",
+      "url": "https://opencode.ai/docs/zen/",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价；缓存读 $0.20/写 $5",
+            "en": "same as official; cache read $0.20/write $5"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价；缓存读 $0.20/写 $2.50",
+            "en": "same as official; cache read $0.20/write $2.50"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1.05M",
+          "note": {
+            "zh": "缓存读 $0.30",
+            "en": "cache read $0.30"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.25/写 $2.50",
+            "en": "cache read $0.25/write $2.50"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 1.5,
+          "output": 7.5,
+          "context": "1M",
+          "note": {
+            "zh": "挂标准价，未跟进官方 $0.75/$3.75 介绍价；缓存读 $0.15",
+            "en": "list price, no official intro discount; cache read $0.15"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.4,
+          "output": 4.4,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.26",
+            "en": "cache read $0.26"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.74,
+          "output": 3.48,
+          "context": "1M",
+          "note": {
+            "zh": "低于官方高峰价；缓存读 $0.145",
+            "en": "below official peak price; cache read $0.145"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.006",
+            "en": "cache read $0.006"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "按模型分列缓存读/写价，读价约为输入价 2%-10%",
+        "en": "Per-model cache read/write prices; reads ~2-10% of input"
+      },
+      "free_tier": {
+        "zh": "Jev 1.13 模型免费",
+        "en": "Jev 1.13 model is free"
+      },
+      "min_recharge": "$20",
+      "monthly_visits": 13320000,
+      "traffic_month": "2026-09",
+      "tags": [
+        "coding",
+        "agent",
+        "zero-markup"
+      ],
+      "notes": {
+        "zh": "OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。全站月访问 1332 万（traffic.cv，opencode.ai，2026-09）。",
+        "en": "Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher. 13.3M monthly visits (traffic.cv, opencode.ai, 2026-09)."
+      }
+    },
+    {
       "slug": "openrouter",
       "name": {
         "zh": "OpenRouter",
