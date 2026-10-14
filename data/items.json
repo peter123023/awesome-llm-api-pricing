@@ -577,17 +577,6 @@
           }
         },
         {
-          "model": "Step 5 Preview Free",
-          "family": "free",
-          "input": 0,
-          "output": 0,
-          "context": "—",
-          "note": {
-            "zh": "阶跃 Step 5 预览版免费档，输入输出全免；官方页面无截止时间标注",
-            "en": "StepFun Step 5 preview, zero cost in/out; no end date published"
-          }
-        },
-        {
           "model": "Claude Opus 5.5",
           "family": "claude",
           "input": 4,

@@ -16,7 +16,7 @@
 
 ## 快速跳转
 
-- [免费模型](#免费模型)：[MiMo-V2.6-Flash Free](#mimo-v26-flash-free) · [Step 5 Preview Free](#step-5-preview-free)
+- [免费模型](#免费模型)：[MiMo-V2.6-Flash Free](#mimo-v26-flash-free)
 - [OpenAI](#openai)：[GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
 - [Claude（Anthropic）](#claudeanthropic)：[Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
 - [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
@@ -49,12 +49,6 @@
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 小米 MiMo 免费档，输入输出全免；官方页面无截止时间标注；OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。全站月访问 1332 万（traffic.cv，opencode.ai，2026-09）。 |
-
-### Step 5 Preview Free
-
-| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 阶跃 Step 5 预览版免费档，输入输出全免；官方页面无截止时间标注；OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。全站月访问 1332 万（traffic.cv，opencode.ai，2026-09）。 |
 
 ## OpenAI
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
