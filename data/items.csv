@@ -121,3 +121,4 @@ model,channel,type,input_per_1m,output_per_1m,context,pricing_url
 "Grok 4.7","OfoxAI","relay","2","6","500K","https://ofox.ai/"
 "Grok 4.7","OhMyGPT","relay","2.2","6.6","500K","https://ohmygpt.com/"
 "MiMo-V2.6-Flash Free","OpenCode Zen","aggregator","0","0","—","https://opencode.ai/docs/zen/"
+"Step 5 Preview Free","OpenCode Zen","aggregator","0","0","—","https://opencode.ai/docs/zen/"

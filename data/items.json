@@ -577,6 +577,17 @@
           }
         },
         {
+          "model": "Step 5 Preview Free",
+          "family": "free",
+          "input": 0,
+          "output": 0,
+          "context": "—",
+          "note": {
+            "zh": "阶跃星辰 Step 5 预览免费档，限时约至 2026-10-15；可直接经 OpenAI 兼容 API 调用：POST /zen/v1/chat/completions，带 OpenCode 会话头 + stream + tools，无需 API Key",
+            "en": "StepFun Step 5 preview free tier, limited-time until about 2026-10-15; callable directly via OpenAI-compatible API: POST /zen/v1/chat/completions with OpenCode session headers + stream + tools, no API key required"
+          }
+        },
+        {
           "model": "Claude Opus 5.5",
           "family": "claude",
           "input": 4,
@@ -693,8 +704,8 @@
         "zero-markup"
       ],
       "notes": {
-        "zh": "OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。",
-        "en": "Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher."
+        "zh": "OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价。",
+        "en": "Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request."
       }
     },
     {
