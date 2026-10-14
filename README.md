@@ -16,7 +16,6 @@
 
 ## 快速跳转
 
-- [免费模型](#免费模型)：[MiMo-V2.6-Flash Free](#mimo-v26-flash-free) · [Step 5 Preview Free](#step-5-preview-free)
 - [OpenAI](#openai)：[GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
 - [Claude（Anthropic）](#claudeanthropic)：[Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
 - [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
@@ -26,6 +25,7 @@
 - [Google Gemini](#google-gemini)：[Gemini 4 Argon](#gemini-4-argon) · [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI（Grok）](#xaigrok)：[Grok 4.7](#grok-47)
 - [向量嵌入](#向量嵌入)：[Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
+- [免费模型](#免费模型)：[MiMo-V2.6-Flash Free](#mimo-v26-flash-free) · [Step 5 Preview Free](#step-5-preview-free)
 
 ---
 
@@ -41,23 +41,8 @@
 
 > ⚠️ 表中标「中转」的为第三方网关，价格不代表官方，稳定性与账号安全自行评估。中转收录门槛：月访问量 ≥ 1 万次（SimilarWeb / traffic.cv 估算），欢迎 PR 推荐。
 
-## 免费模型
-<p align="right"><a href="#许可证">⬇ 直达底部</a></p>
-
-### MiMo-V2.6-Flash Free
-
-| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用，需模拟 OpenCode 客户端请求：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli、x-opencode-project: global、x-opencode-request: msg_（任意值）、User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14，会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id 同填一个 ses_ 开头的 id；body 需含 stream:true 与 ≥2 个带 description 的 tools，无需 API Key |
-
-### Step 5 Preview Free
-
-| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 阶跃星辰 Step 5 预览免费档，限时约至 2026-10-15；可直接经 OpenAI 兼容 API 调用，需模拟 OpenCode 客户端请求：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli、x-opencode-project: global、x-opencode-request: msg_（任意值）、User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14，会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id 同填一个 ses_ 开头的 id；body 需含 stream:true 与 ≥2 个带 description 的 tools，无需 API Key |
-
 ## OpenAI
-<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
+<p align="right"><a href="#许可证">⬇ 直达底部</a></p>
 
 ### GPT-6 Astra
 
@@ -268,7 +253,7 @@
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $2.2 | $6.6 | 500K | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 
 ## 向量嵌入
-<p align="right"><a href="#目录">⬆ 回到顶部</a></p>
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
 
 ### Embedding-3
 
@@ -293,6 +278,21 @@
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[OpenAI 官方](https://openai.com/api/pricing/)** | 官方 | 4.9 亿 | $0.02 | — | 8K | 嵌入模型，1536 维；GPT 系列官方 API，生态兼容最广；Batch API 半价适合离线批处理，用量分级限额随消费自动提升；视觉/音频按 token 另计。全站月访问含 ChatGPT 网页用户。 |
+
+## 免费模型
+<p align="right"><a href="#目录">⬆ 回到顶部</a></p>
+
+### MiMo-V2.6-Flash Free
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用，需模拟 OpenCode 客户端请求：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli、x-opencode-project: global、x-opencode-request: msg_（任意值）、User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14，会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id 同填一个 ses_ 开头的 id；body 需含 stream:true 与 ≥2 个带 description 的 tools，无需 API Key |
+
+### Step 5 Preview Free
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 阶跃星辰 Step 5 预览免费档，限时约至 2026-10-15；可直接经 OpenAI 兼容 API 调用，需模拟 OpenCode 客户端请求：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli、x-opencode-project: global、x-opencode-request: msg_（任意值）、User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14，会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id 同填一个 ses_ 开头的 id；body 需含 stream:true 与 ≥2 个带 description 的 tools，无需 API Key |
 
 ## 真伪检测工具
 

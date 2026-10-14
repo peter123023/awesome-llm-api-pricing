@@ -45,7 +45,7 @@ const TYPE_LABEL = {
 };
 
 // —— 反排索引：model -> 渠道价格行
-const FAMILY_ORDER = { free: 0, openai: 1, claude: 2, deepseek: 3, glm: 4, qwen: 5, kimi: 6, google: 7, xai: 8, embedding: 9, other: 10 };
+const FAMILY_ORDER = { openai: 1, claude: 2, deepseek: 3, glm: 4, qwen: 5, kimi: 6, google: 7, xai: 8, embedding: 9, other: 10, free: 11 };
 const modelMap = new Map();
 for (const it of items) {
   for (const p of it.pricing) {
@@ -215,7 +215,7 @@ const FAMILY_LABEL = {
   embedding: { zh: '向量嵌入', en: 'Embeddings' },
   other: { zh: '其他厂商', en: 'Other Providers' },
 };
-const FAMILY_ORDER_KEYS = ['free', 'openai', 'claude', 'deepseek', 'glm', 'qwen', 'kimi', 'google', 'xai', 'embedding', 'other'];
+const FAMILY_ORDER_KEYS = ['openai', 'claude', 'deepseek', 'glm', 'qwen', 'kimi', 'google', 'xai', 'embedding', 'other', 'free'];
 
 function compareSection(lang) {
   const t = I18N[lang];

@@ -16,7 +16,6 @@
 
 ## Quick Links
 
-- [Free Models](#free-models): [MiMo-V2.6-Flash Free](#mimo-v26-flash-free) · [Step 5 Preview Free](#step-5-preview-free)
 - [OpenAI](#openai): [GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
 - [Claude (Anthropic)](#claude-anthropic): [Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
 - [DeepSeek](#deepseek): [DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
@@ -26,6 +25,7 @@
 - [Google Gemini](#google-gemini): [Gemini 4 Argon](#gemini-4-argon) · [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI (Grok)](#xai-grok): [Grok 4.7](#grok-47)
 - [Embeddings](#embeddings): [Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
+- [Free Models](#free-models): [MiMo-V2.6-Flash Free](#mimo-v26-flash-free) · [Step 5 Preview Free](#step-5-preview-free)
 
 ---
 
@@ -41,23 +41,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 > ⚠️ Rows marked 「Relay」 are third-party gateways. Their prices are not official; evaluate stability and safety yourself.
 
-## Free Models
-<p align="right"><a href="#license">⬇ Jump to bottom</a></p>
-
-### MiMo-V2.6-Flash Free
-
-| Channel | Type | Visits | Input | Output | Context | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | Xiaomi MiMo free tier, limited-time on Zen with no published end date; callable directly via OpenAI-compatible API by mimicking the OpenCode client request: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, x-opencode-project: global, x-opencode-request: msg_<any>, User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id all set to the same ses_-prefixed id; the body needs stream:true and a tools array of at least two functions each carrying a description; no API key required |
-
-### Step 5 Preview Free
-
-| Channel | Type | Visits | Input | Output | Context | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | StepFun Step 5 preview free tier, limited-time until about 2026-10-15; callable directly via OpenAI-compatible API by mimicking the OpenCode client request: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, x-opencode-project: global, x-opencode-request: msg_<any>, User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id all set to the same ses_-prefixed id; the body needs stream:true and a tools array of at least two functions each carrying a description; no API key required |
-
 ## OpenAI
-<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
+<p align="right"><a href="#license">⬇ Jump to bottom</a></p>
 
 ### GPT-6 Astra
 
@@ -268,7 +253,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $2.2 | $6.6 | 500K | relay rate; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 
 ## Embeddings
-<p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
 
 ### Embedding-3
 
@@ -293,6 +278,21 @@ Organized **by model**: each model is a section, and the table lists every chann
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | **[OpenAI](https://openai.com/api/pricing/)** | Official | 487.5M | $0.02 | — | 8K | embedding, 1536 dims; Official GPT API with the widest ecosystem compatibility; Batch API runs offline jobs at half price, usage tiers scale with spend automatically; vision/audio billed per token. Site-wide visits include ChatGPT web users. |
+
+## Free Models
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
+
+### MiMo-V2.6-Flash Free
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | Xiaomi MiMo free tier, limited-time on Zen with no published end date; callable directly via OpenAI-compatible API by mimicking the OpenCode client request: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, x-opencode-project: global, x-opencode-request: msg_<any>, User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id all set to the same ses_-prefixed id; the body needs stream:true and a tools array of at least two functions each carrying a description; no API key required |
+
+### Step 5 Preview Free
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | StepFun Step 5 preview free tier, limited-time until about 2026-10-15; callable directly via OpenAI-compatible API by mimicking the OpenCode client request: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, x-opencode-project: global, x-opencode-request: msg_<any>, User-Agent: opencode/1.19.0 ai-sdk/provider-utils/4.0.23 runtime/bun/1.3.14, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id all set to the same ses_-prefixed id; the body needs stream:true and a tools array of at least two functions each carrying a description; no API key required |
 
 ## Model Verification Tools
 
