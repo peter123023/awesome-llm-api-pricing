@@ -572,8 +572,8 @@
           "output": 0,
           "context": "—",
           "note": {
-            "zh": "小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用：POST /zen/v1/chat/completions，带 OpenCode 会话头 + stream + tools，无需 API Key",
-            "en": "Xiaomi MiMo free tier, limited-time on Zen with no published end date; callable directly via OpenAI-compatible API: POST /zen/v1/chat/completions with OpenCode session headers + stream + tools, no API key required"
+            "zh": "小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli，以及会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id（填同一个 ses_ 开头的 id），body 需含 stream:true 与 tools 数组（每个 function 带 description 字段），无需 API Key",
+            "en": "Xiaomi MiMo free tier, limited-time on Zen with no published end date; callable directly via OpenAI-compatible API: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id (all set to the same ses_-prefixed id), plus a body containing stream:true and a tools array (each function needs a description field); no API key required"
           }
         },
         {
@@ -583,8 +583,8 @@
           "output": 0,
           "context": "—",
           "note": {
-            "zh": "阶跃星辰 Step 5 预览免费档，限时约至 2026-10-15；可直接经 OpenAI 兼容 API 调用：POST /zen/v1/chat/completions，带 OpenCode 会话头 + stream + tools，无需 API Key",
-            "en": "StepFun Step 5 preview free tier, limited-time until about 2026-10-15; callable directly via OpenAI-compatible API: POST /zen/v1/chat/completions with OpenCode session headers + stream + tools, no API key required"
+            "zh": "阶跃星辰 Step 5 预览免费档，限时约至 2026-10-15；可直接经 OpenAI 兼容 API 调用：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli，以及会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id（填同一个 ses_ 开头的 id），body 需含 stream:true 与 tools 数组（每个 function 带 description 字段），无需 API Key",
+            "en": "StepFun Step 5 preview free tier, limited-time until about 2026-10-15; callable directly via OpenAI-compatible API: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id (all set to the same ses_-prefixed id), plus a body containing stream:true and a tools array (each function needs a description field); no API key required"
           }
         },
         {

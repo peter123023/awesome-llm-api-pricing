@@ -48,13 +48,13 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | Xiaomi MiMo free tier, limited-time on Zen with no published end date; callable directly via OpenAI-compatible API: POST /zen/v1/chat/completions with OpenCode session headers + stream + tools, no API key required |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | Xiaomi MiMo free tier, limited-time on Zen with no published end date; callable directly via OpenAI-compatible API: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id (all set to the same ses_-prefixed id), plus a body containing stream:true and a tools array (each function needs a description field); no API key required |
 
 ### Step 5 Preview Free
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | StepFun Step 5 preview free tier, limited-time until about 2026-10-15; callable directly via OpenAI-compatible API: POST /zen/v1/chat/completions with OpenCode session headers + stream + tools, no API key required |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | StepFun Step 5 preview free tier, limited-time until about 2026-10-15; callable directly via OpenAI-compatible API: POST https://opencode.ai/zen/v1/chat/completions with headers Authorization: Bearer public, x-opencode-client: cli, and session headers x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id (all set to the same ses_-prefixed id), plus a body containing stream:true and a tools array (each function needs a description field); no API key required |
 
 ## OpenAI
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>

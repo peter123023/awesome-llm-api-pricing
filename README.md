@@ -48,13 +48,13 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用：POST /zen/v1/chat/completions，带 OpenCode 会话头 + stream + tools，无需 API Key |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli，以及会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id（填同一个 ses_ 开头的 id），body 需含 stream:true 与 tools 数组（每个 function 带 description 字段），无需 API Key |
 
 ### Step 5 Preview Free
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 阶跃星辰 Step 5 预览免费档，限时约至 2026-10-15；可直接经 OpenAI 兼容 API 调用：POST /zen/v1/chat/completions，带 OpenCode 会话头 + stream + tools，无需 API Key |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 阶跃星辰 Step 5 预览免费档，限时约至 2026-10-15；可直接经 OpenAI 兼容 API 调用：POST https://opencode.ai/zen/v1/chat/completions，头 Authorization: Bearer public、x-opencode-client: cli，以及会话头 x-opencode-session / x-opencode-session-id / x-session-affinity / X-Session-Id（填同一个 ses_ 开头的 id），body 需含 stream:true 与 tools 数组（每个 function 带 description 字段），无需 API Key |
 
 ## OpenAI
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
