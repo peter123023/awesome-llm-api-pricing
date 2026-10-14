@@ -349,8 +349,8 @@
         "long-context"
       ],
       "notes": {
-        "zh": "阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。全站月访问含通义网页用户（tongyi.aliyun.com，2026-09 约 33.9 万）。",
-        "en": "Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95. Monthly visits include Tongyi web users (tongyi.aliyun.com, ~339K in 2026-09)."
+        "zh": "阿里云大模型服务平台百炼：Qwen3.8 Max 为当前旗舰（多模态、1M 上下文），官方价 ¥12/¥36，缓存命中仅 ¥1.5（1.25 折）、Batch 输入半价；开源 Qwen 系列与闭源旗舰同平台可调，国内合规发票齐全；国际版 Model Studio 同款 $1.65/$4.95。全站月访问含通义网页用户。",
+        "en": "Alibaba Cloud Model Studio: Qwen3.8 Max is the current flagship (multimodal, 1M context) at CNY 12/36, cache hits just CNY 1.5 (~12.5% of list) and batch input half price; open-weight Qwen models and closed flagships share one platform with proper invoicing in China; the global Model Studio lists the same model at $1.65/$4.95. Monthly visits include Tongyi web users."
       }
     },
     {
@@ -392,8 +392,8 @@
         "agentic"
       ],
       "notes": {
-        "zh": "Kimi 系列官方 API：K3 主打 1M tokens 长上下文、长程编码与 Agent 任务；国内站人民币计价（¥20/¥100），国际站等值 $3/$15；上下文缓存命中仅 ¥2、写入 ¥40（1 小时有效），适合高频重复前缀场景。全站月访问含 Kimi 网页助手用户（kimi.com，2026-09 约 4050 万）。",
-        "en": "Official Kimi API: K3 targets 1M-token long context, long-horizon coding and agent tasks; CNY billing on the China site (¥20/¥100), international site at $3/$15 equivalent; context cache hits cost just ¥2 (write ¥40, 1h TTL), ideal for repeated prefixes. Monthly visits include Kimi web assistant users (kimi.com, ~40.5M in 2026-09)."
+        "zh": "Kimi 系列官方 API：K3 主打 1M tokens 长上下文、长程编码与 Agent 任务；国内站人民币计价（¥20/¥100），国际站等值 $3/$15；上下文缓存命中仅 ¥2、写入 ¥40（1 小时有效），适合高频重复前缀场景。全站月访问含 Kimi 网页助手用户。",
+        "en": "Official Kimi API: K3 targets 1M-token long context, long-horizon coding and agent tasks; CNY billing on the China site (¥20/¥100), international site at $3/$15 equivalent; context cache hits cost just ¥2 (write ¥40, 1h TTL), ideal for repeated prefixes. Monthly visits include Kimi web assistant users."
       }
     },
     {
@@ -445,8 +445,8 @@
         "long-context"
       ],
       "notes": {
-        "zh": "Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。全站月访问含 Gemini 网页用户（gemini.google.com，2026-09 约 26.4 亿）。",
-        "en": "Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. Monthly visits include Gemini web users (gemini.google.com, ~2.64B in 2026-09)."
+        "zh": "Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。全站月访问含 Gemini 网页用户。",
+        "en": "Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. Monthly visits include Gemini web users."
       }
     },
     {
@@ -487,8 +487,8 @@
         "agents"
       ],
       "notes": {
-        "zh": "Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。全站月访问含 Grok 网页用户（grok.com，2026-09 约 2.05 亿）。",
-        "en": "Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price. Monthly visits include Grok web users (grok.com, ~205M in 2026-09)."
+        "zh": "Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。全站月访问含 Grok 网页用户。",
+        "en": "Official Grok API: 4.7 is the current flagship (released 2026-09) for coding, agents and general text, priced the same as Grok 4.6 at $2/$6; cache hits $0.50; 500K context window suits long documents and agent tasks. OpenRouter and OfoxAI list it at the same price. Monthly visits include Grok web users."
       }
     },
     {
@@ -551,8 +551,8 @@
         "cheap"
       ],
       "notes": {
-        "zh": "开源权重模型自托管推理平台，以低价与稳定吞吐著称，是 OpenRouter 的重要上游；纯 token 计价无手续费，缓存命中价极低；闭源款（Qwen3.8 Max）按官方国际版同价直通。全站月访问 50.2 万（traffic.cv，deepinfra.com，2026-09）。",
-        "en": "Hosted inference platform for open-weight models, known for low prices and steady throughput; a major OpenRouter upstream. Pure token billing with no surcharge and very cheap cache hits; closed models (Qwen3.8 Max) pass through at official international pricing. 502K monthly visits (traffic.cv, deepinfra.com, 2026-09)."
+        "zh": "开源权重模型自托管推理平台，以低价与稳定吞吐著称，是 OpenRouter 的重要上游；纯 token 计价无手续费，缓存命中价极低；闭源款（Qwen3.8 Max）按官方国际版同价直通。",
+        "en": "Hosted inference platform for open-weight models, known for low prices and steady throughput; a major OpenRouter upstream. Pure token billing with no surcharge and very cheap cache hits; closed models (Qwen3.8 Max) pass through at official international pricing."
       }
     },
     {
@@ -572,8 +572,8 @@
           "output": 0,
           "context": "—",
           "note": {
-            "zh": "小米 MiMo 免费档，输入输出全免；官方页面无截止时间标注",
-            "en": "Xiaomi MiMo free tier, zero cost in/out; no end date published"
+            "zh": "小米 MiMo 免费档，输入输出全免；Zen 官方标注限时免费、未公布具体截止日期",
+            "en": "Xiaomi MiMo free tier, zero cost in/out; Zen labels it limited-time free with no published end date"
           }
         },
         {
@@ -693,8 +693,8 @@
         "zero-markup"
       ],
       "notes": {
-        "zh": "OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。全站月访问 1332 万（traffic.cv，opencode.ai，2026-09）。",
-        "en": "Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher. 13.3M monthly visits (traffic.cv, opencode.ai, 2026-09)."
+        "zh": "OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。",
+        "en": "Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher."
       }
     },
     {
@@ -2142,8 +2142,8 @@
         "cheap"
       ],
       "notes": {
-        "zh": "AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。全站月访问 9.55 万（traffic.cv，www.ikuncode.cc，2026-09）。",
-        "en": "Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. 95.5K monthly visits (traffic.cv, www.ikuncode.cc, 2026-09)."
+        "zh": "AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。",
+        "en": "Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups."
       }
     },
     {
