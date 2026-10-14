@@ -621,6 +621,17 @@
           }
         },
         {
+          "model": "Gemini 4 Argon",
+          "family": "google",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "挂官方介绍价 $2/$10（五折，原价 $4/$20），折扣至 2026-11-30；缓存读 $0.10",
+            "en": "official intro price $2/$10 (50% off, list $4/$20) through 2026-11-30; cache read $0.10"
+          }
+        },
+        {
           "model": "Gemini 3.8 Flash",
           "family": "google",
           "input": 1.5,

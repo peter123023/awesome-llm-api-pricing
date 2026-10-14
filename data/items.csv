@@ -103,6 +103,7 @@ model,channel,type,input_per_1m,output_per_1m,context,pricing_url
 "Kimi K3","OhMyGPT","relay","3","15","1M","https://ohmygpt.com/"
 "Kimi K3","IKunCode","relay","19.6","98","1.05M","https://api.ikuncode.cc/pricing"
 "Gemini 4 Argon","Google Gemini","official","2","10","1M","https://ai.google.dev/gemini-api/docs/pricing"
+"Gemini 4 Argon","OpenCode Zen","aggregator","2","10","1M","https://opencode.ai/docs/zen/"
 "Gemini 4 Argon","OpenRouter","aggregator","2","10","1M","https://openrouter.ai/docs/limits"
 "Gemini 4 Argon","ZenMux","relay","2","10","1M","https://zenmux.ai/"
 "Gemini 4 Argon","AIHubMix","relay","2","10","1M","https://aihubmix.com/"
