@@ -703,10 +703,7 @@
         "agent",
         "zero-markup"
       ],
-      "notes": {
-        "zh": "OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价。",
-        "en": "Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request."
-      }
+      "notes": {"zh": "", "en": ""}
     },
     {
       "slug": "openrouter",
