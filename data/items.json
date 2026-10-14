@@ -566,6 +566,28 @@
       "currency": "USD",
       "pricing": [
         {
+          "model": "MiMo-V2.6-Flash Free",
+          "family": "free",
+          "input": 0,
+          "output": 0,
+          "context": "—",
+          "note": {
+            "zh": "小米 MiMo 免费档，输入输出全免",
+            "en": "Xiaomi MiMo free tier, zero cost in/out"
+          }
+        },
+        {
+          "model": "Step 5 Preview Free",
+          "family": "free",
+          "input": 0,
+          "output": 0,
+          "context": "—",
+          "note": {
+            "zh": "阶跃 Step 5 预览版免费档，输入输出全免",
+            "en": "StepFun Step 5 preview, zero cost in/out"
+          }
+        },
+        {
           "model": "Claude Opus 5.5",
           "family": "claude",
           "input": 4,
