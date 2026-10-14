@@ -48,13 +48,13 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | Xiaomi MiMo free tier, zero cost in/out; Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher. 13.3M monthly visits (traffic.cv, opencode.ai, 2026-09). |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | Xiaomi MiMo free tier, zero cost in/out; no end date published; Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher. 13.3M monthly visits (traffic.cv, opencode.ai, 2026-09). |
 
 ### Step 5 Preview Free
 
 | Channel | Type | Visits | Input | Output | Context | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | StepFun Step 5 preview, zero cost in/out; Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher. 13.3M monthly visits (traffic.cv, opencode.ai, 2026-09). |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | Aggregator | 13.3M | Free | Free | — | StepFun Step 5 preview, zero cost in/out; no end date published; Official model gateway from the OpenCode team (same team as the open-source agent): models vetted for coding agents with delivery confirmed per provider, advertised zero markup on pay-per-request; $20 top-up, auto-recharge below $5, monthly spend caps; works with any agent (Claude Code, Codex, etc.); upstream zero-retention, no training on your data (few exceptions, see privacy docs); some long-context tiers priced higher. 13.3M monthly visits (traffic.cv, opencode.ai, 2026-09). |
 
 ## OpenAI
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>

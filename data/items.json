@@ -572,8 +572,8 @@
           "output": 0,
           "context": "—",
           "note": {
-            "zh": "小米 MiMo 免费档，输入输出全免",
-            "en": "Xiaomi MiMo free tier, zero cost in/out"
+            "zh": "小米 MiMo 免费档，输入输出全免；官方页面无截止时间标注",
+            "en": "Xiaomi MiMo free tier, zero cost in/out; no end date published"
           }
         },
         {
@@ -583,8 +583,8 @@
           "output": 0,
           "context": "—",
           "note": {
-            "zh": "阶跃 Step 5 预览版免费档，输入输出全免",
-            "en": "StepFun Step 5 preview, zero cost in/out"
+            "zh": "阶跃 Step 5 预览版免费档，输入输出全免；官方页面无截止时间标注",
+            "en": "StepFun Step 5 preview, zero cost in/out; no end date published"
           }
         },
         {
@@ -681,8 +681,8 @@
         "en": "Per-model cache read/write prices; reads ~2-10% of input"
       },
       "free_tier": {
-        "zh": "12 款 Free 模型输入输出全免（Big Pickle、MiMo、Ling、Nemotron 等独立模型，不在主流比价表内），Jev 1.13 输出免费",
-        "en": "12 Free models (Big Pickle, MiMo, Ling, Nemotron etc., not in main tables) at zero cost; Jev 1.13 output free"
+        "zh": "12 款 Free 模型输入输出全免（Big Pickle、MiMo、Ling、Nemotron 等独立模型，不在主流比价表内），Jev 1.13 输出免费（限时）",
+        "en": "12 Free models (Big Pickle, MiMo, Ling, Nemotron etc., not in main tables) at zero cost; Jev 1.13 output free (limited-time)"
       },
       "min_recharge": "$20",
       "monthly_visits": 13320000,
