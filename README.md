@@ -48,7 +48,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
-| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 小米 MiMo 免费档，输入输出全免；Zen 官方标注限时免费、未公布具体截止日期；OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。 |
+| **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | 免费 | 免费 | — | 小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用：POST /zen/v1/chat/completions，带 OpenCode 会话头 + stream + tools，无需 API Key；OpenCode 团队官方模型网关（与开源 Agent 工具 OpenCode 同团队）：模型针对编程 Agent 场景实测筛选、与提供商确认交付质量，宣称按请求计费零加价；$20 即用即付、余额低于 $5 自动充值，可设月度消费限额；可配合 Claude Code、Codex 等任意 Agent；上游零留存、不用数据训练（个别例外见官网隐私节）；部分长上下文档另有加价档。 |
 
 ## OpenAI
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>

@@ -572,8 +572,8 @@
           "output": 0,
           "context": "—",
           "note": {
-            "zh": "小米 MiMo 免费档，输入输出全免；Zen 官方标注限时免费、未公布具体截止日期",
-            "en": "Xiaomi MiMo free tier, zero cost in/out; Zen labels it limited-time free with no published end date"
+            "zh": "小米 MiMo 免费档，Zen 标注限时免费、未公布截止日期；可直接经 OpenAI 兼容 API 调用：POST /zen/v1/chat/completions，带 OpenCode 会话头 + stream + tools，无需 API Key",
+            "en": "Xiaomi MiMo free tier, limited-time on Zen with no published end date; callable directly via OpenAI-compatible API: POST /zen/v1/chat/completions with OpenCode session headers + stream + tools, no API key required"
           }
         },
         {
