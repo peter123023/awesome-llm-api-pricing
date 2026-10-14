@@ -22,7 +22,7 @@
 - [GLM（智谱）](#glm智谱)：[GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
 - [Qwen（阿里）](#qwen阿里)：[Qwen3.8 Max](#qwen38-max)
 - [Kimi（月之暗面）](#kimi月之暗面)：[Kimi K3](#kimi-k3)
-- [Google Gemini](#google-gemini)：[Gemini 3.8 Flash](#gemini-38-flash)
+- [Google Gemini](#google-gemini)：[Gemini 4 Argon](#gemini-4-argon) · [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI（Grok）](#xaigrok)：[Grok 4.7](#grok-47)
 - [向量嵌入](#向量嵌入)：[Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
 
@@ -214,6 +214,16 @@
 
 ## Google Gemini
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
+
+### Gemini 4 Argon
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Google Gemini 官方](https://ai.google.dev/gemini-api/docs/pricing)** | 官方 | 26.4 亿 | $2 | $10 | 1M | 旗舰推理；介绍价至 2026-11-30，2026-12-01 起 $4/$20；缓存读 $0.10（仅隐式缓存）；Gemini 系列官方 API：3.8 Flash 定位长程软件工程、自主 Agent 与企业工作流，介绍价 $0.75/$3.75（2026-12-31 前，2027 年起 $1.5/$7.5）；AI Studio 免费层可测试但数据会用于改进产品；Grounding Google 搜索每月 5000 次免费、之后 $14/千次。全站月访问含 Gemini 网页用户（gemini.google.com，2026-09 约 26.4 亿）。 |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | 聚合 | 2127 万 | $2 | $10 | 1M | 与官方介绍价同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
+| **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $2 | $10 | 1M | 与官方介绍价同价（Google Vertex 上游，页面标五折为相对 12 月标准价）；全球首个推出「AI 保险」的聚合网关：自动检测幻觉、输出质量差、高延迟等问题，次日自动赔付额度——第三方评测称「这是同行里没人敢公开承诺的」；双协议兼容 OpenAI 与 Anthropic 标准，无缝对接 Claude Code、Cursor 等工具；ZenMux Auto 智能路由按质量/成本选模型（客户实测约省 20%）；SOC2 合规推进中。第三方中转，勿充大额。 |
+| **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $10 | 1M | 与官方介绍价同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
+| **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.684 | $3.42 | 1M | 3.4折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 
 ### Gemini 3.8 Flash
 

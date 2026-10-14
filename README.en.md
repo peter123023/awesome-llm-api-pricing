@@ -22,7 +22,7 @@
 - [GLM (Zhipu)](#glm-zhipu): [GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
 - [Qwen (Alibaba)](#qwen-alibaba): [Qwen3.8 Max](#qwen38-max)
 - [Kimi (Moonshot)](#kimi-moonshot): [Kimi K3](#kimi-k3)
-- [Google Gemini](#google-gemini): [Gemini 3.8 Flash](#gemini-38-flash)
+- [Google Gemini](#google-gemini): [Gemini 4 Argon](#gemini-4-argon) · [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI (Grok)](#xai-grok): [Grok 4.7](#grok-47)
 - [Embeddings](#embeddings): [Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
 
@@ -214,6 +214,16 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 ## Google Gemini
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
+
+### Gemini 4 Argon
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Google Gemini](https://ai.google.dev/gemini-api/docs/pricing)** | Official | 2640.0M | $2 | $10 | 1M | flagship reasoning; intro price through 2026-11-30, then $4/$20 from Dec 1; cache read $0.10 (implicit only); Official Gemini API: 3.8 Flash targets long-horizon software engineering, autonomous agents and enterprise workflows, at an intro price of $0.75/$3.75 (through 2026-12-31, then $1.5/$7.5); the AI Studio free tier is usable for testing but data improves Google products; Grounding with Google Search includes 5,000 free requests/month, then $14 per 1,000. Monthly visits include Gemini web users (gemini.google.com, ~2.64B in 2026-09). |
+| **[OpenRouter](https://openrouter.ai/docs/limits)** | Aggregator | 21.3M | $2 | $10 | 1M | same as official intro price; The largest model aggregator: one API for hundreds of models at upstream list prices; auto-routing to the cheapest available provider with failover, free tiers on popular models; crypto top-up supported. |
+| **[ZenMux](https://zenmux.ai/)** | Relay | 381K | $2 | $10 | 1M | same as official intro price (Google Vertex upstream; site's 50% off is vs Dec list price); First gateway with an "AI insurance" scheme: hallucinations, poor output and high latency are auto-detected and compensated as credits the next day — reviewers call it "a promise nobody else in the gateway business makes out loud"; dual OpenAI + Anthropic protocol for Claude Code, Cursor etc.; ZenMux Auto routes by quality/cost, reportedly cutting spend ~20%; SOC2 in progress. Third-party relay; do not deposit large amounts. |
+| **[AIHubMix](https://aihubmix.com/)** | Relay | 284K | $2 | $10 | 1M | same as official intro price; Marketed as "one API to route all LLMs": unlimited concurrency, fully OpenAI-compatible with zero-code switching, continuously optimized routes; 27+ genuinely free models subsidized by the platform (incl. GPT-5.5, Gemini 3, GLM); 10% off spending in partner app ecosystems via APP-Code; no subscription, pay as you go; active blog and docs. Third-party relay; do not deposit large amounts. |
+| **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.684 | $3.42 | 1M | 34% of official intro price; Production-oriented model router: smart scheduling, prompt caching (>99% claimed hit rate), automatic failover, and a no-model-downgrade promise; real-time bidding across 2,000+ providers, hot GPT/Claude models typically at 17-29% of list; works with 10+ agent clients incl. Claude Code & Codex; claims 6,000+ teams, 1T+ tokens routed daily and 99.98% routing SLA; pay-as-you-go in USD, no minimum spend, Alipay supported. Third-party relay; do not deposit large amounts. |
 
 ### Gemini 3.8 Flash
 
