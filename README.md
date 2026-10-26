@@ -25,6 +25,7 @@
 - [Google Gemini](#google-gemini)：[Gemini 4 Argon](#gemini-4-argon) · [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI（Grok）](#xaigrok)：[Grok 4.7](#grok-47)
 - [向量嵌入](#向量嵌入)：[Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
+- [其他厂商](#其他厂商)：[Wren R1](#wren-r1)
 - [免费模型](#免费模型)：[MiMo-V2.6-Flash Free](#mimo-v26-flash-free) · [Step 5 Preview Free](#step-5-preview-free)
 
 ---
@@ -279,6 +280,15 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | **[OpenAI 官方](https://openai.com/api/pricing/)** | 官方 | 4.9 亿 | $0.02 | — | 8K | 嵌入模型，1536 维；GPT 系列官方 API，生态兼容最广；Batch API 半价适合离线批处理，用量分级限额随消费自动提升；视觉/音频按 token 另计。全站月访问含 ChatGPT 网页用户。 |
 
+## 其他厂商
+<p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
+
+### Wren R1
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[WebWright](https://webwright.ai/pricing)** | 官方 | 待核实 | $0.4 | $1.6 | 200K | 标准档；缓存 $0.10/1M；OpenAI 兼容接口 https://webwright.ai/v1；高级档同一部署的别名为 wren-r1-fast（$0.80 / $3.20）。 |
+
 ## 免费模型
 <p align="right"><a href="#目录">⬆ 回到顶部</a></p>
 
@@ -329,6 +339,7 @@
 - **[OhMyGPT](https://ohmygpt.com/)** [中转] — 国内开发者常用中转网关，折扣稳定。 · 月访问 2 万（2026-09） · [官网](https://ohmygpt.com)
 - **[IKunCode](https://api.ikuncode.cc/pricing)** [中转] — AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连。 · 月访问 10 万（2026-09） · [官网](https://api.ikuncode.cc)
 - **[302.AI](https://302.ai/)** [中转] — 按量付费企业级 AI 资源站，图像/视频/语言模型一站式。 · 月访问 7 万（2026-09） · [官网](https://302.ai)
+- **[WebWright](https://webwright.ai/pricing)** [官方] — Wren R1 的官方 OpenAI 兼容 API。 · 月访问 待核实 · [官网](https://webwright.ai)
 
 ---
 

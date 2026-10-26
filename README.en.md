@@ -25,6 +25,7 @@
 - [Google Gemini](#google-gemini): [Gemini 4 Argon](#gemini-4-argon) · [Gemini 3.8 Flash](#gemini-38-flash)
 - [xAI (Grok)](#xai-grok): [Grok 4.7](#grok-47)
 - [Embeddings](#embeddings): [Embedding-3](#embedding-3) · [text-embedding-v3](#text-embedding-v3) · [text-embedding-3-large](#text-embedding-3-large) · [text-embedding-3-small](#text-embedding-3-small)
+- [Other Providers](#other-providers): [Wren R1](#wren-r1)
 - [Free Models](#free-models): [MiMo-V2.6-Flash Free](#mimo-v26-flash-free) · [Step 5 Preview Free](#step-5-preview-free)
 
 ---
@@ -279,6 +280,15 @@ Organized **by model**: each model is a section, and the table lists every chann
 | --- | --- | --- | --- | --- | --- | --- |
 | **[OpenAI](https://openai.com/api/pricing/)** | Official | 487.5M | $0.02 | — | 8K | embedding, 1536 dims; Official GPT API with the widest ecosystem compatibility; Batch API runs offline jobs at half price, usage tiers scale with spend automatically; vision/audio billed per token. Site-wide visits include ChatGPT web users. |
 
+## Other Providers
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
+
+### Wren R1
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[WebWright](https://webwright.ai/pricing)** | Official | — | $0.4 | $1.6 | 200K | Standard plan; cache $0.10/1M; OpenAI-compatible endpoint at https://webwright.ai/v1; the Premium-plan alias for the same deployment is wren-r1-fast at $0.80 / $3.20. |
+
 ## Free Models
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
 
@@ -329,6 +339,7 @@ Relays are tempting on price but carry "shell-model / degraded-quality" risk —
 - **[OhMyGPT](https://ohmygpt.com/)** [Relay] — Popular relay gateway for Chinese devs; stable discounts. · monthly visits 16K（2026-09） · [website](https://ohmygpt.com)
 - **[IKunCode](https://api.ikuncode.cc/pricing)** [Relay] — Coding-tool relay for Claude Code / CodeX / Gemini CLI. · monthly visits 96K（2026-09） · [website](https://api.ikuncode.cc)
 - **[302.AI](https://302.ai/)** [Relay] — Pay-as-you-go enterprise AI hub: image, video and language models in one place. · monthly visits 67K（2026-09） · [website](https://302.ai)
+- **[WebWright](https://webwright.ai/pricing)** [Official] — Official OpenAI-compatible API for Wren R1. · monthly visits unverified · [website](https://webwright.ai)
 
 ---
 
