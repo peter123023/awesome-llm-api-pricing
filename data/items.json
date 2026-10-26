@@ -2214,6 +2214,55 @@
         "zh": "按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。",
         "en": "Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as \"friendly to both beginners and developers, with all APIs open\". Third-party relay; do not deposit large amounts."
       }
+    },
+    {
+      "slug": "webwright",
+      "name": {
+        "zh": "WebWright",
+        "en": "WebWright"
+      },
+      "vendor": {
+        "zh": "美国",
+        "en": "US"
+      },
+      "desc": {
+        "zh": "Wren R1 的官方 OpenAI 兼容 API。",
+        "en": "Official OpenAI-compatible API for Wren R1."
+      },
+      "category": "overseas",
+      "type": "official",
+      "url": "https://webwright.ai/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "Wren R1",
+          "family": "other",
+          "input": 0.4,
+          "output": 1.6,
+          "context": "200K",
+          "note": {
+            "zh": "标准档；缓存 $0.10/1M",
+            "en": "Standard plan; cache $0.10/1M"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存输入 $0.10/1M tokens",
+        "en": "Cached input $0.10 per 1M tokens"
+      },
+      "free_tier": {
+        "zh": "无",
+        "en": "None"
+      },
+      "min_recharge": "",
+      "tags": [
+        "closed-source",
+        "cheap"
+      ],
+      "notes": {
+        "zh": "OpenAI 兼容接口 https://webwright.ai/v1；高级档同一部署的别名为 wren-r1-fast（$0.80 / $3.20）。",
+        "en": "OpenAI-compatible endpoint at https://webwright.ai/v1; the Premium-plan alias for the same deployment is wren-r1-fast at $0.80 / $3.20."
+      }
     }
   ]
 }
