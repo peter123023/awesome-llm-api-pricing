@@ -2214,6 +2214,341 @@
         "zh": "按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。",
         "en": "Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as \"friendly to both beginners and developers, with all APIs open\". Third-party relay; do not deposit large amounts."
       }
+    },
+    {
+      "slug": "vercel-ai-gateway",
+      "name": {
+        "zh": "Vercel AI Gateway",
+        "en": "Vercel AI Gateway"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "Vercel 官方 AI 网关：按上游原价透传、零加价，覆盖 499 个模型。",
+        "en": "Vercel's official AI gateway: zero-markup pass-through of upstream prices, 499 models."
+      },
+      "category": "aggregator",
+      "url": "https://vercel.com/ai-gateway/models",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1.05M",
+          "note": {
+            "zh": "零加价透传官方价",
+            "en": "Zero markup, official price passed through"
+          }
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1.05M",
+          "note": {
+            "zh": "零加价透传官方价",
+            "en": "Zero markup, official price passed through"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.1,
+          "output": 0.5,
+          "context": "1.05M",
+          "note": {
+            "zh": "零加价透传官方价",
+            "en": "Zero markup, official price passed through"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传官方价",
+            "en": "Zero markup, official price passed through"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传官方价",
+            "en": "Zero markup, official price passed through"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.075,
+          "output": 0.3,
+          "context": "1M",
+          "note": {
+            "zh": "Flash 基准价，fast/batch 变体另行计价",
+            "en": "Base Flash price; fast/batch variants billed separately"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 0.66,
+          "output": 1.98,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传上游价",
+            "en": "Zero markup, upstream price passed through"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.4,
+          "output": 4.4,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传上游价",
+            "en": "Zero markup, upstream price passed through"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.15,
+          "output": 0.5,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传上游价",
+            "en": "Zero markup, upstream price passed through"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传上游价",
+            "en": "Zero markup, upstream price passed through"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传上游价",
+            "en": "Zero markup, upstream price passed through"
+          }
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "family": "google",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "跟随官方介绍价 $2/$10（至 2026-11-30）",
+            "en": "Tracks official intro price $2/$10 through 2026-11-30"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.75,
+          "output": 3.75,
+          "context": "1M",
+          "note": {
+            "zh": "零加价透传官方价",
+            "en": "Zero markup, official price passed through"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "零加价透传官方价",
+            "en": "Zero markup, official price passed through"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "未单列缓存价，跟随上游",
+        "en": "No separate cache price; follows upstream"
+      },
+      "free_tier": {
+        "zh": "每月 $5 免费额度，无需信用卡",
+        "en": "$5 monthly free credits, no credit card required"
+      },
+      "min_recharge": "",
+      "monthly_visits": null,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "gateway",
+        "free"
+      ],
+      "notes": {
+        "zh": "按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。",
+        "en": "Passes through provider list rates with zero markup; model IDs look like openai/gpt-6-astra, and fast/batch variants are priced separately. Trace Drains, ZDR and custom reporting are per-request add-ons, not token pricing."
+      }
+    },
+    {
+      "slug": "venice-ai",
+      "name": {
+        "zh": "Venice AI",
+        "en": "Venice AI"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "隐私优先的推理平台，API 按 1M tokens 计费并单列缓存读价。",
+        "en": "Privacy-first inference platform; API priced per 1M tokens with separate cache-read pricing."
+      },
+      "category": "aggregator",
+      "url": "https://docs.venice.ai/overview/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.20",
+            "en": "Cache read $0.20"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.20",
+            "en": "Cache read $0.20"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.0075",
+            "en": "Cache read $0.0075"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.65,
+          "output": 3.301,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.33",
+            "en": "Cache read $0.33"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2.5,
+          "output": 7.5,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.3125；较官方价加价约 25%",
+            "en": "Cache read $0.3125; roughly 25% above official price"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3.75,
+          "output": 18.75,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.375；较官方价加价约 25%",
+            "en": "Cache read $0.375; roughly 25% above official price"
+          }
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "family": "google",
+          "input": 2.5,
+          "output": 12.5,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.125；较官方介绍价加价约 25%",
+            "en": "Cache read $0.125; roughly 25% above official intro price"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.9375,
+          "output": 4.6875,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.09375；较官方价加价约 25%",
+            "en": "Cache read $0.09375; roughly 25% above official price"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2.27,
+          "output": 6.8,
+          "context": "500K",
+          "note": {
+            "zh": "缓存读 $0.57；较官方价加价约 13%",
+            "en": "Cache read $0.57; roughly 13% above official price"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存读价见各行备注；写缓存价仅 Claude Sonnet 5、Qwen3.8 Max 单列",
+        "en": "Cache-read prices in row notes; cache-write is listed only for Claude Sonnet 5 and Qwen3.8 Max"
+      },
+      "free_tier": {
+        "zh": "免费档每日 10 次文本、15 次图像提示",
+        "en": "Free tier: 10 text and 15 image prompts per day"
+      },
+      "min_recharge": "",
+      "monthly_visits": null,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "caching",
+        "privacy"
+      ],
+      "notes": {
+        "zh": "以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。",
+        "en": "Privacy-focused inference platform whose model prices generally run above official rates (~25% markup on mainstream models); API credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225), with a separate pay-as-you-go API top-up."
+      }
     }
   ]
 }
