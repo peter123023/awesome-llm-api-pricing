@@ -55,6 +55,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $9 | $45 | 1.05M | 10% off official; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥2.5 | ¥12.5 | 1.05M | tiered dynamic discounts; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $10 | $50 | 1.05M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $10 | $50 | 1.05M | Cache read $1; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $10 | $50 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ### GPT-6.1 Sol
 
@@ -69,6 +71,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $1.6 | $8 | 1.05M | limited 20% off; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥0.5 | ¥2.5 | 1.05M | tiered dynamic discounts; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $2 | $10 | 1.05M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $10 | 1.05M | Cache read $0.1; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $10 | 1M | Matches official price; GPT-6.1 Terra also listed at $1/$5; One key for 1000+ models; mainstream models listed at official rates. |
 
 ### GPT-6 Luna
 
@@ -82,6 +86,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.05 | $0.25 | 1.05M | 50% of list; Production-oriented model router: smart scheduling, prompt caching (>99% claimed hit rate), automatic failover, and a no-model-downgrade promise; real-time bidding across 2,000+ providers, hot GPT/Claude models typically at 17-29% of list; works with 10+ agent clients incl. Claude Code & Codex; claims 6,000+ teams, 1T+ tokens routed daily and 99.98% routing SLA; pay-as-you-go in USD, no minimum spend, Alipay supported. Third-party relay; do not deposit large amounts. |
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $0.08 | $0.4 | 1.05M | limited 20% off; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.1 | $0.5 | 1.05M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $0.1 | $0.5 | 1.05M | Cache read $0.01; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.1 | $0.5 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## Claude (Anthropic)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -100,6 +106,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OfoxAI](https://ofox.ai/)** | Relay | 213K | $4 | $20 | 1M | same as official; Official-channel direct routing with transparent real-time pricing, zero platform fee; onboard by changing one base URL, supports 10+ tools incl. Claude Code & Codex; strong on video/image models (Seedance from $0.11/s, images from $0.03); publishes verifiable platform-wide token usage rankings. Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $4 | $20 | 1M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $4 | $20 | 1M | Cache read $0.20; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $4 | $20 | 1M | Cache read $0.2; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $4 | $20 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ### Claude Sonnet 5
 
@@ -116,6 +124,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥0.8 | ¥4 | 1M | tiered dynamic discounts; cache ¥0.08; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $2 | $10 | 1M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2 | $10 | 1M | Cache read $0.20; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $10 | 1M | Cache read $0.2; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $10 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## DeepSeek
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -139,6 +149,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥0.35 | ¥1.4 | 1M | tiered dynamic discounts; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.075 | $0.3 | 1M | Base Flash price; fast/batch variants billed separately; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $0.3 | $1.2 | 1M | Cache read $0.0075; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $0.3 | $1.2 | 1M | Cache read $0.006; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.3 | $1.2 | 1M | Listed at the official USD rate; One key for 1000+ models; mainstream models listed at official rates. |
 
 ### DeepSeek V4-Pro
 
@@ -156,6 +168,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥1.575 | ¥4.725 | 1M | tiered dynamic discounts; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.66 | $1.98 | 1M | Zero markup, upstream price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $1.65 | $3.301 | 1M | Cache read $0.33; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $1.32 | $3.96 | 1M | 0813 release; cache read $0.044; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.9 | $2.7 | 1M | 0813 release also listed at $1.84/$3.68; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## GLM (Zhipu)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -176,6 +190,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥5.6 | ¥19.6 | 1M | cache ¥1.4; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[302.AI](https://302.ai/)** | Relay | 67K | $1.2 | $4.2 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $1.4 | $4.4 | 1M | Zero markup, upstream price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $1.4 | $4.4 | 1M | Slightly above the official price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ### GLM-5.3-Flash
 
@@ -193,6 +208,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥0.56 | ¥1.96 | 1M | cache ¥0.161; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[302.AI](https://302.ai/)** | Relay | 67K | $0.065 | $0.22 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.15 | $0.5 | 1M | Zero markup, upstream price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.15 | $0.5 | 1M | FlashX also listed at $0.37/$1.25; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## Qwen (Alibaba)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -211,6 +227,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $1.49 | $4.46 | 1M | 10% off intl; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $2 | $6 | 1M | Zero markup, upstream price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2.5 | $7.5 | 1M | Cache read $0.3125; roughly 25% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $6 | 1.05M | Cache read $0.25; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $6 | 1M | Matches the official international rate; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## Kimi (Moonshot)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -229,6 +247,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥19.6 | ¥98 | 1.05M | slightly below official; cache ¥1.96; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $3 | $15 | 1M | Zero markup, upstream price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $3.75 | $18.75 | 1M | Cache read $0.375; roughly 25% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $3 | $15 | 1.05M | Cache read $0.3; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $3 | $15 | 1M | Other variants such as K3.1 Pro also listed; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## Google Gemini
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -245,6 +265,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[TeamoRouter](https://teamorouter.com/)** | Relay | 231K | $0.684 | $3.42 | 1M | 34% of official intro price; Production-oriented model router: smart scheduling, prompt caching (>99% claimed hit rate), automatic failover, and a no-model-downgrade promise; real-time bidding across 2,000+ providers, hot GPT/Claude models typically at 17-29% of list; works with 10+ agent clients incl. Claude Code & Codex; claims 6,000+ teams, 1T+ tokens routed daily and 99.98% routing SLA; pay-as-you-go in USD, no minimum spend, Alipay supported. Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $2 | $10 | 1M | Tracks official intro price $2/$10 through 2026-11-30; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2.5 | $12.5 | 1M | Cache read $0.125; roughly 25% above official intro price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $10 | 1M | Matches the official intro price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ### Gemini 3.8 Flash
 
@@ -259,6 +280,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | Relay | 96K | ¥0.525 | ¥2.625 | 1M | tiered dynamic discounts; cache ¥0.0525; Coding-tool relay focused on Claude Code / CodeX / Gemini CLI passthrough; sign-up via LinuxDO or email. Prices are public on the api.ikuncode.cc model marketplace (42 models with per-1M-token unit prices and tiered dynamic discounts); console shows token usage; minimum recharge undisclosed. ⚠️ Third-party resale service — prices are not official; assess stability and account safety yourself and avoid large top-ups. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.75 | $3.75 | 1M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $0.9375 | $4.6875 | 1M | Cache read $0.09375; roughly 25% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.75 | $3.75 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## xAI (Grok)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -274,6 +296,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[OhMyGPT](https://ohmygpt.com/)** | Relay | 16K | $2.2 | $6.6 | 500K | relay rate; Veteran relay for Chinese developers: 100+ models (OpenAI, Claude, Gemini, DeepSeek, Grok, Qwen etc.), 100% OpenAI-compatible with zero code changes; solid enterprise features like per-key permission control and an open OAuth API; the widest payment coverage; third-party directory AI Gateways editorial score 3.8/5. Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $2 | $6 | 500K | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2.27 | $6.8 | 500K | Cache read $0.57; roughly 13% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
+| **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $6 | 500K | Cache read $0.5; Auto-routes across upstreams; mainstream models pass through at official rates. |
+| **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $6 | 500K | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
 
 ## Embeddings
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -354,6 +378,8 @@ Relays are tempting on price but carry "shell-model / degraded-quality" risk —
 - **[302.AI](https://302.ai/)** [Relay] — Pay-as-you-go enterprise AI hub: image, video and language models in one place. · monthly visits 67K（2026-09） · [website](https://302.ai)
 - **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** [Aggregator] — Vercel's official AI gateway: zero-markup pass-through of upstream prices, 499 models. · monthly visits unverified · [website](https://vercel.com)
 - **[Venice AI](https://docs.venice.ai/overview/pricing)** [Aggregator] — Privacy-first inference platform; API priced per 1M tokens with separate cache-read pricing. · monthly visits unverified · [website](https://docs.venice.ai)
+- **[Requesty](https://www.requesty.ai/pricing)** [Aggregator] — Model-routed OpenAI-compatible gateway whose public /v1/models endpoint carries unit prices. · monthly visits 333K（2026-09） · [website](https://www.requesty.ai)
+- **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** [Aggregator] — Inference platform aggregating 1000+ models behind one API key, listing mainstream models at official rates. · monthly visits 292K（2026-09） · [website](https://aimlapi.com)
 
 ---
 

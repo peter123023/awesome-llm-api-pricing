@@ -2549,6 +2549,352 @@
         "zh": "额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。",
         "en": "Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available."
       }
+    },
+    {
+      "slug": "requesty",
+      "name": {
+        "zh": "Requesty",
+        "en": "Requesty"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "按模型路由的 OpenAI 兼容网关，公开 /v1/models 接口直接带单价。",
+        "en": "Model-routed OpenAI-compatible gateway whose public /v1/models endpoint carries unit prices."
+      },
+      "category": "aggregator",
+      "url": "https://www.requesty.ai/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1.05M",
+          "note": {
+            "zh": "缓存读 $1",
+            "en": "Cache read $1"
+          }
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1.05M",
+          "note": {
+            "zh": "缓存读 $0.1",
+            "en": "Cache read $0.1"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.1,
+          "output": 0.5,
+          "context": "1.05M",
+          "note": {
+            "zh": "缓存读 $0.01",
+            "en": "Cache read $0.01"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.2",
+            "en": "Cache read $0.2"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.2",
+            "en": "Cache read $0.2"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.006",
+            "en": "Cache read $0.006"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.32,
+          "output": 3.96,
+          "context": "1M",
+          "note": {
+            "zh": "挂 0813 版本；缓存读 $0.044",
+            "en": "0813 release; cache read $0.044"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1.05M",
+          "note": {
+            "zh": "缓存读 $0.25",
+            "en": "Cache read $0.25"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1.05M",
+          "note": {
+            "zh": "缓存读 $0.3",
+            "en": "Cache read $0.3"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "缓存读 $0.5",
+            "en": "Cache read $0.5"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存读价见各行备注；价格取自官方 /v1/models 接口的每 token 单价",
+        "en": "Cache-read prices in row notes; prices come from the official /v1/models per-token rates"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": 332900,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "routing",
+        "openai-compatible"
+      ],
+      "notes": {
+        "zh": "多家上游自动路由，主流模型按官方价透传。",
+        "en": "Auto-routes across upstreams; mainstream models pass through at official rates."
+      }
+    },
+    {
+      "slug": "aimlapi",
+      "name": {
+        "zh": "AI/ML API",
+        "en": "AI/ML API"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "单一 API Key 聚合千余模型的推理平台，主线模型按官方价挂牌。",
+        "en": "Inference platform aggregating 1000+ models behind one API key, listing mainstream models at official rates."
+      },
+      "category": "aggregator",
+      "url": "https://aimlapi.com/ai-ml-api-pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "Matches official price"
+          }
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价；另有 GPT-6.1 Terra $1/$5",
+            "en": "Matches official price; GPT-6.1 Terra also listed at $1/$5"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.1,
+          "output": 0.5,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "Matches official price"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "Matches official price"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "Matches official price"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "1M",
+          "note": {
+            "zh": "按官方美元价挂牌",
+            "en": "Listed at the official USD rate"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 0.9,
+          "output": 2.7,
+          "context": "1M",
+          "note": {
+            "zh": "另有 0813 版本 $1.84/$3.68",
+            "en": "0813 release also listed at $1.84/$3.68"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.4,
+          "output": 4.4,
+          "context": "1M",
+          "note": {
+            "zh": "略高于官方价",
+            "en": "Slightly above the official price"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.15,
+          "output": 0.5,
+          "context": "1M",
+          "note": {
+            "zh": "另有 FlashX $0.37/$1.25",
+            "en": "FlashX also listed at $0.37/$1.25"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1M",
+          "note": {
+            "zh": "与官方国际版同价",
+            "en": "Matches the official international rate"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "另有 K3.1 Pro 等其他版本",
+            "en": "Other variants such as K3.1 Pro also listed"
+          }
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "family": "google",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "与官方介绍价同价",
+            "en": "Matches the official intro price"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.75,
+          "output": 3.75,
+          "context": "1M",
+          "note": {
+            "zh": "与官方同价",
+            "en": "Matches official price"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "与官方同价",
+            "en": "Matches official price"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "",
+        "en": ""
+      },
+      "free_tier": {
+        "zh": "免费沙盒试用层，注册即用",
+        "en": "Free playground tier available after sign-up"
+      },
+      "min_recharge": "",
+      "monthly_visits": 291620,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "openai-compatible",
+        "multimodal"
+      ],
+      "notes": {
+        "zh": "一个 Key 覆盖千余模型，主线模型按官方价挂牌。",
+        "en": "One key for 1000+ models; mainstream models listed at official rates."
+      }
     }
   ]
 }
