@@ -57,6 +57,8 @@
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $10 | $50 | 1.05M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $10 | $50 | 1.05M | 缓存读 $1；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $10 | $50 | 1M | 与官方同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $10 | $50 | 1M | 缓存读 $1；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $10 | $50 | 1M | 缓存读 $1；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ### GPT-6.1 Sol
 
@@ -73,6 +75,8 @@
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1.05M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $2 | $10 | 1.05M | 缓存读 $0.1；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $2 | $10 | 1M | 与官方同价；另有 GPT-6.1 Terra $1/$5；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $2 | $10 | 1M | 缓存读 $0.1；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $2 | $10 | 1M | 缓存读 $0.1；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ### GPT-6 Luna
 
@@ -88,6 +92,8 @@
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.1 | $0.5 | 1.05M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $0.1 | $0.5 | 1.05M | 缓存读 $0.01；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $0.1 | $0.5 | 1M | 与官方同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $0.1 | $0.5 | 1M | 缓存读 $0.01；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $0.1 | $0.5 | 1M | 缓存读 $0.01；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ## Claude（Anthropic）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -108,6 +114,8 @@
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $4 | $20 | 1M | 缓存读 $0.20；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $4 | $20 | 1M | 缓存读 $0.2；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $4 | $20 | 1M | 与官方同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $4 | $20 | 1M | 缓存读 $0.2；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $4 | $20 | 1M | 缓存读 $0.2；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ### Claude Sonnet 5
 
@@ -126,6 +134,8 @@
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2 | $10 | 1M | 缓存读 $0.20；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $2 | $10 | 1M | 缓存读 $0.2；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $2 | $10 | 1M | 与官方同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $2 | $10 | 1M | 缓存读 $0.2；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $2 | $10 | 1M | 缓存读 $0.2；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ## DeepSeek
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -151,6 +161,8 @@
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $0.3 | $1.2 | 1M | 缓存读 $0.0075；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $0.3 | $1.2 | 1M | 缓存读 $0.006；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $0.3 | $1.2 | 1M | 按官方美元价挂牌；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[Novita AI](https://novita.ai/pricing)** | 聚合 | 30 万 | $0.3 | $1.2 | 1M | 缓存读 $0.006；以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $0.3 | $1.2 | 1M | 缓存读 $0.006；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
 
 ### DeepSeek V4-Pro
 
@@ -170,6 +182,9 @@
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $1.65 | $3.301 | 1M | 缓存读 $0.33；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $1.32 | $3.96 | 1M | 挂 0813 版本；缓存读 $0.044；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $0.9 | $2.7 | 1M | 另有 0813 版本 $1.84/$3.68；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[Novita AI](https://novita.ai/pricing)** | 聚合 | 30 万 | $1.6 | $3.2 | 1M | 缓存读 $0.135；另有 0813 版本 $1.32/$3.96；以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $1.32 | $3.96 | 1M | 缓存读 $0.044；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $1.74 | $3.96 | 1M | 缓存读 $0.145；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ## GLM（智谱）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -191,6 +206,9 @@
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $1.2 | $4.2 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $1.4 | $4.4 | 1M | 零加价透传上游价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $1.4 | $4.4 | 1M | 略高于官方价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[Novita AI](https://novita.ai/pricing)** | 聚合 | 30 万 | $1.4 | $4.4 | 1M | 缓存读 $0.26；以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $1.4 | $4.396 | 1M | 缓存读 $0.259；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $1.1429 | $4 | 1M | 自主定价，与官方牌价不同；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ### GLM-5.3-Flash
 
@@ -209,6 +227,7 @@
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $0.065 | $0.22 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.15 | $0.5 | 1M | 零加价透传上游价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $0.15 | $0.5 | 1M | 另有 FlashX $0.37/$1.25；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[Novita AI](https://novita.ai/pricing)** | 聚合 | 30 万 | $0.15 | $0.5 | 1M | 缓存读 $0.03；以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。 |
 
 ## Qwen（阿里）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -229,6 +248,9 @@
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.5 | $7.5 | 1M | 缓存读 $0.3125；较官方价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $2 | $6 | 1.05M | 缓存读 $0.25；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $2 | $6 | 1M | 与官方国际版同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[Novita AI](https://novita.ai/pricing)** | 聚合 | 30 万 | $2 | $6 | 1M | 缓存读 $0.25；以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $1.65 | $4.95 | 1M | 缓存读 $0.20625；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $1.7143 | $5.1429 | 1M | 缓存读 $0.342857；自主定价；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ## Kimi（月之暗面）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -249,6 +271,9 @@
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $3.75 | $18.75 | 1M | 缓存读 $0.375；较官方价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $3 | $15 | 1.05M | 缓存读 $0.3；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $3 | $15 | 1M | 另有 K3.1 Pro 等其他版本；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[Novita AI](https://novita.ai/pricing)** | 聚合 | 30 万 | $3 | $15 | 1M | 缓存读 $0.3、缓存写 $3；以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $3 | $15 | 1M | 缓存读 $0.3；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $3 | $15 | 1M | 缓存读 $0.3；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ## Google Gemini
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -266,6 +291,8 @@
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1M | 跟随官方介绍价 $2/$10（至 2026-11-30）；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.5 | $12.5 | 1M | 缓存读 $0.125；较官方介绍价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $2 | $10 | 1M | 与官方介绍价同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $2 | $10 | 1M | 缓存读 $0.1；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $2 | $10 | 1M | 与官方介绍价同价；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ### Gemini 3.8 Flash
 
@@ -281,6 +308,8 @@
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.75 | $3.75 | 1M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $0.9375 | $4.6875 | 1M | 缓存读 $0.09375；较官方价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $0.75 | $3.75 | 1M | 与官方同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $0.75 | $3.75 | 1M | 缓存读 $0.075；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $0.75 | $3.75 | 1M | 缓存读 $0.075；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ## xAI（Grok）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -298,6 +327,8 @@
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.27 | $6.8 | 500K | 缓存读 $0.57；较官方价加价约 13%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 | **[Requesty](https://www.requesty.ai/pricing)** | 聚合 | 33 万 | $2 | $6 | 500K | 缓存读 $0.5；多家上游自动路由，主流模型按官方价透传。 |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | 聚合 | 29 万 | $2 | $6 | 500K | 与官方同价；一个 Key 覆盖千余模型，主线模型按官方价挂牌。 |
+| **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $2 | $6 | 500K | 缓存读 $0.5；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $2 | $6 | 500K | 缓存读 $0.5；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
 
 ## 向量嵌入
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -380,6 +411,9 @@
 - **[Venice AI](https://docs.venice.ai/overview/pricing)** [聚合] — 隐私优先的推理平台，API 按 1M tokens 计费并单列缓存读价。 · 月访问 待核实 · [官网](https://docs.venice.ai)
 - **[Requesty](https://www.requesty.ai/pricing)** [聚合] — 按模型路由的 OpenAI 兼容网关，公开 /v1/models 接口直接带单价。 · 月访问 33 万（2026-09） · [官网](https://www.requesty.ai)
 - **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** [聚合] — 单一 API Key 聚合千余模型的推理平台，主线模型按官方价挂牌。 · 月访问 29 万（2026-09） · [官网](https://aimlapi.com)
+- **[Novita AI](https://novita.ai/pricing)** [聚合] — 以开源权重模型为主的推理平台，价格由公开 /v1/models 接口直接给出。 · 月访问 30 万（2026-09） · [官网](https://novita.ai)
+- **[API易 APIYI](https://docs.apiyi.com/models)** [中转] — 国内中转网关，按 1:7 固定汇率把美元牌价折算成人民币。 · 月访问 43 万（2026-09） · [官网](https://docs.apiyi.com)
+- **[LaoZhang API](https://docs.laozhang.ai/en/models)** [中转] — 面向开发者的中转网关，模型目录与每 1M tokens 单价在文档页公开。 · 月访问 33 万（2026-09） · [官网](https://docs.laozhang.ai)
 
 ---
 

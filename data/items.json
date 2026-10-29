@@ -2895,6 +2895,470 @@
         "zh": "一个 Key 覆盖千余模型，主线模型按官方价挂牌。",
         "en": "One key for 1000+ models; mainstream models listed at official rates."
       }
+    },
+    {
+      "slug": "novita",
+      "name": {
+        "zh": "Novita AI",
+        "en": "Novita AI"
+      },
+      "vendor": {
+        "zh": "美国（聚合）",
+        "en": "US (Aggregator)"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "以开源权重模型为主的推理平台，价格由公开 /v1/models 接口直接给出。",
+        "en": "Inference platform focused on open-weight models, with prices exposed via its public /v1/models endpoint."
+      },
+      "category": "aggregator",
+      "url": "https://novita.ai/pricing",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.006",
+            "en": "Cache read $0.006"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.6,
+          "output": 3.2,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.135；另有 0813 版本 $1.32/$3.96",
+            "en": "Cache read $0.135; 0813 release also listed at $1.32/$3.96"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.4,
+          "output": 4.4,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.26",
+            "en": "Cache read $0.26"
+          }
+        },
+        {
+          "model": "GLM-5.3-Flash",
+          "family": "glm",
+          "input": 0.15,
+          "output": 0.5,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.03",
+            "en": "Cache read $0.03"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 2,
+          "output": 6,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.25",
+            "en": "Cache read $0.25"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.3、缓存写 $3",
+            "en": "Cache read $0.3, cache write $3"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存读价见各行备注；Kimi K3 另单列缓存写入 $3",
+        "en": "Cache-read prices in row notes; Kimi K3 also lists cache write at $3"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": 302920,
+      "traffic_month": "2026-09",
+      "tags": [
+        "aggregator",
+        "open-weight",
+        "cheap"
+      ],
+      "notes": {
+        "zh": "以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。",
+        "en": "Mostly open-weight models; no OpenAI, Claude or Gemini listings."
+      }
+    },
+    {
+      "slug": "apiyi",
+      "name": {
+        "zh": "API易 APIYI",
+        "en": "APIYI"
+      },
+      "vendor": {
+        "zh": "中国（中转）",
+        "en": "China (Relay)"
+      },
+      "type": "relay",
+      "desc": {
+        "zh": "国内中转网关，按 1:7 固定汇率把美元牌价折算成人民币。",
+        "en": "Chinese relay gateway converting USD list prices to CNY at a fixed 1:7 rate."
+      },
+      "category": "relay",
+      "url": "https://docs.apiyi.com/models",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $1",
+            "en": "Cache read $1"
+          }
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.1",
+            "en": "Cache read $0.1"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.1,
+          "output": 0.5,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.01",
+            "en": "Cache read $0.01"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.2",
+            "en": "Cache read $0.2"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.2",
+            "en": "Cache read $0.2"
+          }
+        },
+        {
+          "model": "DeepSeek V4.1-Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.006",
+            "en": "Cache read $0.006"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.32,
+          "output": 3.96,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.044",
+            "en": "Cache read $0.044"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.4,
+          "output": 4.396,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.259",
+            "en": "Cache read $0.259"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 1.65,
+          "output": 4.95,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.20625",
+            "en": "Cache read $0.20625"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.3",
+            "en": "Cache read $0.3"
+          }
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "family": "google",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.1",
+            "en": "Cache read $0.1"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.75,
+          "output": 3.75,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.075",
+            "en": "Cache read $0.075"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "缓存读 $0.5",
+            "en": "Cache read $0.5"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存读价见各行备注",
+        "en": "Cache-read prices in row notes"
+      },
+      "free_tier": {
+        "zh": "注册送测试额度，首充另有赠送",
+        "en": "Test credits on registration plus a first top-up bonus"
+      },
+      "min_recharge": "$5（约 ¥35）",
+      "monthly_visits": 433090,
+      "traffic_month": "2026-09",
+      "tags": [
+        "relay",
+        "openai-compatible",
+        "cny-billing"
+      ],
+      "notes": {
+        "zh": "官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。",
+        "en": "Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%."
+      }
+    },
+    {
+      "slug": "laozhang-api",
+      "name": {
+        "zh": "LaoZhang API",
+        "en": "LaoZhang API"
+      },
+      "vendor": {
+        "zh": "中国（中转）",
+        "en": "China (Relay)"
+      },
+      "type": "relay",
+      "desc": {
+        "zh": "面向开发者的中转网关，模型目录与每 1M tokens 单价在文档页公开。",
+        "en": "Developer-facing relay gateway publishing its model catalog and per-1M-token prices in its docs."
+      },
+      "category": "relay",
+      "url": "https://docs.laozhang.ai/en/models",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "GPT-6 Astra",
+          "family": "openai",
+          "input": 10,
+          "output": 50,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $1",
+            "en": "Cache read $1"
+          }
+        },
+        {
+          "model": "GPT-6.1 Sol",
+          "family": "openai",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.1",
+            "en": "Cache read $0.1"
+          }
+        },
+        {
+          "model": "GPT-6 Luna",
+          "family": "openai",
+          "input": 0.1,
+          "output": 0.5,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.01",
+            "en": "Cache read $0.01"
+          }
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "family": "claude",
+          "input": 4,
+          "output": 20,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.2",
+            "en": "Cache read $0.2"
+          }
+        },
+        {
+          "model": "Claude Sonnet 5",
+          "family": "claude",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.2",
+            "en": "Cache read $0.2"
+          }
+        },
+        {
+          "model": "DeepSeek V4-Pro",
+          "family": "deepseek",
+          "input": 1.74,
+          "output": 3.96,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.145",
+            "en": "Cache read $0.145"
+          }
+        },
+        {
+          "model": "GLM-5.3",
+          "family": "glm",
+          "input": 1.1429,
+          "output": 4,
+          "context": "1M",
+          "note": {
+            "zh": "自主定价，与官方牌价不同",
+            "en": "Self-set pricing, differs from the official list"
+          }
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "family": "qwen",
+          "input": 1.7143,
+          "output": 5.1429,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.342857；自主定价",
+            "en": "Cache read $0.342857; self-set pricing"
+          }
+        },
+        {
+          "model": "Kimi K3",
+          "family": "kimi",
+          "input": 3,
+          "output": 15,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.3",
+            "en": "Cache read $0.3"
+          }
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "family": "google",
+          "input": 2,
+          "output": 10,
+          "context": "1M",
+          "note": {
+            "zh": "与官方介绍价同价",
+            "en": "Matches the official intro price"
+          }
+        },
+        {
+          "model": "Gemini 3.8 Flash",
+          "family": "google",
+          "input": 0.75,
+          "output": 3.75,
+          "context": "1M",
+          "note": {
+            "zh": "缓存读 $0.075",
+            "en": "Cache read $0.075"
+          }
+        },
+        {
+          "model": "Grok 4.7",
+          "family": "xai",
+          "input": 2,
+          "output": 6,
+          "context": "500K",
+          "note": {
+            "zh": "缓存读 $0.5",
+            "en": "Cache read $0.5"
+          }
+        }
+      ],
+      "cache": {
+        "zh": "缓存读价见各行备注",
+        "en": "Cache-read prices in row notes"
+      },
+      "free_tier": {
+        "zh": "",
+        "en": ""
+      },
+      "min_recharge": "",
+      "monthly_visits": 325480,
+      "traffic_month": "2026-09",
+      "tags": [
+        "relay",
+        "openai-compatible",
+        "anthropic-compatible"
+      ],
+      "notes": {
+        "zh": "主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。",
+        "en": "Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed."
+      }
     }
   ]
 }

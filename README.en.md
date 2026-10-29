@@ -57,6 +57,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $10 | $50 | 1.05M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $10 | $50 | 1.05M | Cache read $1; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $10 | $50 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $10 | $50 | 1M | Cache read $1; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $10 | $50 | 1M | Cache read $1; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ### GPT-6.1 Sol
 
@@ -73,6 +75,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $2 | $10 | 1.05M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $10 | 1.05M | Cache read $0.1; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $10 | 1M | Matches official price; GPT-6.1 Terra also listed at $1/$5; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $2 | $10 | 1M | Cache read $0.1; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $2 | $10 | 1M | Cache read $0.1; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ### GPT-6 Luna
 
@@ -88,6 +92,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.1 | $0.5 | 1.05M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $0.1 | $0.5 | 1.05M | Cache read $0.01; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.1 | $0.5 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $0.1 | $0.5 | 1M | Cache read $0.01; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $0.1 | $0.5 | 1M | Cache read $0.01; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ## Claude (Anthropic)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -108,6 +114,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $4 | $20 | 1M | Cache read $0.20; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $4 | $20 | 1M | Cache read $0.2; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $4 | $20 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $4 | $20 | 1M | Cache read $0.2; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $4 | $20 | 1M | Cache read $0.2; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ### Claude Sonnet 5
 
@@ -126,6 +134,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2 | $10 | 1M | Cache read $0.20; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $10 | 1M | Cache read $0.2; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $10 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $2 | $10 | 1M | Cache read $0.2; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $2 | $10 | 1M | Cache read $0.2; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ## DeepSeek
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -151,6 +161,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $0.3 | $1.2 | 1M | Cache read $0.0075; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $0.3 | $1.2 | 1M | Cache read $0.006; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.3 | $1.2 | 1M | Listed at the official USD rate; One key for 1000+ models; mainstream models listed at official rates. |
+| **[Novita AI](https://novita.ai/pricing)** | Aggregator | 303K | $0.3 | $1.2 | 1M | Cache read $0.006; Mostly open-weight models; no OpenAI, Claude or Gemini listings. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $0.3 | $1.2 | 1M | Cache read $0.006; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
 
 ### DeepSeek V4-Pro
 
@@ -170,6 +182,9 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $1.65 | $3.301 | 1M | Cache read $0.33; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $1.32 | $3.96 | 1M | 0813 release; cache read $0.044; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.9 | $2.7 | 1M | 0813 release also listed at $1.84/$3.68; One key for 1000+ models; mainstream models listed at official rates. |
+| **[Novita AI](https://novita.ai/pricing)** | Aggregator | 303K | $1.6 | $3.2 | 1M | Cache read $0.135; 0813 release also listed at $1.32/$3.96; Mostly open-weight models; no OpenAI, Claude or Gemini listings. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $1.32 | $3.96 | 1M | Cache read $0.044; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $1.74 | $3.96 | 1M | Cache read $0.145; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ## GLM (Zhipu)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -191,6 +206,9 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[302.AI](https://302.ai/)** | Relay | 67K | $1.2 | $4.2 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $1.4 | $4.4 | 1M | Zero markup, upstream price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $1.4 | $4.4 | 1M | Slightly above the official price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[Novita AI](https://novita.ai/pricing)** | Aggregator | 303K | $1.4 | $4.4 | 1M | Cache read $0.26; Mostly open-weight models; no OpenAI, Claude or Gemini listings. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $1.4 | $4.396 | 1M | Cache read $0.259; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $1.1429 | $4 | 1M | Self-set pricing, differs from the official list; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ### GLM-5.3-Flash
 
@@ -209,6 +227,7 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[302.AI](https://302.ai/)** | Relay | 67K | $0.065 | $0.22 | 1M | relay rate; Enterprise AI resource hub with pay-as-you-go: no monthly fee, ~1 credit per USD, ~$5 minimum top-up, balance never expires; unlimited creation and sharing of bots/apps, private deployment for its open-source app ecosystem; reviewed as "friendly to both beginners and developers, with all APIs open". Third-party relay; do not deposit large amounts. |
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.15 | $0.5 | 1M | Zero markup, upstream price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.15 | $0.5 | 1M | FlashX also listed at $0.37/$1.25; One key for 1000+ models; mainstream models listed at official rates. |
+| **[Novita AI](https://novita.ai/pricing)** | Aggregator | 303K | $0.15 | $0.5 | 1M | Cache read $0.03; Mostly open-weight models; no OpenAI, Claude or Gemini listings. |
 
 ## Qwen (Alibaba)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -229,6 +248,9 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2.5 | $7.5 | 1M | Cache read $0.3125; roughly 25% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $6 | 1.05M | Cache read $0.25; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $6 | 1M | Matches the official international rate; One key for 1000+ models; mainstream models listed at official rates. |
+| **[Novita AI](https://novita.ai/pricing)** | Aggregator | 303K | $2 | $6 | 1M | Cache read $0.25; Mostly open-weight models; no OpenAI, Claude or Gemini listings. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $1.65 | $4.95 | 1M | Cache read $0.20625; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $1.7143 | $5.1429 | 1M | Cache read $0.342857; self-set pricing; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ## Kimi (Moonshot)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -249,6 +271,9 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $3.75 | $18.75 | 1M | Cache read $0.375; roughly 25% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $3 | $15 | 1.05M | Cache read $0.3; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $3 | $15 | 1M | Other variants such as K3.1 Pro also listed; One key for 1000+ models; mainstream models listed at official rates. |
+| **[Novita AI](https://novita.ai/pricing)** | Aggregator | 303K | $3 | $15 | 1M | Cache read $0.3, cache write $3; Mostly open-weight models; no OpenAI, Claude or Gemini listings. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $3 | $15 | 1M | Cache read $0.3; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $3 | $15 | 1M | Cache read $0.3; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ## Google Gemini
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -266,6 +291,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $2 | $10 | 1M | Tracks official intro price $2/$10 through 2026-11-30; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2.5 | $12.5 | 1M | Cache read $0.125; roughly 25% above official intro price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $10 | 1M | Matches the official intro price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $2 | $10 | 1M | Cache read $0.1; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $2 | $10 | 1M | Matches the official intro price; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ### Gemini 3.8 Flash
 
@@ -281,6 +308,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | Aggregator | — | $0.75 | $3.75 | 1M | Zero markup, official price passed through; fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing. |
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $0.9375 | $4.6875 | 1M | Cache read $0.09375; roughly 25% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $0.75 | $3.75 | 1M | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $0.75 | $3.75 | 1M | Cache read $0.075; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $0.75 | $3.75 | 1M | Cache read $0.075; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ## xAI (Grok)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -298,6 +327,8 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Venice AI](https://docs.venice.ai/overview/pricing)** | Aggregator | — | $2.27 | $6.8 | 500K | Cache read $0.57; roughly 13% above official price; Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available. |
 | **[Requesty](https://www.requesty.ai/pricing)** | Aggregator | 333K | $2 | $6 | 500K | Cache read $0.5; Auto-routes across upstreams; mainstream models pass through at official rates. |
 | **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** | Aggregator | 292K | $2 | $6 | 500K | Matches official price; One key for 1000+ models; mainstream models listed at official rates. |
+| **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $2 | $6 | 500K | Cache read $0.5; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
+| **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $2 | $6 | 500K | Cache read $0.5; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
 
 ## Embeddings
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -380,6 +411,9 @@ Relays are tempting on price but carry "shell-model / degraded-quality" risk —
 - **[Venice AI](https://docs.venice.ai/overview/pricing)** [Aggregator] — Privacy-first inference platform; API priced per 1M tokens with separate cache-read pricing. · monthly visits unverified · [website](https://docs.venice.ai)
 - **[Requesty](https://www.requesty.ai/pricing)** [Aggregator] — Model-routed OpenAI-compatible gateway whose public /v1/models endpoint carries unit prices. · monthly visits 333K（2026-09） · [website](https://www.requesty.ai)
 - **[AI/ML API](https://aimlapi.com/ai-ml-api-pricing)** [Aggregator] — Inference platform aggregating 1000+ models behind one API key, listing mainstream models at official rates. · monthly visits 292K（2026-09） · [website](https://aimlapi.com)
+- **[Novita AI](https://novita.ai/pricing)** [Aggregator] — Inference platform focused on open-weight models, with prices exposed via its public /v1/models endpoint. · monthly visits 303K（2026-09） · [website](https://novita.ai)
+- **[APIYI](https://docs.apiyi.com/models)** [Relay] — Chinese relay gateway converting USD list prices to CNY at a fixed 1:7 rate. · monthly visits 433K（2026-09） · [website](https://docs.apiyi.com)
+- **[LaoZhang API](https://docs.laozhang.ai/en/models)** [Relay] — Developer-facing relay gateway publishing its model catalog and per-1M-token prices in its docs. · monthly visits 325K（2026-09） · [website](https://docs.laozhang.ai)
 
 ---
 
