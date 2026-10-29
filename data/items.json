@@ -2406,8 +2406,8 @@
         "free"
       ],
       "notes": {
-        "zh": "按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。",
-        "en": "Passes through provider list rates with zero markup; model IDs look like openai/gpt-6-astra, and fast/batch variants are priced separately. Trace Drains, ZDR and custom reporting are per-request add-ons, not token pricing."
+        "zh": "fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。",
+        "en": "fast/batch variants billed separately; Trace Drains, ZDR and similar are per-request add-ons, not token pricing."
       }
     },
     {
@@ -2546,8 +2546,8 @@
         "privacy"
       ],
       "notes": {
-        "zh": "以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。",
-        "en": "Privacy-focused inference platform whose model prices generally run above official rates (~25% markup on mainstream models); API credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225), with a separate pay-as-you-go API top-up."
+        "zh": "额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。",
+        "en": "Credits tie into subscription tiers (Pro $18 includes $1, Plus $68 includes $75, Max $200 includes $225); standalone pay-as-you-go API top-up also available."
       }
     }
   ]

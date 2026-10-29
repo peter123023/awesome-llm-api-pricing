@@ -54,7 +54,7 @@
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $1.74 | $8.7 | 1.05M | 1.7折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $9 | $45 | 1.05M | 官方价九折；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥2.5 | ¥12.5 | 1.05M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $10 | $50 | 1.05M | 零加价透传官方价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $10 | $50 | 1.05M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 
 ### GPT-6.1 Sol
 
@@ -68,7 +68,7 @@
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.348 | $1.74 | 1.05M | 1.7折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $1.6 | $8 | 1.05M | 限时8折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.5 | ¥2.5 | 1.05M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1.05M | 零加价透传官方价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1.05M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 
 ### GPT-6 Luna
 
@@ -81,7 +81,7 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $0.1 | $0.5 | 1.05M | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.05 | $0.25 | 1.05M | 5折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.08 | $0.4 | 1.05M | 限时8折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.1 | $0.5 | 1.05M | 零加价透传官方价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.1 | $0.5 | 1.05M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 
 ## Claude（Anthropic）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -98,8 +98,8 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $4 | $20 | 1M | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $1.14 | $5.72 | 1M | 2.9折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $4 | $20 | 1M | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $4 | $20 | 1M | 零加价透传官方价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $4 | $20 | 1M | 缓存读 $0.20；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $4 | $20 | 1M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $4 | $20 | 1M | 缓存读 $0.20；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ### Claude Sonnet 5
 
@@ -114,8 +114,8 @@
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.562 | $2.81 | 1M | 2.8折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $10 | 1M | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.8 | ¥4 | 1M | 分组动态折扣，缓存命中 ¥0.08；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1M | 零加价透传官方价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2 | $10 | 1M | 缓存读 $0.20；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2 | $10 | 1M | 缓存读 $0.20；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ## DeepSeek
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -137,8 +137,8 @@
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.255 | $1.02 | 1M | 8.5折（峰时，谷时减半）；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.21 | $0.84 | 1M | 限时7折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.35 | ¥1.4 | 1M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.075 | $0.3 | 1M | Flash 基准价，fast/batch 变体另行计价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $0.3 | $1.2 | 1M | 缓存读 $0.0075；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.075 | $0.3 | 1M | Flash 基准价，fast/batch 变体另行计价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $0.3 | $1.2 | 1M | 缓存读 $0.0075；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ### DeepSeek V4-Pro
 
@@ -154,8 +154,8 @@
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $1.13 | $3.39 | 1M | 8.6折（峰时，谷时减半）；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $0.92 | $2.77 | 1M | 限时7折；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥1.575 | ¥4.725 | 1M | 分组动态折扣；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.66 | $1.98 | 1M | 零加价透传上游价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $1.65 | $3.301 | 1M | 缓存读 $0.33；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.66 | $1.98 | 1M | 零加价透传上游价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $1.65 | $3.301 | 1M | 缓存读 $0.33；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ## GLM（智谱）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -175,7 +175,7 @@
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $1.2 | $4.2 | 1M | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥5.6 | ¥19.6 | 1M | 缓存命中 ¥1.4；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $1.2 | $4.2 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $1.4 | $4.4 | 1M | 零加价透传上游价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $1.4 | $4.4 | 1M | 零加价透传上游价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 
 ### GLM-5.3-Flash
 
@@ -192,7 +192,7 @@
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.065 | $0.22 | 1M | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.56 | ¥1.96 | 1M | 缓存命中 ¥0.161；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
 | **[302.AI](https://302.ai/)** | 中转 | 7 万 | $0.065 | $0.22 | 1M | 中转参考价；按量付费的企业级 AI 资源站：0 月费、$1≈1 credit、最低充值约 $5、余额永久有效；机器人与应用无限制创建和分享，开源应用生态支持私有化部署；媒体评测称其「既面向小白也面向开发者友好，API 全部开放」。第三方中转，勿充大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.15 | $0.5 | 1M | 零加价透传上游价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.15 | $0.5 | 1M | 零加价透传上游价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
 
 ## Qwen（阿里）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -209,8 +209,8 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $6 | 1M | 与国际版同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $1.71 | $5.14 | 1M | 0手续费直通；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $1.49 | $4.46 | 1M | 国际版九折；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $6 | 1M | 零加价透传上游价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.5 | $7.5 | 1M | 缓存读 $0.3125；较官方价加价约 25%；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $6 | 1M | 零加价透传上游价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.5 | $7.5 | 1M | 缓存读 $0.3125；较官方价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ## Kimi（月之暗面）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -227,8 +227,8 @@
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $3 | $15 | 1M | 与官方国际版同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $3 | $15 | 1M | 与官方国际版同价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥19.6 | ¥98 | 1.05M | 略低于官方价，缓存命中 ¥1.96；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $3 | $15 | 1M | 零加价透传上游价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $3.75 | $18.75 | 1M | 缓存读 $0.375；较官方价加价约 25%；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $3 | $15 | 1M | 零加价透传上游价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $3.75 | $18.75 | 1M | 缓存读 $0.375；较官方价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ## Google Gemini
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -243,8 +243,8 @@
 | **[ZenMux](https://zenmux.ai/)** | 中转 | 38 万 | $2 | $10 | 1M | 与官方介绍价同价（Google Vertex 上游，页面标五折为相对 12 月标准价）；全球首个推出「AI 保险」的聚合网关：自动检测幻觉、输出质量差、高延迟等问题，次日自动赔付额度——第三方评测称「这是同行里没人敢公开承诺的」；双协议兼容 OpenAI 与 Anthropic 标准，无缝对接 Claude Code、Cursor 等工具；ZenMux Auto 智能路由按质量/成本选模型（客户实测约省 20%）；SOC2 合规推进中。第三方中转，勿充大额。 |
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $10 | 1M | 与官方介绍价同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.684 | $3.42 | 1M | 3.4折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1M | 跟随官方介绍价 $2/$10（至 2026-11-30）；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.5 | $12.5 | 1M | 缓存读 $0.125；较官方介绍价加价约 25%；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $10 | 1M | 跟随官方介绍价 $2/$10（至 2026-11-30）；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.5 | $12.5 | 1M | 缓存读 $0.125；较官方介绍价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ### Gemini 3.8 Flash
 
@@ -257,8 +257,8 @@
 | **[TeamoRouter](https://teamorouter.com/)** | 中转 | 23 万 | $0.22 | $1.09 | 1M | 2.9折；面向生产环境的模型路由层：智能调度、提示缓存（官方称命中率 >99%）、自动兜底，宣称绝不降级模型版本；2000+ 供应商实时竞价定价，热门 GPT/Claude 款普遍 1.7-2.9 折；已适配 Claude Code、Codex 等 10+ Agent 客户端，官方称 6,000+ 团队在用、日路由超 1T tokens、路由 SLA 99.98%；按量计费无月费无最低消费，支持支付宝。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $0.68 | $3.38 | 1M | 介绍价九折；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
 | **[IKunCode](https://api.ikuncode.cc/pricing)** | 中转 | 10 万 | ¥0.525 | ¥2.625 | 1M | 分组动态折扣，缓存命中 ¥0.0525；AI 编程工具中转站，主打 Claude Code / CodeX / Gemini CLI 直连适配，LinuxDO 或邮箱注册；价格在 api.ikuncode.cc 模型广场公开（42 款模型每 1M tokens 单价 + 分组动态折扣），控制台可查 token 用量；最低充值未公开。⚠️ 第三方转售服务，价格不代表官方，稳定性/账号安全自行评估，勿充值大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.75 | $3.75 | 1M | 零加价透传官方价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $0.9375 | $4.6875 | 1M | 缓存读 $0.09375；较官方价加价约 25%；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $0.75 | $3.75 | 1M | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $0.9375 | $4.6875 | 1M | 缓存读 $0.09375；较官方价加价约 25%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ## xAI（Grok）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -272,8 +272,8 @@
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $6 | 500K | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
 | **[OfoxAI](https://ofox.ai/)** | 中转 | 21 万 | $2 | $6 | 500K | 与官方同价；主打官方渠道直连与实时透明定价（所见即所付），0 平台费；改一个 base URL 即接入，支持 Claude Code、Codex 等 10+ 工具；视频/图像模型强势（Seedance 低至 $0.11/秒、图像 $0.03/张起），并公开全平台 token 用量排行供查证。第三方中转，勿充大额。 |
 | **[OhMyGPT](https://ohmygpt.com/)** | 中转 | 2 万 | $2.2 | $6.6 | 500K | 中转参考价；面向国内开发者的老牌中转：聚合 100+ 模型（OpenAI、Claude、Gemini、DeepSeek、Grok、Qwen 等），100% OpenAI 兼容零改动迁移；企业功能齐全——密钥级权限控制、开放 OAuth API 等；支付方式覆盖国内外主流渠道，是支付最方便的一家；第三方评测站 AI Gateways 编辑评分 3.8/5。第三方中转，勿充大额。 |
-| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $6 | 500K | 零加价透传官方价；按 provider 原价透传、零加价，模型 ID 形如 openai/gpt-6-astra；同一模型可能有 fast / batch 变体，价格另计。Trace Drains、ZDR、自定义报表等为按请求/按量附加计费，不属于 token 价。 |
-| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.27 | $6.8 | 500K | 缓存读 $0.57；较官方价加价约 13%；以隐私为主打的推理平台，模型价普遍高于官方（主流模型约加价 25%）；API 额度与订阅档挂钩（Pro $18 含 $1 额度、Plus $68 含 $75、Max $200 含 $225），另有按量的纯 API 充值方式。 |
+| **[Vercel AI Gateway](https://vercel.com/ai-gateway/models)** | 聚合 | 待核实 | $2 | $6 | 500K | 零加价透传官方价；fast / batch 变体另行计价；Trace Drains、ZDR 等按请求收费，不属 token 价。 |
+| **[Venice AI](https://docs.venice.ai/overview/pricing)** | 聚合 | 待核实 | $2.27 | $6.8 | 500K | 缓存读 $0.57；较官方价加价约 13%；额度与订阅档挂钩（Pro $18 含 $1、Plus $68 含 $75、Max $200 含 $225），另有纯 API 按量充值。 |
 
 ## 向量嵌入
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
