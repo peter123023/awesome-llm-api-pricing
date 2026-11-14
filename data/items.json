@@ -706,6 +706,48 @@
       "notes": {"zh": "", "en": ""}
     },
     {
+      "slug": "sandbase",
+      "cache": "",
+      "free_tier": "",
+      "min_recharge": "",
+      "name": {
+        "zh": "SandBase",
+        "en": "SandBase"
+      },
+      "vendor": {
+        "zh": "聚合平台",
+        "en": "Aggregator"
+      },
+      "type": "aggregator",
+      "desc": {
+        "zh": "通过 OpenAI 兼容接口调用多家模型，按用量计费。",
+        "en": "OpenAI-compatible access to models from multiple providers with usage-based billing."
+      },
+      "category": "aggregator",
+      "url": "https://www.sandbase.ai/models/deepseek/deepseek-v4-flash",
+      "currency": "USD",
+      "pricing": [
+        {
+          "model": "DeepSeek V4 Flash",
+          "family": "deepseek",
+          "input": 0.3,
+          "output": 1.2,
+          "context": "1M",
+          "note": {
+            "zh": "表中为原价。核对时页面列出的折后价格为输入 $0.22、输出 $0.90。",
+            "en": "List prices. The model page showed discounted rates of $0.22 input and $0.90 output when checked."
+          }
+        }
+      ],
+      "tags": [
+        "aggregator"
+      ],
+      "notes": {
+        "zh": "以模型定价页为准，价格核对于 2026-11-14。",
+        "en": "See the model page for current pricing, checked 2026-11-14."
+      }
+    },
+    {
       "slug": "openrouter",
       "name": {
         "zh": "OpenRouter",

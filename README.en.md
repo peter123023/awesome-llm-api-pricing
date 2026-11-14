@@ -18,7 +18,7 @@
 
 - [OpenAI](#openai): [GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
 - [Claude (Anthropic)](#claude-anthropic): [Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
-- [DeepSeek](#deepseek): [DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
+- [DeepSeek](#deepseek): [DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro) · [DeepSeek V4 Flash](#deepseek-v4-flash)
 - [GLM (Zhipu)](#glm-zhipu): [GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
 - [Qwen (Alibaba)](#qwen-alibaba): [Qwen3.8 Max](#qwen38-max)
 - [Kimi (Moonshot)](#kimi-moonshot): [Kimi K3](#kimi-k3)
@@ -185,6 +185,12 @@ Organized **by model**: each model is a section, and the table lists every chann
 | **[Novita AI](https://novita.ai/pricing)** | Aggregator | 303K | $1.6 | $3.2 | 1M | Cache read $0.135; 0813 release also listed at $1.32/$3.96; Mostly open-weight models; no OpenAI, Claude or Gemini listings. |
 | **[APIYI](https://docs.apiyi.com/models)** | Relay | 433K | $1.32 | $3.96 | 1M | Cache read $0.044; Passes through official rates, bills CNY at a fixed 1:7 rate; top-up bonuses bring the effective price to roughly 83–91%. |
 | **[LaoZhang API](https://docs.laozhang.ai/en/models)** | Relay | 325K | $1.74 | $3.96 | 1M | Cache read $0.145; Mainstream models at official rates, GLM / Qwen self-priced; DeepSeek V4.1-Flash not listed. |
+
+### DeepSeek V4 Flash
+
+| Channel | Type | Visits | Input | Output | Context | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[SandBase](https://www.sandbase.ai/models/deepseek/deepseek-v4-flash)** | Aggregator | — | $0.3 | $1.2 | 1M | List prices. The model page showed discounted rates of $0.22 input and $0.90 output when checked.; See the model page for current pricing, checked 2026-11-14. |
 
 ## GLM (Zhipu)
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a> · <a href="#license">⬇ Jump to bottom</a></p>
@@ -394,6 +400,7 @@ Relays are tempting on price but carry "shell-model / degraded-quality" risk —
 - **[xAI](https://docs.x.ai/docs/models)** [Official] — Official Grok API by xAI. · monthly visits 205.5M（2026-09） · [website](https://docs.x.ai)
 - **[DeepInfra](https://deepinfra.com/pricing)** [Aggregator] — Low-cost hosted inference for open-weight models; a major OpenRouter upstream. · monthly visits 502K（2026-09） · [website](https://deepinfra.com)
 - **[OpenCode Zen](https://opencode.ai/docs/zen/)** [Aggregator] — Official model gateway by the OpenCode team: coding-agent-vetted models, zero-markup pay-per-request. · monthly visits 13.3M（2026-09） · [website](https://opencode.ai)
+- **[SandBase](https://www.sandbase.ai/models/deepseek/deepseek-v4-flash)** [Aggregator] — OpenAI-compatible access to models from multiple providers with usage-based billing. · monthly visits unverified · [website](https://www.sandbase.ai)
 - **[OpenRouter](https://openrouter.ai/)** [Aggregator] — One API for hundreds of models at upstream list prices. · monthly visits 21.3M（2026-09） · [website](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [Relay] — Agent API infrastructure; one key for all models. · monthly visits 1.3M（2026-09） · [website](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [Aggregator] — Open-model inference cloud; hosts DeepSeek. · monthly visits 691K（2026-08） · [website](https://www.together.ai)
