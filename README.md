@@ -18,7 +18,7 @@
 
 - [OpenAI](#openai)：[GPT-6 Astra](#gpt-6-astra) · [GPT-6.1 Sol](#gpt-61-sol) · [GPT-6 Luna](#gpt-6-luna)
 - [Claude（Anthropic）](#claudeanthropic)：[Claude Opus 5.5](#claude-opus-55) · [Claude Sonnet 5](#claude-sonnet-5)
-- [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro)
+- [DeepSeek](#deepseek)：[DeepSeek V4.1-Flash](#deepseek-v41-flash) · [DeepSeek V4-Pro](#deepseek-v4-pro) · [DeepSeek V4 Flash](#deepseek-v4-flash)
 - [GLM（智谱）](#glm智谱)：[GLM-5.3](#glm-53) · [GLM-5.3-Flash](#glm-53-flash)
 - [Qwen（阿里）](#qwen阿里)：[Qwen3.8 Max](#qwen38-max)
 - [Kimi（月之暗面）](#kimi月之暗面)：[Kimi K3](#kimi-k3)
@@ -185,6 +185,12 @@
 | **[Novita AI](https://novita.ai/pricing)** | 聚合 | 30 万 | $1.6 | $3.2 | 1M | 缓存读 $0.135；另有 0813 版本 $1.32/$3.96；以开源权重模型为主，OpenAI、Claude、Gemini 系未挂牌。 |
 | **[API易 APIYI](https://docs.apiyi.com/models)** | 中转 | 43 万 | $1.32 | $3.96 | 1M | 缓存读 $0.044；官方费率透传，按 1:7 固定汇率收人民币，充值赠送后实际约 83–91 折。 |
 | **[LaoZhang API](https://docs.laozhang.ai/en/models)** | 中转 | 33 万 | $1.74 | $3.96 | 1M | 缓存读 $0.145；主流模型按官方价挂牌，GLM / Qwen 等为自主定价；DeepSeek V4.1-Flash 未挂牌。 |
+
+### DeepSeek V4 Flash
+
+| 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[SandBase](https://www.sandbase.ai/models/deepseek/deepseek-v4-flash)** | 聚合 | 待核实 | $0.3 | $1.2 | 1M | 表中为原价。核对时页面列出的折后价格为输入 $0.22、输出 $0.90。；以模型定价页为准，价格核对于 2026-11-14。 |
 
 ## GLM（智谱）
 <p align="right"><a href="#目录">⬆ 回到顶部</a> · <a href="#许可证">⬇ 直达底部</a></p>
@@ -394,6 +400,7 @@
 - **[xAI 官方](https://docs.x.ai/docs/models)** [官方] — xAI 的 Grok 系列官方 API。 · 月访问 2.1 亿（2026-09） · [官网](https://docs.x.ai)
 - **[DeepInfra](https://deepinfra.com/pricing)** [聚合] — 开源模型低价自托管推理平台，OpenRouter 主要上游之一。 · 月访问 50 万（2026-09） · [官网](https://deepinfra.com)
 - **[OpenCode Zen](https://opencode.ai/docs/zen/)** [聚合] — OpenCode 官方模型网关，为编程 Agent 实测筛选模型，按请求计费零加价。 · 月访问 1332 万（2026-09） · [官网](https://opencode.ai)
+- **[SandBase](https://www.sandbase.ai/models/deepseek/deepseek-v4-flash)** [聚合] — 通过 OpenAI 兼容接口调用多家模型，按用量计费。 · 月访问 待核实 · [官网](https://www.sandbase.ai)
 - **[OpenRouter](https://openrouter.ai/)** [聚合] — 统一 API 接入数百模型，模型价与上游挂牌一致。 · 月访问 2127 万（2026-09） · [官网](https://openrouter.ai)
 - **[B.AI](https://b.ai/)** [中转] — Agent API 基础设施，一个 Key 调用全模型。 · 月访问 128 万（2026-09） · [官网](https://b.ai)
 - **[Together AI](https://www.together.ai/pricing)** [聚合] — 开源模型推理云，也托管 DeepSeek。 · 月访问 69 万（2026-08） · [官网](https://www.together.ai)
