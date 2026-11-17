@@ -374,13 +374,14 @@
 
 ## 真伪检测工具
 
-中转渠道价格诱人，但存在「套壳 / 降智」风险——用下面三个免费工具核验 API 背后的模型真伪（月访问为 traffic.cv 2026-09 数据）。
+中转渠道价格诱人，但存在「套壳 / 降智」风险——用下面的免费工具核验 API 背后的模型真伪（月访问为 traffic.cv 2026-09 数据；标注「暂无」的表示暂无该项公开估算）。
 
 | 工具 | 月访问 | 检测方式 | 判断要点 |
 | --- | --- | --- | --- |
 | **[CCTest](https://cctest.ai/zh)** | 3.65 万 | 数字指纹 + 用量检测 | 多轮请求做数字指纹归因与 Token 用量异常检测，甄别掺假降智，支持 Claude/GPT/Gemini |
 | **[BazaarLink Probe](https://bazaarlink.ai/zh-CN/probe)** | 17.6 万 | 84 项自动化探针 | 专测降智、掺假与偷换模型，填 Base URL + 测试 Key 即出报告 |
 | **[LLM 照妖镜](https://llmtest.cn/)** | 3420 | 多轮行为探测 | 检验身份一致性、知识表现与思维链痕迹，开源纯前端、不上传 Key |
+| **[Folkbench](https://folkbench.com/evaluations/api-quality?utm_source=github&utm_medium=awesome&utm_campaign=awesome-llm-api-pricing)** | 暂无 | 排行数据 + 自带 Key 实时检测 | 用自己的 Key 检测，报告仅自己可见、密钥不保留。排序按站点规则，含合作档位和运营加权，部分数据为展示样本 |
 
 ## 渠道明细
 
