@@ -374,13 +374,14 @@ Organized **by model**: each model is a section, and the table lists every chann
 
 ## Model Verification Tools
 
-Relays are tempting on price but carry "shell-model / degraded-quality" risk — use these three free tools to verify what is actually behind the API (monthly visits from traffic.cv, 2026-09).
+Relays are tempting on price but carry "shell-model / degraded-quality" risk — use the free tools below to verify what is actually behind the API (monthly visits from traffic.cv, 2026-09; "n/a" means no public estimate is available).
 
 | Tool | Monthly Visits | Method | What to check |
 | --- | --- | --- | --- |
 | **[CCTest](https://cctest.ai/zh)** | 36.5K | Fingerprint + usage probes | Multi-round numeric fingerprint attribution and token usage anomaly checks for adulteration/degradation; supports Claude/GPT/Gemini |
 | **[BazaarLink Probe](https://bazaarlink.ai/zh-CN/probe)** | 176.5K | 84 automated probes | Purpose-built to detect degraded, adulterated or swapped models; enter Base URL + test key for a report |
 | **[LLM Zhaoyaojing](https://llmtest.cn/)** | 3.4K | Multi-round behavior probes | Checks identity consistency, knowledge and chain-of-thought traces; open source, pure frontend, key never uploaded |
+| **[Folkbench](https://folkbench.com/evaluations/api-quality?utm_source=github&utm_medium=awesome&utm_campaign=awesome-llm-api-pricing)** | n/a | Rankings + live checks with your own key | The report is visible only to you and the key is not retained. Sorting follows the site rules, including partner tiers and ops boosts; some data are display samples |
 
 ## Channels
 
