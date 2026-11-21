@@ -48,6 +48,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
+| **[Daluobo 大萝卜](https://daluobo.cc.cd/pricing)** | 中转 | — | $0.60 | $3.00 | 1.05M | 充值 1:1（充 $1 得 $1 余额，无倍率），按官方价 94% 折扣扣费；同一 Key 可用 GPT / Claude / Gemini / Grok / DeepSeek，另有 uncensored DeepSeek 无审查模型；注册送 $0.5。 |
 | **[OpenAI 官方](https://openai.com/api/pricing/)** | 官方 | 4.9 亿 | $10 | $50 | 1.05M | 旗舰；GPT 系列官方 API，生态兼容最广；Batch API 半价适合离线批处理，用量分级限额随消费自动提升；视觉/音频按 token 另计。全站月访问含 ChatGPT 网页用户。 |
 | **[OpenRouter](https://openrouter.ai/)** | 聚合 | 2127 万 | $10 | $50 | 1.05M | 与官方同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 | **[B.AI](https://b.ai/)** | 中转 | 128 万 | $10 | $50 | 1.05M | 与官方同价；波场创始人孙宇晨公开站台（36氪专题报道）：区块链登录、USDT 等加密货币纯匿名支付，宣称价格全网最低；定位 AI Agent 时代的金融基础设施，集成 x402 支付协议。第三方中转，勿充大额。 |
@@ -121,6 +122,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
+| **[Daluobo 大萝卜](https://daluobo.cc.cd/pricing)** | 中转 | — | $0.945 | $4.72 | 1M | 充值 1:1（充 $1 得 $1 余额，无倍率），按官方价 53% 折扣扣费；同一 Key 可用 GPT / Claude / Gemini / Grok / DeepSeek，另有 uncensored DeepSeek 无审查模型；注册送 $0.5。 |
 | **[Anthropic 官方](https://www.anthropic.com/pricing)** | 官方 | 7.2 亿 | $2 | $10 | 1M | 主力；Claude 系列官方 API，长文本与代码能力公认第一梯队；Prompt 缓存读取最高省 90% 重复输入成本，批量处理五折；Opus/Sonnet/Haiku 三档覆盖旗舰到高性价比。全站月访问含 Claude.ai 网页用户。 |
 | **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | $2 | $10 | 1M | 与官方同价；缓存读 $0.20/写 $2.50 |
 | **[OpenRouter](https://openrouter.ai/)** | 聚合 | 2127 万 | $2 | $10 | 1M | 与官方同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
@@ -144,6 +146,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
+| **[Daluobo 大萝卜](https://daluobo.cc.cd/pricing)** | 中转 | — | $0.09 | $0.36 | 1M | 充值 1:1（充 $1 得 $1 余额，无倍率），按官方价 70% 折扣扣费；同一 Key 可用 GPT / Claude / Gemini / Grok / DeepSeek，另有 uncensored DeepSeek 无审查模型；注册送 $0.5。 |
 | **[DeepSeek 官方](https://api-docs.deepseek.com/quick_start/pricing)** | 官方 | 3.6 亿 | ¥2 | ¥8 | 1M | 原生多模态；高峰价，闲时半价；开源权重模型的官方 API，性价比标杆；工作日 9-12、14-18（北京时间）为高峰，其余时段半价，context caching 自动命中再降成本；完全兼容 OpenAI SDK，迁移零改动。 |
 | **[OpenCode Zen](https://opencode.ai/docs/zen/)** | 聚合 | 1332 万 | $0.3 | $1.2 | 1M | 缓存读 $0.006 |
 | **[OpenRouter](https://openrouter.ai/)** | 聚合 | 2127 万 | $0.15 | $0.6 | 1M | 官方闲时价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
@@ -318,6 +321,7 @@
 
 | 渠道 | 类型 | 月访问 | 输入 | 输出 | 上下文 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
+| **[Daluobo 大萝卜](https://daluobo.cc.cd/pricing)** | 中转 | — | $0.10 | $0.30 | 500K | 充值 1:1（充 $1 得 $1 余额，无倍率），按官方价 95% 折扣扣费；同一 Key 可用 GPT / Claude / Gemini / Grok / DeepSeek，另有 uncensored DeepSeek 无审查模型；注册送 $0.5。 |
 | **[xAI 官方](https://docs.x.ai/docs/models)** | 官方 | 2.1 亿 | $2 | $6 | 500K | 旗舰；缓存命中 $0.50；Grok 系列官方 API：4.7 为当前旗舰（2026-09 发布），面向编码、Agent 与通用文本，与 Grok 4.6 同价 $2/$6；缓存命中 $0.50；上下文窗口 500K，适合长文档与 Agent 长任务。OpenRouter、OfoxAI 等渠道与其同价。全站月访问含 Grok 网页用户。 |
 | **[OpenRouter](https://openrouter.ai/)** | 聚合 | 2127 万 | $2 | $6 | 500K | 与官方同价；最大的模型聚合网关：统一 API 接入数百个模型，价格与上游挂牌一致；自动路由到最便宜可用供应商并故障兜底，部分热门模型有免费档；支持加密货币充值。 |
 | **[AIHubMix](https://aihubmix.com/)** | 中转 | 28 万 | $2 | $6 | 500K | 与官方同价；官方宣传「一个接口，路由所有大语言模型」：无限并发、与 OpenAI 官方 API 完全兼容零改动切换、持续优化线路；平台补贴 27+ 个真正免费的模型（含 GPT-5.5、Gemini 3、GLM 等）；生态伙伴应用消费享 9 折（APP-Code 机制）；无包月无会员、用多少买多少，博客与文档更新活跃。第三方中转，勿充大额。 |
